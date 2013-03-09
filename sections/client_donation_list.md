@@ -1,8 +1,5 @@
-Client_donation_list
-===================================
 
-Client donation list
--------------------
+# Client donation list
 
 ```nginx
 GET http://betterplace.dev/en/api_v4/clients/volksfreund/client_donations.json
@@ -18,7 +15,7 @@ Retrieve the list of all projects as a JSON result set, that
 contains the results in its *data* attribute.
 
 
-### Input Parameter
+## Input Parameter
 
 <table>
   <tr>
@@ -35,7 +32,11 @@ contains the results in its *data* attribute.
   </tr>
 </table>
 
-### Example response
+## Response Parameter
+
+*TODO*
+
+## Response Example
 
 ```json
 null

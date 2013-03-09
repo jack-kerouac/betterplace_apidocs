@@ -1,8 +1,5 @@
-Volunteering_list
-===================================
 
-Volunteering List
--------------------
+# Volunteering List
 
 ```nginx
 GET http://betterplace.dev/en/api_v4/volunteering.json?nelat=51.123&nelng=12.123&order=order%3Drank%3AASC%7Ccreated_at%3ADESC&q=Homework+help&scope=location&swlat=51.001&swlng=12.001
@@ -12,7 +9,7 @@ A list of betterplace.org volunteering offers (donate time).
 Results are contains in a *data* attribute.
 
 
-### Input Parameter
+## Input Parameter
 
 <table>
   <tr>
@@ -75,7 +72,11 @@ Use the optional <code>ASC</code> (defualt) or <code>DESC</code>.
   </tr>
 </table>
 
-### Example response
+## Response Parameter
+
+*TODO*
+
+## Response Example
 
 ```json
 {

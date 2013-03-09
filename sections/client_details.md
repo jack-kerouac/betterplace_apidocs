@@ -1,12 +1,10 @@
 
-# Project Need List
+# Client Details
 
 ```nginx
-GET http://betterplace.dev/en/portals.json?controller=api_v4%2Fneeds
+GET http://betterplace.dev/en/portals.json?action=show&controller=api_v4%2Fclients
 ```
 
-A list of betterplace.org projects needs (donate money).
-Results are contains in a *data* attribute.
 
 
 ## Input Parameter
