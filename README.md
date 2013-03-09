@@ -37,7 +37,7 @@ are visible on their plattform.
 *Request-URLs:* Clients have to prepend all request with the their client-id.
 For projects that would be `/clients/ID/projects.json` and `/clients/ID/projects/ID.json`
 
-- WIP [Statistic](sections/client_details.md)
+- WIP [Client Details/Statistics](sections/client_details.md)
 - [Client Donations](sections/client_donation_list.md)
 
 
