@@ -7,6 +7,7 @@ GET http://betterplace.dev/en/api_v4/clients/Volksfreund.json
 
 **This feature is avaliable only to betterplace.org-clients.**
 [Learn more…](README.md#client-feature)
+
 Some client-statistics.
 
 

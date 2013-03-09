@@ -25,8 +25,10 @@ Results are contains in a *data* attribute.
     <td>Specify how the search-query <code>q</code> should behave:
 <ul>
 <li>"no scope" (default) performs a full text search
-<li><code>human_name</code> searches only on the contact-person-fullname and carrier-fullname. Use this to get all volunteering offers by "Unicef" or by "Till Behnke".
-<li><code>location</code> does a reverse geocoding lookup and shows results based on the lookup-bounding-box or a default-radius of 30 km.
+<li><code>human_name</code> searches only on the contact-person-fullname and carrier-fullname.
+Use this to get all volunteering offers by "Unicef" or by "Till Behnke".
+<li><code>location</code> does a reverse geocoding lookup and shows results based on the
+lookup-bounding-box or a default-radius of 30 km.
 </ul>
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 </td>
@@ -41,7 +43,9 @@ Results are contains in a *data* attribute.
     <th>order</th>
     <td><code>created_at:ASC</code></td>
     <td>optional</td>
-    <td>Order the result by <code>rank</code> (default), <code>id</code>, <code>progress_percentage</code>, <code>completed</code>, <code>tax_deductible</code>, <code>created_at</code>, <code>updated_at</code>, <code>last_donation_at</code>.
+    <td>Order the result by <code>rank</code> (default), <code>id</code>, <code>progress_percentage</code>,
+<code>completed</code>, <code>tax_deductible</code>, <code>created_at</code>, <code>updated_at</code>,
+<code>last_donation_at</code>.
 Use the optional <code>ASC</code> (default) or <code>DESC</code>.
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 </td>
