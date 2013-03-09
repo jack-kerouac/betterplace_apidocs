@@ -1,14 +1,14 @@
 Project_details
 ===================================
 
-How to get the details of a project
+Project Details
 -------------------
 
 ```nginx
 GET http://betterplace.dev/en/api_v4/projects/1114.json
 ```
 
-Retrieve the details for one project as a single JSON object.
+The details of a betterplace.org project (donate money).
 
 
 ### Input Parameter

@@ -1,13 +1,15 @@
 Need_list
 ===================================
 
-How to fetch all needs of a project
+Project Need List
 -------------------
 
 ```nginx
 GET http://betterplace.dev/en/portals.json?controller=api_v4%2Fneeds
 ```
 
+A list of betterplace.org projects needs (donate money).
+Results are contains in a *data* attribute.
 
 
 ### Input Parameter

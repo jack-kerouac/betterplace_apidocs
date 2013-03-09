@@ -8,7 +8,8 @@ Volunteering Details
 GET http://betterplace.dev/en/api_v4/volunteering/23.json
 ```
 
-Retrieve the details for one volunteering offer as a single JSON object.
+The details of a betterplace.org volunteering offer (donate time).
+
 
 ### Input Parameter
 

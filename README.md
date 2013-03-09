@@ -1,3 +1,10 @@
+> < A view help links about markdown:
+> < Press "M" on a github markdown page for quick tips
+> < https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+> < Alternative file endings in github: https://github.com/github/markup
+> < TJO's bug report about the table-markdown-issue: https://github.com/github/github-flavored-markdown/issues/106
+> < The templates for this files: https://github.com/betterplace/betterdocs/blob/master/lib/betterdocs/generator/markdown/templates/
+
 # The Betterplace API Version 4 (BETA)
 
 # This version of the API is not public at the moment!
@@ -7,6 +14,8 @@ JSON for serialization.
 
 
 ## Table of content
+
+### Public API
 
 - General information below
 - Project
@@ -20,7 +29,7 @@ JSON for serialization.
 - WIP [Organisation Details](sections/organisation_details.md)
 - WIP [User Details](sections/user_details.md)
 
-### Client-Feature
+### Client API
 
 This part of the API can only be used in agreement with betterplace.org.
 Please [contact our someone at betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung)
@@ -55,6 +64,7 @@ Betterdocs::Global
 
 *TODO*
 
+
 ## Request parameter format
 
 The `order` and `facet` request parameter accept accept multiple "subparameter".
@@ -66,6 +76,7 @@ Example: `foo:bar|lorem:ipsum`
 * Split multible "subparameter" by a pipe `|` (`%7C`)
 * [URL encode](http://de.wikipedia.org/wiki/URL-Encoding) all params, so the Pipe becomes `%7C
 * Note that for readability-reasons we don't URL encode the params in this documentation
+
 
 ## Authentication
 
