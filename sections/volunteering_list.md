@@ -46,7 +46,7 @@ Results are contains in a *data* attribute.
     <td>optional</td>
     <td>Order the result by <code>rank</code> (default), <code>id</code>, <code>progress_percentage</code>, <code>completed</code>, <code>tax_deductible</code>, <code>created_at</code>, <code>updated_at</code>, <code>last_donation_at</code>.
 Use the optional <code>ASC</code> (defualt) or <code>DESC</code>.
-[Learn how to format the parameter](README.md#request-parameter-format).
+<a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 </td>
   </tr>
   <tr>

@@ -5,7 +5,7 @@ Client donation list
 -------------------
 
 ```nginx
-GET http://betterplace.dev/en/portals.json?controller=api_v4%2Fclient_donations
+GET http://betterplace.dev/en/api_v4/clients/volksfreund/client_donations.json
 ```
 
 The API calls for donations to a project via the client donation form.
@@ -26,6 +26,12 @@ contains the results in its *data* attribute.
     <th>Example</th>
     <th>Required/Optional</th>
     <th>Description</th>
+  </tr>
+  <tr>
+    <th>client_id</th>
+    <td><code>volksfreund</code></td>
+    <td>required</td>
+    <td>The betterplace.org-internal client_id</td>
   </tr>
 </table>
 
