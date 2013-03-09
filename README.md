@@ -12,8 +12,8 @@ JSON for serialization.
 - Project
   - [List and Search](sections/project_list.md)
   - [Details](sections/project_details.md)
-  - [Project Needs](sections/need_list.md)
-  - WIP [Project Opinions](sections/opinion_list.md)
+  - [Project Needs](sections/need_list.md)
+  - WIP [Project Opinions](sections/opinion_list.md)
 - Volunteering
   - [List and Search](sections/volunteering_list.md)
   - [Details](sections/volunteering_details.md)
