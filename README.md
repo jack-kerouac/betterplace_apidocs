@@ -14,8 +14,8 @@ JSON for serialization.
 - [**Project** Details](sections/project_details.md)
 - [Project **Needs** List](sections/need_list.md)
 - [Project **Needs** Details](sections/need_details.md)
-- WIP [Project **Blogpost** List](sections/blogpost_list.md)
-- WIP [Project **Blogpost** Details](sections/blogpost_details.md)
+- [Project **Blogpost** List](sections/blogpost_list.md)
+- [Project **Blogpost** Details](sections/blogpost_details.md)
 - TODO [Project **Opinions** List](sections/opinion_list.md)
 
 - [**Volunteering** List and Search](sections/volunteering_list.md)
@@ -42,8 +42,8 @@ are visible on their plattform.
 *Request-URLs:* Clients have to prepend all request with the their client-id.
 For projects that would be `/clients/ID/projects.json` and `/clients/ID/projects/ID.json`
 
-- [Client Details/Statistics](sections/client_details.md)
-- [Client Donations](sections/client_donation_list.md)
+- [**Client** Details/Statistics](sections/client_details.md)
+- [**Client** Donations List](sections/client_donation_list.md)
 
 
 ## Making a Request
