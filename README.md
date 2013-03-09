@@ -1,13 +1,4 @@
-> < A view help links about markdown:
-> < Press "M" on a github markdown page for quick tips
-> < https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-> < Alternative file endings in github: https://github.com/github/markup
-> < TJO's bug report about the table-markdown-issue: https://github.com/github/github-flavored-markdown/issues/106
-> < The templates for this files: https://github.com/betterplace/betterdocs/blob/master/lib/betterdocs/generator/markdown/templates/
-
-# The Betterplace API Version 4 (BETA)
-
-# This version of the API is not public at the moment!
+# The Betterplace API Version 4 (BETA) – It is not public yet!
 
 Betterplace has a new version of its API. It's a REST-style API that returns
 JSON for serialization.
@@ -26,8 +17,9 @@ JSON for serialization.
 - Volunteering
   - [List and Search](sections/volunteering_list.md)
   - [Details](sections/volunteering_details.md)
-- WIP [Organisation Details](sections/organisation_details.md)
-- WIP [User Details](sections/user_details.md)
+- [Organisation Details](sections/organisation_details.md)
+- TODO [User Details](sections/user_details.md)
+
 
 ### Client API
 
@@ -67,14 +59,14 @@ Betterdocs::Global
 
 ## Request parameter format
 
-The `order` and `facet` request parameter accept accept multiple "subparameter".
+The `order` and `facet` request parameter accept multiple key-value-parameter.
 We use the same convention as the [Google Static Maps API V2](https://developers.google.com/maps/documentation/staticmaps/#URL_Parameters).
 
 Example: `foo:bar|lorem:ipsum`
 
-* Split key and value by colon `:`
-* Split multible "subparameter" by a pipe `|` (`%7C`)
-* [URL encode](http://de.wikipedia.org/wiki/URL-Encoding) all params, so the Pipe becomes `%7C
+* Split key and value by a colon `:`
+* Split multiple key-value-parameter by a pipe `|` (`%7C`)
+* [URL encode](http://de.wikipedia.org/wiki/URL-Encoding) all params, so the Pipe becomes `%7C`
 * Note that for readability-reasons we don't URL encode the params in this documentation
 
 
