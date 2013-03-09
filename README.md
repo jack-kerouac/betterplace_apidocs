@@ -1,7 +1,9 @@
-# The Betterplace API Version 4 (BETA) – It is not public yet!
+# The betterplace.org API Version 4 (BETA) – It is not public yet!
 
-Betterplace has a new version of its API. It's a REST-style API that returns
+Betterplace.org has a new version of its API. It's a REST-style API that returns
 JSON for serialization.
+
+*TODO*: Some note about hypermedia and other features
 
 
 ## Table of content
@@ -17,13 +19,20 @@ JSON for serialization.
 - [Project **Blogpost** List](sections/blogpost_list.md)
 - [Project **Blogpost** Details](sections/blogpost_details.md)
 - TODO [Project **Opinions** List](sections/opinion_list.md)
+- TODO [Project **Pictures** List](sections/picture_list.md)
 
 - [**Volunteering** List and Search](sections/volunteering_list.md)
 - [**Volunteering** Details](sections/volunteering_details.md)
 
 - [**Organisation** List](sections/organisation_list.md)
 - [**Organisation** Details](sections/organisation_details.md)
+
 - TODO [User Details](sections/user_details.md)
+
+– TODO **Fundraising Events** List and Search
+– TODO **Fundraising Events** Details
+
+- TOOD **Donate Money**
 
 
 ### Client API
@@ -48,10 +57,8 @@ For projects that would be `/clients/ID/projects.json` and `/clients/ID/projects
 
 ## Making a Request
 
-*TODO*
-
-All requests have to be tunneled through **SSL** and their URLs start with
-Betterdocs::Global
+*TODO*: All requests have to be tunneled through **SSL** and their URLs start with
+Betterdocs::Global <-- ??
 
 
 ## Response Formats
@@ -121,7 +128,7 @@ There will be feature that require a authentication in the future.
 
 ## API V1, V2, V3
 
-betterplace has three depricated APIs. For more information http://www.betterplace.org/de/api/documentation/welcome
+betterplace.org has three depricated APIs. For more information http://www.betterplace.org/de/api/documentation/welcome
 
 
 ## Example apps
