@@ -21,7 +21,7 @@ The details of a betterplace.org project (donate money).
     <th>id</th>
     <td><code>1114</code></td>
     <td>required</td>
-    <td>Project-id as an integer number ≥ 1.</td>
+    <td>Project-id as an integer number ≥ 14.</td>
   </tr>
 </table>
 

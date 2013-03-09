@@ -9,16 +9,18 @@ JSON for serialization.
 ### Public API
 
 - General information below
-- Project
-  - [List and Search](sections/project_list.md)
-  - [Details](sections/project_details.md)
-  - [Project Needs](sections/need_list.md)
-  - [Project Blogpost List](sections/blogpost_list.md)
-  - [Project Blogpost Details](sections/blogpost_details.md)
-  - WIP [Project Opinions](sections/opinion_list.md)
-- Volunteering
-  - [List and Search](sections/volunteering_list.md)
-  - [Details](sections/volunteering_details.md)
+
+- [Project List and Search](sections/project_list.md)
+- [Project Details](sections/project_details.md)
+- [Project Needs List](sections/need_list.md)
+- [Project Needs Details](sections/need_details.md)
+- [Project Blogpost List](sections/blogpost_list.md)
+- [Project Blogpost Details](sections/blogpost_details.md)
+- WIP [Project Opinions](sections/opinion_list.md)
+
+- [Volunteering List and Search](sections/volunteering_list.md)
+- [Volunteering Details](sections/volunteering_details.md)
+
 - [Organisation List](sections/organisation_list.md)
 - [Organisation Details](sections/organisation_details.md)
 - TODO [User Details](sections/user_details.md)
@@ -70,10 +72,13 @@ We use the same convention as the [Google Static Maps API V2](https://developers
 
 Example: `foo:bar|lorem:ipsum`
 
+This way you ma specify a primary and secondaray sort order: `order=rank:ASC|created_at:DESC`
+
 * Split key and value by a colon `:`
 * Split multiple key-value-parameter by a pipe `|` (`%7C`)
 * [URL encode](http://de.wikipedia.org/wiki/URL-Encoding) all params, so the Pipe becomes `%7C`
 * Note that for readability-reasons we don't URL encode the params in this documentation
+
 
 ## HTTP Result Codes and Error Messages
 

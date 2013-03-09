@@ -2,7 +2,7 @@
 # Volunteering List
 
 ```nginx
-GET http://betterplace.dev/en/api_v4/volunteering.json?nelat=51.123&nelng=12.123&order=order%3Drank%3AASC%7Ccreated_at%3ADESC&q=Homework+help&scope=location&swlat=51.001&swlng=12.001
+GET http://betterplace.dev/en/api_v4/volunteering.json?nelat=51.123&nelng=12.123&order=created_at%3AASC&q=Homework+help&scope=location&swlat=51.001&swlng=12.001
 ```
 
 A list of betterplace.org volunteering offers (donate time).
@@ -39,10 +39,10 @@ Results are contains in a *data* attribute.
   </tr>
   <tr>
     <th>order</th>
-    <td><code>order=rank:ASC|created_at:DESC</code></td>
+    <td><code>created_at:ASC</code></td>
     <td>optional</td>
     <td>Order the result by <code>rank</code> (default), <code>id</code>, <code>progress_percentage</code>, <code>completed</code>, <code>tax_deductible</code>, <code>created_at</code>, <code>updated_at</code>, <code>last_donation_at</code>.
-Use the optional <code>ASC</code> (defualt) or <code>DESC</code>.
+Use the optional <code>ASC</code> (default) or <code>DESC</code>.
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 </td>
   </tr>

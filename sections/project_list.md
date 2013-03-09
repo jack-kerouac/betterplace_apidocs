@@ -2,7 +2,7 @@
 # Project List
 
 ```nginx
-GET http://betterplace.dev/en/api_v4/projects.json?nelat=51.123&nelng=12.123&order=order%3Drank%3AASC%7Ccreated_at%3ADESC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001
+GET http://betterplace.dev/en/api_v4/projects.json?nelat=51.123&nelng=12.123&order=rank%3AASC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001
 ```
 
 A list of betterplace.org projects (donate money).
@@ -39,11 +39,11 @@ Results are contains in a *data* attribute.
   </tr>
   <tr>
     <th>order</th>
-    <td><code>order=rank:ASC|created_at:DESC</code></td>
+    <td><code>rank:ASC</code></td>
     <td>optional</td>
     <td>Order the result by <code>id</code>, <code>has_image</code> (default), <code>created_at</code> (second default).
-Use the optional <code>ASC</code> (defualt) or <code>DESC</code>.
-[Learn how to format the parameter](README.md#request-parameter-format).
+Use the optional <code>ASC</code> (default) or <code>DESC</code>.
+<a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 </td>
   </tr>
   <tr>
