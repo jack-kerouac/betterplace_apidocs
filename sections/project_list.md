@@ -87,8 +87,7 @@ Use the optional <code>ASC</code> (defualt) or <code>DESC</code>.
   "per_page": 3,
   "data": [
 
-  ],
-  "format": "json"
+  ]
 }
 ```
 

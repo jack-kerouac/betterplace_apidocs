@@ -37,8 +37,8 @@ The details of a betterplace.org project (donate money).
   "id": 1114,
   "created_at": "2009-03-10T10:12:16Z",
   "updated_at": "2013-02-04T13:24:15Z",
-  "latitude": 34.531617284782,
-  "longitude": 69.13581752939456,
+  "latitude": "34.531617284782",
+  "longitude": "69.13581752939456",
   "street": "Taimani, behind Qasemi Winhouse",
   "zip": "",
   "city": "Kabul",
@@ -54,7 +54,25 @@ The details of a betterplace.org project (donate money).
   "progress_percentage": 99,
   "incomplete_need_count": 3,
   "completed_need_count": 70,
-  "news_count": 52
+  "news_count": 52,
+  "links": [
+    {
+      "rel": "self",
+      "href": "http://www.betterplace.dev/en/api_v4/projects/1114.json"
+    },
+    {
+      "rel": "platform",
+      "href": "http://www.betterplace.dev/en/projects/1114-skateistan-afghanistan"
+    },
+    {
+      "rel": "opinions",
+      "href": "http://www.betterplace.dev/en/api_v4/projects/1114/opinions.json"
+    },
+    {
+      "rel": "news",
+      "href": "http://www.betterplace.dev/en/api_v4/projects/1114/news.json"
+    }
+  ]
 }
 ```
 

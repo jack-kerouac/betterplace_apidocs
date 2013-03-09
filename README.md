@@ -13,10 +13,13 @@ JSON for serialization.
   - [List and Search](sections/project_list.md)
   - [Details](sections/project_details.md)
   - [Project Needs](sections/need_list.md)
+  - [Project Blogpost List](sections/blogpost_list.md)
+  - [Project Blogpost Details](sections/blogpost_details.md)
   - WIP [Project Opinions](sections/opinion_list.md)
 - Volunteering
   - [List and Search](sections/volunteering_list.md)
   - [Details](sections/volunteering_details.md)
+- [Organisation List](sections/organisation_list.md)
 - [Organisation Details](sections/organisation_details.md)
 - TODO [User Details](sections/user_details.md)
 
@@ -28,7 +31,7 @@ Please [contact our someone at betterplace solutions](http://www.betterplace-sol
 for more information.
 
 *Example:* The local german newspaper "Trierischer Volksfreund"
-has it's own donation portal at [http://www.volksfreund-servicecenter.de/projekte/].
+has it's own donation portal at ["Meine Hilfe zählt"](http://www.volksfreund-servicecenter.de/projekte/).
 
 *Client projects:* Clients projects are projects on betterplace.org that are
 associated with the client-user. This way clients can control what projects
@@ -37,11 +40,11 @@ are visible on their plattform.
 *Request-URLs:* Clients have to prepend all request with the their client-id.
 For projects that would be `/clients/ID/projects.json` and `/clients/ID/projects/ID.json`
 
-- WIP [Client Details/Statistics](sections/client_details.md)
+- [Client Details/Statistics](sections/client_details.md)
 - [Client Donations](sections/client_donation_list.md)
 
 
-## Making a request
+## Making a Request
 
 *TODO*
 
@@ -49,7 +52,10 @@ All requests have to be tunneled through **SSL** and their URLs start with
 Betterdocs::Global
 
 
-## Response formats
+## Response Formats
+
+The responses are returned in the format specified by the format extension of
+the used request URL. At the moment the following formats are supported:
 
 - json via .json
 - jsonp via .js or .jsonp with an optional `callback`-param
@@ -68,6 +74,38 @@ Example: `foo:bar|lorem:ipsum`
 * Split multiple key-value-parameter by a pipe `|` (`%7C`)
 * [URL encode](http://de.wikipedia.org/wiki/URL-Encoding) all params, so the Pipe becomes `%7C`
 * Note that for readability-reasons we don't URL encode the params in this documentation
+
+## HTTP Result Codes and Error Messages
+
+### Error Messages
+
+If an error occurs, a JSON response messages is returned to the client. In the
+JSON error messages the backtrace and message attributes are only included in
+the development or test environments. A message like this may be returned, if a
+resource couldn't be found (and the HTTP result code would be 404):
+
+```json
+{
+  "name": "ActiveRecord::RecordNotFound",
+  "reason": "Record Not Found",
+  "backtrace": [
+    "/path/to/file:23:in `method'",
+    "/path/to/file:42:in `method2'"
+  ],
+  "message": "Couldn't find Project with id=666"
+}
+```
+
+### HTTP Result Codes
+
+The following HTTP result codes can be returned:
+
+- HTTP Code: `404` is returned if a requested resource could not be found.
+
+- HTTP Code: `400` is returned if a requested resource could not be created or updated, if the
+  submitted data was invalid.
+
+- HTTP Code: `500` is returned if a software error on the server was encountered.
 
 
 ## Authentication
