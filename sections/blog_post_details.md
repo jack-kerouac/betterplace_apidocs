@@ -2,7 +2,7 @@
 # Project Blog Post Details
 
 ```nginx
-GET http://betterplace.dev/en/api_v4/blog_posts/22.json?project_id=38
+GET http://betterplace.dev/en/api_v4/projects/38/blog_posts/22.json
 ```
 
 The details of a betterplace.org project blog post.

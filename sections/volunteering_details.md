@@ -61,10 +61,6 @@ The details of a betterplace.org volunteering offer (donate time).
     {
       "rel": "platform",
       "href": "http://www.betterplace.dev/en/volunteering/1-sonntagsessen-kochen-im-kanapee"
-    },
-    {
-      "rel": "detail",
-      "href": "http://www.betterplace.dev/en/api_v4/volunteering/1.json"
     }
   ]
 }

@@ -69,8 +69,8 @@ The details of a betterplace.org project (donate money).
       "href": "http://www.betterplace.dev/en/api_v4/projects/1114/opinions.json"
     },
     {
-      "rel": "news",
-      "href": "http://www.betterplace.dev/en/api_v4/projects/1114/news.json"
+      "rel": "blog_posts",
+      "href": "http://www.betterplace.dev/en/api_v4/projects/1114/blog_posts.json"
     }
   ]
 }
