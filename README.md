@@ -24,9 +24,9 @@ JSON for serialization.
 * [**Organisation** List](sections/organisation_list.md)
 * [**Organisation** Details](sections/organisation_details.md)
 * TODO [**User** Details](sections/user_details.md)
-* TODO **Fundraising Events** List and Search
-* TODO **Fundraising Events** Details
-* TOOD **Donate Money**
+* TODO [**Fundraising Events** List and Search]()
+* TODO [**Fundraising Events** Details]()
+* TOOD [**Donate Money**]()
 
 
 ### Client API
