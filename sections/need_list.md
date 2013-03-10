@@ -1,5 +1,5 @@
 
-# Project Need List | [Details](need_details.md)
+# Project Need List ⇄ [Details](need_details.md)
 
 ```nginx
 GET http://betterplace.dev/en/api_v4/projects/1114/needs.json

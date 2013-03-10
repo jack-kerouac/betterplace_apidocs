@@ -1,5 +1,5 @@
 
-# Organisation List | [Details](organisation_details.md)
+# Organisation List ⇄ [Details](organisation_details.md)
 
 ```nginx
 GET http://betterplace.dev/en/api_v4/organisations.json
