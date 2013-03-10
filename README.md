@@ -1,4 +1,4 @@
-# The betterplace.org API Version 4 (BETA) – It is not public yet!
+# The betterplace.org API Version 4 (BETA) – It is not public yet!
 
 Betterplace.org has a new version of its API. It's a REST-style API that returns
 JSON for serialization.

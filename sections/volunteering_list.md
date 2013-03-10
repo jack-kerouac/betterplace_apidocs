@@ -105,6 +105,7 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
       "title": "Betreuung & Begleitung im Rahmen des Betreuungsrechts",
       "description": "<p>eine Art \"ehrenamtlicher Anwalt\" sein; adminstrative Tätigkeiten: Unterstützung beim Ausfüllen von Formularen, Daueraufträge, Bankgeschäfte etc.; Behördengänge, wenn nötig Korrespondenzen mit Ämtern u.ä.; Gespräche führen, zuhören</p>\n\n<ul><li>Haftpflichtversicherung</li><li>Erfahrungsaustausch</li><li>Fortbildung/Qualifizierungsangebote</li><li>kostenlose Veranstaltungen</li></ul>",
       "carrier": {
+        "format": "json",
         "name": "Betreuungsbehörde",
         "links": [
 
@@ -112,6 +113,7 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
       },
       "vacancies": 1,
       "contact": {
+        "format": "json",
         "name": "Heidi Schulz",
         "phone": "0561 / 787-5110",
         "email": "heidi.schulz@stadt-kassel.de"
@@ -143,6 +145,7 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
       "title": "Patientenbesuchsdienst im Diakonissen- und Burgfeldkrankenhaus",
       "description": "<ul><li>Wir stellen den Menschen in den Mittelpunkt</li>\n    <li>Wir sind für die Patienten da</li>\n    <li>Wir begleiten Spaziergänge im Haus und draußen</li>\n    <li>Wir lesen vor aus \"Was ihr wollt\"</li>\n    <li>Wir erledigen Besorgungen</li>\n    <li>Wir bringen die Bücherei ans Bett</li>\n    <li>Wir gehen Kranken zur Hand</li>\n    <li>Wir hören zu, begleiten und betreuen</li>\n    <li>Wir helfen bei der Aufnahme ins Krankenhaus</li>\n</ul>\n\n<p>Jeder/r von uns arbeitet einen Tag pro Woche von 9:00 bis 12:00 Uhr auf einer Station. Wir treffen uns monatlich zu 2stündigen Themennachmittagen zum Gedanken- und Erfahrungsaustausch. Das Einsatzgebiet (Aufnahme, Pflege, Büchereidienst oder Dienst im Altenheim) kann nach Neigung gewählt werden.</p>\n<p>Bei all diesen Aufgaben sind wir durch das Krankenhaus pauschal unfallversichert.</p>\n<p>Es gibt einen monatlich festgelegten Einsatzplan.</p>\n<p>Wir freuen uns über Ihr Interesse und beantworten gern Ihre Fragen.</p>\n\n<ul><li>Unfallversicherung</li><li>Haftpflichtversicherung</li><li>regelmäßige Informationen</li><li>Erfahrungsaustausch</li><li>Fortbildung/Qualifizierungsangebote</li><li>Anleitung durch Fachkräfte</li><li>Tätigkeitsnachweise</li><li>kostenlose Verpflegung</li><li>kostenlose Veranstaltungen</li></ul>",
       "carrier": {
+        "format": "json",
         "name": "FreiwilligenZentrum Kassel",
         "links": [
 
@@ -150,6 +153,7 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
       },
       "vacancies": 1,
       "contact": {
+        "format": "json",
         "name": "Frank Gerhold",
         "phone": "0561 - 10 24 25",
         "email": "info@freiwilligenzentrumkassel.de"
@@ -187,6 +191,7 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
       "title": "Blaue Helferin/ blauer Helfer - Besuchsdienst im Klinikum Kassel",
       "description": "<p>Sie geben Zeit, Aufmerksamkeit und Einfühlungsvermögen und bekommen Zufriedenheit und eine andere Sicht von Krankheit. Der Einsatzbereich der HelferInnen umfasst die Fürsorge um das persönliche Wohl der Kranken. Dazu gehören insbesondere die Zuwendung im Gespräch, kleine Einkäufe und Besorgungen, Begleitungen zu Untersuchungen und Spaziergänge, Vorlesen oder auch die Versorgung der Patienten mit Lesestoff mittels unseres fahrbaren Bücherwagens mit allen anfallenden Büchereiarbeiten. Wir unterhalten auch eine kleine Wäschekammer für bedürftige Patienten.</p>\n\n\n<p>Die Blauen Helferinnen suchen zur Verstärkung ihres ehrenamtlichen Teams im Klinikum Kassel aufgeschlossene Mitarbeiter, die Besuchsdienste am Krankenbett durchführen, für unsere Patientenbibliothek tätig sind oder den Lotsendienst unterstützen. Geboten werden u.a. Fortbildung, Versicherungsschutz während des Einsatzes und Fahrtkostenerstattungen. Wir arbeiten Sie in Ihre Aufgaben durch Gespräche und Begleitung umfassend ein.</p>\n<p>Suchworte: </p>\n<p>Krankenhaus, Krankenhausbesuchsdienst, Besuchsdienst, Besuch, Patient, vorlesen. Besorgung</p>\n\n<ul><li>Unfallversicherung</li><li>Tätigkeitsnachweise</li><li>kostenlose Nutzung weiterer Angebote</li><li>Haftpflichtversicherung</li><li>Fortbildung/Qualifizierungsangebote</li><li>Erstattung entstandener Kosten</li><li>Erfahrungsaustausch</li><li>Ausstattung mit Medien / Arbeitsmaterialien</li></ul>",
       "carrier": {
+        "format": "json",
         "name": "Blaue Helferinnen und Blaue Helfer im Klinikum Kassel",
         "links": [
 
@@ -194,6 +199,7 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
       },
       "vacancies": 1,
       "contact": {
+        "format": "json",
         "name": "Elisabeth Meineke-Wolf",
         "phone": "0561-980-2675",
         "email": "meineke@klinikum-kassel.de"
