@@ -11,7 +11,6 @@ JSON for serialization.
 ### Public API
 
 * General information below
-
 * [**Project** List and Search](sections/project_list.md)
 * [**Project** Details](sections/project_details.md)
 * [Project **Needs** List](sections/need_list.md)
