@@ -8,6 +8,9 @@ GET http://betterplace.dev/en/api_v4/projects/38/blog_posts/22.json
 The details of a betterplace.org project blog post.
 The details and list view show the same data.
 
+*For [betterplace.org clients](README.md#client-api):*
+Use this ressource like `/clients/PERMALINK/projects/ID/blog_posts/ID.json`
+
 
 ## Input Parameter
 

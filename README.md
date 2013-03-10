@@ -20,22 +20,20 @@ JSON for serialization.
 * [Project **Blogpost** Details](sections/blogpost_details.md)
 * TODO [Project **Opinions** List](sections/opinion_list.md)
 * TODO [Project **Pictures** List](sections/picture_list.md)
-
 * [**Volunteering** List and Search](sections/volunteering_list.md)
 * [**Volunteering** Details](sections/volunteering_details.md)
-
 * [**Organisation** List](sections/organisation_list.md)
 * [**Organisation** Details](sections/organisation_details.md)
-
-* TODO [User Details](sections/user_details.md)
-
+* TODO [**User** Details](sections/user_details.md)
 * TODO **Fundraising Events** List and Search
 * TODO **Fundraising Events** Details
-
 * TOOD **Donate Money**
 
 
 ### Client API
+
+* [**Client** Details/Statistics](sections/client_details.md)
+* [**Client** Donations List](sections/client_donation_list.md)
 
 This part of the API can only be used in agreement with betterplace.org.
 Please [contact our someone at betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung)
@@ -49,10 +47,10 @@ associated with the client-user. This way clients can control what projects
 are visible on their plattform.
 
 *Request-URLs:* Clients have to prepend all request with the their client-id.
-For projects that would be `/clients/ID/projects.json` and `/clients/ID/projects/ID.json`
+For projects that would be `/clients/PERMALINK/projects.json` and `/clients/PERMALINK/projects/ID.json`
 
-- [**Client** Details/Statistics](sections/client_details.md)
-- [**Client** Donations List](sections/client_donation_list.md)
+*Error Code:* If you request data for a project that is not part of the client
+projects, the API will return a `404` HTTP code.
 
 
 ## Making a Request
@@ -85,6 +83,63 @@ This way you ma specify a primary and secondaray sort order: `order=rank:ASC|cre
 * Split multiple key-value-parameter by a pipe `|` (`%7C`)
 * [URL encode](http://de.wikipedia.org/wiki/URL-Encoding) all params, so the Pipe becomes `%7C`
 * Note that for readability-reasons we don't URL encode the params in this documentation
+
+
+## Pagination parameter
+
+The following parameters are avaliable for all list views.
+
+### Pagination request parameter
+
+<table>
+  <tr>
+    <th>Parameter</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>page</code></td>
+    <td>Used to paginate through the list</td>
+  </tr>
+  <tr>
+    <td><code>per_page</code></td>
+    <td>The number of entries per page</td>
+  </tr>
+</table>
+
+### Pagination response parameter
+
+<table>
+  <tr>
+    <th>Parameter</th>
+    <th>Description</th>
+    <th>Default</th>
+  </tr>
+  <tr>
+    <td><code>total_entries</code></td>
+    <td>Count of all entries</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td><code>offset</code></td>
+    <td>From which entry on the list continues, based on <code>per_page</code> <-- ???? Offset kann nicht manuell gesetzt werden, warum haben wir ihn dann überhaupt?</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><code>total_pages</code></td>
+    <td>Count of all pages, based on <code>per_page</code></td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td><code>current_page</code></td>
+    <td>What page we are on</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><code>per_page</code></td>
+    <td>Number of entries per page</td>
+    <td>50</td>
+  </tr>
+</table>
 
 
 ## HTTP Result Codes and Error Messages

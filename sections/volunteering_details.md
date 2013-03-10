@@ -7,6 +7,9 @@ GET http://betterplace.dev/en/api_v4/volunteering/23.json
 
 The details of a betterplace.org volunteering offer (donate time).
 
+*For [betterplace.org clients](README.md#client-api):*
+This ressource is not avaliable at the moment.
+
 
 ## Input Parameter
 
@@ -45,7 +48,18 @@ The details of a betterplace.org volunteering offer (donate time).
   "country": "Germany",
   "title": "Sonntagsessen kochen im \"Kanapee\"",
   "description": "<p>Von Oktober bis Ende März bietet der Tagestreff Kanapee jeden Sonntag in der Zeit von 11.00 Uhr bis 14.00 Uhr ein warmes Essen an, das von ehrenamtlichen Helfern zubereitet wird. Von April bis Ende September findet dieses Angebot jeden 3. Sonntag im Monat statt. Dafür werden Freiwillige gesucht!</p>\n\n\n<ul><li>Unfallversicherung</li><li>kostenlose Verpflegung</li><li>kostenlose Ausflüge</li><li>Haftpflichtversicherung</li><li>Anleitung durch Fachkräfte</li></ul>",
+  "carrier": {
+    "name": "Fachberatungsstelle \"Kanapee\" der Fachberatungsstelle Wohnen",
+    "links": [
+
+    ]
+  },
   "vacancies": 1,
+  "contact": {
+    "name": "Sabine Soldan",
+    "phone": "05671-797",
+    "email": "kanapee.hog@ekkw.de"
+  },
   "topics": [
 
   ],

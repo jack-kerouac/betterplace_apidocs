@@ -7,6 +7,10 @@ GET http://betterplace.dev/en/api_v4/organisations/125.json
 
 The details of a betterplace.org organisation.
 
+*For [betterplace.org clients](README.md#client-api):*
+You may use this ressource but have to validate manually
+if the organisation belongs to one of your projects.
+
 
 ## Input Parameter
 

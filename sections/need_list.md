@@ -8,6 +8,9 @@ GET http://betterplace.dev/en/api_v4/projects/1114/needs.json
 A list of betterplace.org projects needs (donate money).
 Results are contains in a *data* attribute.
 
+*For [betterplace.org clients](README.md#client-api):*
+Use this ressource like `/clients/PERMALINK/projects/ID/needs.json`
+
 
 ## Input Parameter
 

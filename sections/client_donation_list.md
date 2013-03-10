@@ -5,13 +5,10 @@
 GET http://betterplace.dev/en/api_v4/clients/volksfreund/client_donations.json
 ```
 
-The API calls for donations to a project via the client donation form.
-Please note, that a project might receive donation via multiple sources
-but this client donations api only returns donations that where done via
-the client donation form.
+**For [betterplace.org clients](README.md#client-api) only:**
 
-**This feature is avaliable only to betterplace.org-clients.**
-[Learn more…](README.md#client-feature)
+The API returns donations to a project that where made using
+the client donation form, but none of the other donation-sources.
 
 Retrieve the list of all projects as a JSON result set, that
 contains the results in its *data* attribute.
@@ -30,7 +27,7 @@ contains the results in its *data* attribute.
     <th>client_id</th>
     <td><code>volksfreund</code></td>
     <td>required</td>
-    <td>The betterplace.org-internal client_id</td>
+    <td>The betterplace.org-internal client permalink</td>
   </tr>
 </table>
 

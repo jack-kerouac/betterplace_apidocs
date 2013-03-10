@@ -8,7 +8,7 @@ GET http://betterplace.dev/en/api_v4/clients/Volksfreund.json
 **This feature is avaliable only to betterplace.org-clients.**
 [Learn more…](README.md#client-feature)
 
-Some client-statistics.
+Some client-statistics for a betterplace.org client.
 
 
 ## Input Parameter
@@ -24,7 +24,7 @@ Some client-statistics.
     <th>id</th>
     <td><code>Volksfreund</code></td>
     <td>required</td>
-    <td>The betterplace.org-internal client id</td>
+    <td>The betterplace.org-internal client permalink</td>
   </tr>
 </table>
 

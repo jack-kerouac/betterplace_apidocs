@@ -8,6 +8,9 @@ GET http://betterplace.dev/en/api_v4/projects.json?nelat=51.123&nelng=12.123&ord
 A list of betterplace.org projects (donate money).
 Results are contains in a *data* attribute.
 
+*For [betterplace.org clients](README.md#client-api):*
+Use this ressource like `/clients/PERMALINK/projects.json`
+
 
 ## Input Parameter
 
