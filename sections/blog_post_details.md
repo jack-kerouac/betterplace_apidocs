@@ -1,5 +1,5 @@
 
-# Project Blog Post Details
+# Project Blog Post Details | [List](blog_post_list.md)
 
 ```nginx
 GET http://betterplace.dev/en/api_v4/projects/38/blog_posts/22.json
