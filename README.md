@@ -1,4 +1,4 @@
-# The betterplace.org API Version 4 (BETA) – It is not public yet!
+# The betterplace.org API Version 4 (BETA) – It is not public yet!
 
 Betterplace.org has a new version of its API. It's a REST-style API that returns
 JSON for serialization.
@@ -10,23 +10,23 @@ JSON for serialization.
 
 ### Public API
 
-* General information below
-* [**Project** List and Search](sections/project_list.md)
-* [**Project** Details](sections/project_details.md)
-* [Project **Needs** List](sections/need_list.md)
-* [Project **Needs** Details](sections/need_details.md)
-* [Project **Blogpost** List](sections/blog_post_list.md)
-* [Project **Blogpost** Details](sections/blog_post_details.md)
-* TODO [Project **Opinions** List](sections/opinion_list.md)
-* TODO [Project **Pictures** List](sections/picture_list.md)
-* [**Volunteering** List and Search](sections/volunteering_list.md)
-* [**Volunteering** Details](sections/volunteering_details.md)
-* [**Organisation** List](sections/organisation_list.md)
-* [**Organisation** Details](sections/organisation_details.md)
-* TODO [**User** Details](sections/user_details.md)
-* TODO [**Fundraising Event** List and Search](sections/fundraising_event_list.md)
-* TODO [**Fundraising Event** Details](sections/fundraising_event_details.md)
-* TOOD [**Donate Money**](sections/donate_money.md)
+✔ General information below
+✔ [**Project** List and Search](sections/project_list.md)
+✔ [**Project** Details](sections/project_details.md)
+✔ [Project **Needs** List](sections/need_list.md)
+✔ [Project **Needs** Details](sections/need_details.md)
+✔ [Project **Blogpost** List](sections/blog_post_list.md)
+✔ [Project **Blogpost** Details](sections/blog_post_details.md)
+✘ TODO [Project **Opinions** List](sections/opinion_list.md)
+✘ TODO [Project **Pictures** List](sections/picture_list.md)
+✔ [**Volunteering** List and Search](sections/volunteering_list.md)
+✔ [**Volunteering** Details](sections/volunteering_details.md)
+✔ [**Organisation** List](sections/organisation_list.md)
+✔ [**Organisation** Details](sections/organisation_details.md)
+✘ TODO [**User** Details](sections/user_details.md)
+✘ TODO [**Fundraising Event** List and Search](sections/fundraising_event_list.md)
+✘ TODO [**Fundraising Event** Details](sections/fundraising_event_details.md)
+✘ TODO [**Donate Money**](sections/donate_money.md)
 
 
 ### Client API
