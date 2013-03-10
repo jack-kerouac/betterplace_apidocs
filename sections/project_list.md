@@ -80,13 +80,38 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
 
 ```json
 {
-  "total_entries": 0,
+  "total_entries": 2,
   "offset": 0,
-  "total_pages": 0,
+  "total_pages": 1,
   "current_page": 1,
   "per_page": 3,
   "data": [
-
+    {
+      "format": "json",
+      "id": 1114,
+      "latitude": 34.531617284782,
+      "longitude": 69.13581752939456,
+      "title": "Skateistan Afghanistan",
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://www.betterplace.dev/en/api_v4/projects/1114.json"
+        }
+      ]
+    },
+    {
+      "format": "json",
+      "id": 6233,
+      "latitude": 11.55883121490479,
+      "longitude": 104.9174423217773,
+      "title": "Skateistan Cambodia",
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://www.betterplace.dev/en/api_v4/projects/6233.json"
+        }
+      ]
+    }
   ]
 }
 ```
