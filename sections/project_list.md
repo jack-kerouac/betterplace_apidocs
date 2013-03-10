@@ -41,7 +41,9 @@ Results are contains in a *data* attribute.
     <th>order</th>
     <td><code>rank:ASC</code></td>
     <td>optional</td>
-    <td>Order the result by <code>id</code>, <code>has_image</code> (default), <code>created_at</code> (second default).
+    <td>Order the result by <code>rank</code> (default), <code>id</code>, <code>progress_percentage</code>,
+<code>completed</code>, <code>tax_deductible</code>, <code>created_at</code>, <code>updated_at</code>,
+<code>last_donation_at</code>.
 Use the optional <code>ASC</code> (default) or <code>DESC</code>.
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 </td>
