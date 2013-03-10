@@ -1,5 +1,5 @@
 
-# Project List | [Details](project_details.md)
+# Project List ⇄ [Details](project_details.md)
 
 ```nginx
 GET http://betterplace.dev/en/api_v4/projects.json?nelat=51.123&nelng=12.123&order=rank%3AASC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001
