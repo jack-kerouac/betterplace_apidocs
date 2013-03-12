@@ -8,7 +8,7 @@ GET https://api.betterplace.org/en/api_v4/volunteering.json?nelat=51.123&nelng=1
 A list of betterplace.org volunteering offers (donate time).
 Results are contains in a *data* attribute.
 
-*For [betterplace.org clients](README.md#client-api):*
+*For [betterplace.org clients](../README.md#client-api):*
 This ressource is not avaliable at the moment.
 
 
@@ -25,13 +25,13 @@ This ressource is not avaliable at the moment.
     <th>scope</th>
     <td><code>location</code></td>
     <td>optional</td>
-    <td>Specify how the search-query <code>q</code> should behave:
+    <td>Use the scope to specify how the search-query <code>q</code> should behave:
 <ul>
 <li>"no scope" (default) performs a full text search
 <li><code>human_name</code> searches only on the contact-person-fullname and carrier-fullname.
 Use this to get all volunteering offers by "Unicef" or by "Till Behnke".
-<li><code>location</code> does a reverse geocoding lookup and shows results based on the
-lookup-bounding-box or a default-radius of 30 km.
+<li><code>location</code> does a reverse geocoding lookup
+and shows results based on the lookup-bounding-box.
 </ul>
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 </td>

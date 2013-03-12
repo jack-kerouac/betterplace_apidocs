@@ -1,12 +1,12 @@
 
-# Project Need Details ⇄ [List](need_list.md)
+# Project Opinion Details ⇄ [List](opinion_list.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects/1114/needs/59220.json
+GET https://api.betterplace.org/en/portals/22/projects.json?action=show&controller=api_v4%2Fopinions&project_id=38
 ```
 
-The details of a betterplace.org project need (donate money).
-The details and list view show the same data per project need.
+The details of a betterplace.org project opinion (donate money).
+The details and list view show the same data.
 
 *For [betterplace.org clients](../README.md#client-api):*
 There is no client-scoped-url.
@@ -25,15 +25,15 @@ to make sure you only request data that is associated with one of your projects.
   </tr>
   <tr>
     <th>project_id</th>
-    <td><code>1114</code></td>
+    <td><code>38</code></td>
     <td>required</td>
     <td>Project-id as an integer number ≥ 14.</td>
   </tr>
   <tr>
     <th>id</th>
-    <td><code>59220</code></td>
+    <td><code>22</code></td>
     <td>required</td>
-    <td>Need-id as an integer number ≥ 29.</td>
+    <td>Blog-post-id as an integer number ≥ 9.</td>
   </tr>
 </table>
 

@@ -2,13 +2,13 @@
 # Project List ⇄ [Details](project_details.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects.json?facets=tax_deductible%3Atrue%7Ccompleted%3Afalse&nelat=51.123&nelng=12.123&order=rank%3AASC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001
+GET https://api.betterplace.org/en/api_v4/projects.json?facets=completed%3Afalse&nelat=51.123&nelng=12.123&order=rank%3AASC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001
 ```
 
 A list of betterplace.org projects (donate money).
 Results are contains in a *data* attribute.
 
-*For [betterplace.org clients](README.md#client-api):*
+*For [betterplace.org clients](../README.md#client-api):*
 Use this ressource like `/clients/PERMALINK/projects.json`
 
 
@@ -25,11 +25,13 @@ Use this ressource like `/clients/PERMALINK/projects.json`
     <th>scope</th>
     <td><code>location</code></td>
     <td>optional</td>
-    <td>Specify how the search-query <code>q</code> should behave:
+    <td>Use the scope to specify how the search-query <code>q</code> should behave:
 <ul>
 <li>"no scope" (default) performs a full text search
-<li><code>human_name</code> searches only on the manager-fullname and carrier-fullname. Use this to get all projects by "Unicef" or by "Till Behnke".
-<li><code>location</code> does a reverse geocoding lookup and shows results based on the lookup-bounding-box or a default-radius of 30 km.
+<li><code>human_name</code> searches only on the manager-fullname and carrier-fullname.
+Use this to get all projects by "Unicef" or by "Till Behnke".
+<li><code>location</code> does a reverse geocoding lookup
+and shows results based on the lookup-bounding-box.
 </ul>
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 </td>
@@ -45,7 +47,7 @@ Use this ressource like `/clients/PERMALINK/projects.json`
     <td><code>rank:ASC</code></td>
     <td>optional</td>
     <td>Order the result by <code>rank</code> (default), <code>id</code>, <code>progress_percentage</code>,
-<code>completed</code>, <code>tax_deductible</code>, <code>created_at</code>, <code>updated_at</code>,
+<code>tax_deductible</code>, <code>created_at</code>, <code>updated_at</code>,
 <code>last_donation_at</code>.
 Use the optional <code>ASC</code> (default) or <code>DESC</code>.
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
@@ -53,7 +55,7 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
   </tr>
   <tr>
     <th>facets</th>
-    <td><code>tax_deductible:true|completed:false</code></td>
+    <td><code>completed:false</code></td>
     <td>optional</td>
     <td>Filter the result set by <code>tax_deductible</code> or <code>completed</code>. Possible values are
 <code>true</code> or <code>false</code>.

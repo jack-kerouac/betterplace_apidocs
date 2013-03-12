@@ -5,8 +5,7 @@
 GET https://api.betterplace.org/en/api_v4/clients/Volksfreund.json
 ```
 
-**This feature is avaliable only to betterplace.org-clients.**
-[Learn more…](README.md#client-feature)
+**For [betterplace.org clients](../README.md#client-api) only:**
 
 Some client-statistics for a betterplace.org client.
 

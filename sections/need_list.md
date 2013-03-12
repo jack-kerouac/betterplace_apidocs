@@ -7,9 +7,12 @@ GET https://api.betterplace.org/en/api_v4/projects/1114/needs.json
 
 A list of betterplace.org projects needs (donate money).
 Results are contains in a *data* attribute.
+The details and list view show the same data per project need.
 
-*For [betterplace.org clients](README.md#client-api):*
-Use this ressource like `/clients/PERMALINK/projects/ID/needs.json`
+*For [betterplace.org clients](../README.md#client-api):*
+There is no client-scoped-url.
+Please use the api calls that are provided inside the client project _url_ response
+to make sure you only request data that is associated with one of your projects.
 
 
 ## Input Parameter

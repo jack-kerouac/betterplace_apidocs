@@ -8,10 +8,13 @@ GET https://api.betterplace.org/en/api_v4/projects/38/blog_posts.json
 A list of betterplace.org projects blog posts.
 Results are contains in a *data* attribute.
 
-*For [betterplace.org clients](README.md#client-api):*
-Use this ressource like `/clients/PERMALINK/projects/ID/blog_posts.json`
+*For [betterplace.org clients](../README.md#client-api):*
 
-In addition, clients can use a list of all blogpost of all client-projects:
+* _Project-Blogposts:_ There is no client-scoped-url.
+Please use the api calls that are provided inside the client project _url_ response
+to make sure you only request data that is associated with one of your projects.
+
+* _All Blogposts:_ Clients can retrieve a list of all blogpost of all client-projects:
 `/clients/PERMALINK/blog_posts.json`
 
 

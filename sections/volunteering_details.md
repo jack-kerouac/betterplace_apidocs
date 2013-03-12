@@ -7,7 +7,7 @@ GET https://api.betterplace.org/en/api_v4/volunteering/23.json
 
 The details of a betterplace.org volunteering offer (donate time).
 
-*For [betterplace.org clients](README.md#client-api):*
+*For [betterplace.org clients](../README.md#client-api):*
 This ressource is not avaliable at the moment.
 
 

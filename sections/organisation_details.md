@@ -6,10 +6,12 @@ GET https://api.betterplace.org/en/api_v4/organisations/125.json
 ```
 
 The details of a betterplace.org organisation.
+The details and list view show the same data per organisation.
 
-*For [betterplace.org clients](README.md#client-api):*
-You may use this ressource but have to validate manually
-if the organisation belongs to one of your projects.
+*For [betterplace.org clients](../README.md#client-api):*
+There is no client-scoped-url.
+Please use the api calls that are provided inside the client project _url_ response
+to make sure you only request data that is associated with one of your projects.
 
 
 ## Input Parameter

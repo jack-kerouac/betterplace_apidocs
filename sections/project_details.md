@@ -7,7 +7,7 @@ GET https://api.betterplace.org/en/api_v4/projects/1114.json
 
 The details of a betterplace.org project (donate money).
 
-*For [betterplace.org clients](README.md#client-api):*
+*For [betterplace.org clients](../README.md#client-api):*
 Use this ressource like `/clients/PERMALINK/projects/ID.json`
 
 
@@ -171,10 +171,12 @@ donation needs. This percentage includes those needs.
   </tr>
   <tr>
     <th>contact.name</th>
-    <td>string</td>
+    <td>null &#124; string</td>
     <td>"Till B."</td>
     <td>Display name of a betterplace.org user.
-Possible formats: "Till B.", "T. Behnke", "Till Behnke"
+Possible formats: "Till B.", "T. Behnke", "Till Behnke".
+In the case of donation-opinions the name might also be anonymized
+like "Payback User" or empty/null for anonymous donations.
 </td>
   </tr>
   <tr>
@@ -220,6 +222,8 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
     <th>contact.platform</th>
     <td>The user's profile on betterplace.org.
 To view a user profile you have to be logged in.
+This array is empty if the user has no useraccount
+with betterplace.org but donated via one of our partner.
 </td>
   </tr>
   <tr>
@@ -229,6 +233,14 @@ To view a user profile you have to be logged in.
   <tr>
     <th>profile_picture.thumb</th>
     <td>Thumbnail size</td>
+  </tr>
+  <tr>
+    <th>carrier.self</th>
+    <td>Link to this resource itself
+(<a href="../organisation_details.md">organisation details</a>)
+Note: Since the there is no api for users yet, this is only
+set for organisations.
+</td>
   </tr>
   <tr>
     <th>profile_picture.profile</th>
@@ -311,7 +323,13 @@ To view a user profile you have to be logged in.
           "href": "http://www.betterplace.org/paperclip/000/279/873/thumb_betterplace-logo.png"
         }
       ]
-    }
+    },
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://www.betterplace.dev/en/api_v4/organisations/1054.json"
+      }
+    ]
   },
   "profile_picture": {
     "format": "json",

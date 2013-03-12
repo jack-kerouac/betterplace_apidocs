@@ -7,8 +7,9 @@ GET https://api.betterplace.org/en/api_v4/organisations.json
 
 A list of betterplace.org organisations.
 Results are contains in a *data* attribute.
+The details and list view show the same data per organisation.
 
-*For [betterplace.org clients](README.md#client-api):*
+*For [betterplace.org clients](../README.md#client-api):*
 This ressource is not avaliable at the moment.
 
 
