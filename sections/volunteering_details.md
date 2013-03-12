@@ -2,7 +2,7 @@
 # Volunteering Details ⇄ [List](volunteering_list.md)
 
 ```nginx
-GET https://betterplace.org/en/api_v4/volunteering/23.json
+GET https://api.betterplace.org/en/api_v4/volunteering/23.json
 ```
 
 The details of a betterplace.org volunteering offer (donate time).
@@ -113,25 +113,25 @@ This ressource is not avaliable at the moment.
     <th>carrier.street</th>
     <td>string</td>
     <td>"Rosenstr. 3"</td>
-    <td>The street of the organisation contact address</td>
+    <td>Contact data for the organisation</td>
   </tr>
   <tr>
     <th>carrier.city</th>
     <td>string</td>
     <td>"Berlin"</td>
-    <td>The city of the organisation contact address</td>
+    <td>Contact data for the organisation</td>
   </tr>
   <tr>
     <th>carrier.zip</th>
     <td>string</td>
     <td>"10123"</td>
-    <td>The zip code of the organisation contact address</td>
+    <td>Contact data for the organisation</td>
   </tr>
   <tr>
     <th>carrier.country</th>
     <td>string</td>
     <td>"Germany"</td>
-    <td>The country of the organisation contact address</td>
+    <td>Contact data for the organisation</td>
   </tr>
   <tr>
     <th>vacancies</th>

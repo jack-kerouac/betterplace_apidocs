@@ -2,7 +2,7 @@
 # Client Details
 
 ```nginx
-GET https://betterplace.org/en/api_v4/clients/Volksfreund.json
+GET https://api.betterplace.org/en/api_v4/clients/Volksfreund.json
 ```
 
 **This feature is avaliable only to betterplace.org-clients.**

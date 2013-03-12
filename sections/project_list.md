@@ -2,7 +2,7 @@
 # Project List ⇄ [Details](project_details.md)
 
 ```nginx
-GET https://betterplace.org/en/api_v4/projects.json?facets=tax_deductible%3Atrue%7Ccompleted%3Afalse&nelat=51.123&nelng=12.123&order=rank%3AASC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001
+GET https://api.betterplace.org/en/api_v4/projects.json?facets=tax_deductible%3Atrue%7Ccompleted%3Afalse&nelat=51.123&nelng=12.123&order=rank%3AASC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001
 ```
 
 A list of betterplace.org projects (donate money).

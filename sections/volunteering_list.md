@@ -2,7 +2,7 @@
 # Volunteering List ⇄ [Details](volunteering_details.md)
 
 ```nginx
-GET https://betterplace.org/en/api_v4/volunteering.json?nelat=51.123&nelng=12.123&order=created_at%3AASC&q=Homework+help&scope=location&swlat=51.001&swlng=12.001
+GET https://api.betterplace.org/en/api_v4/volunteering.json?nelat=51.123&nelng=12.123&order=created_at%3AASC&q=Homework+help&scope=location&swlat=51.001&swlng=12.001
 ```
 
 A list of betterplace.org volunteering offers (donate time).
@@ -162,25 +162,25 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
     <th>carrier.street</th>
     <td>string</td>
     <td>"Rosenstr. 3"</td>
-    <td>The street of the organisation contact address</td>
+    <td>Contact data for the organisation</td>
   </tr>
   <tr>
     <th>carrier.city</th>
     <td>string</td>
     <td>"Berlin"</td>
-    <td>The city of the organisation contact address</td>
+    <td>Contact data for the organisation</td>
   </tr>
   <tr>
     <th>carrier.zip</th>
     <td>string</td>
     <td>"10123"</td>
-    <td>The zip code of the organisation contact address</td>
+    <td>Contact data for the organisation</td>
   </tr>
   <tr>
     <th>carrier.country</th>
     <td>string</td>
     <td>"Germany"</td>
-    <td>The country of the organisation contact address</td>
+    <td>Contact data for the organisation</td>
   </tr>
   <tr>
     <th>vacancies</th>

@@ -2,7 +2,7 @@
 # Project Blog Post List ⇄ [Details](blog_post_details.md)
 
 ```nginx
-GET https://betterplace.org/en/api_v4/projects/38/blog_posts.json
+GET https://api.betterplace.org/en/api_v4/projects/38/blog_posts.json
 ```
 
 A list of betterplace.org projects blog posts.

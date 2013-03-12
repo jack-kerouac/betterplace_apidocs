@@ -2,7 +2,7 @@
 # Project Opinion List
 
 ```nginx
-GET https://betterplace.org/en/api_v4/projects/38/opinions.json
+GET https://api.betterplace.org/en/api_v4/projects/38/opinions.json
 ```
 
 Project Opinion List

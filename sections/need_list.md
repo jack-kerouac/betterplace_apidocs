@@ -2,7 +2,7 @@
 # Project Need List ⇄ [Details](need_details.md)
 
 ```nginx
-GET https://betterplace.org/en/api_v4/projects/1114/needs.json
+GET https://api.betterplace.org/en/api_v4/projects/1114/needs.json
 ```
 
 A list of betterplace.org projects needs (donate money).

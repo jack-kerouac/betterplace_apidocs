@@ -2,7 +2,7 @@
 # Project Details ⇄ [List](project_list.md)
 
 ```nginx
-GET https://betterplace.org/en/api_v4/projects/1114.json
+GET https://api.betterplace.org/en/api_v4/projects/1114.json
 ```
 
 The details of a betterplace.org project (donate money).
@@ -71,25 +71,25 @@ Use this ressource like `/clients/PERMALINK/projects/ID.json`
     <th>street</th>
     <td>null &#124; string</td>
     <td>"Schlesische Straße 26"</td>
-    <td>Where the volunteering takes place</td>
+    <td>Where the project takes place</td>
   </tr>
   <tr>
     <th>zip</th>
     <td>null &#124; string</td>
     <td>"10997"</td>
-    <td>Where the volunteering takes place</td>
+    <td>Where the project takes place</td>
   </tr>
   <tr>
     <th>city</th>
     <td>null &#124; string</td>
     <td>"Berlin"</td>
-    <td>Where the volunteering takes place</td>
+    <td>Where the project takes place</td>
   </tr>
   <tr>
     <th>country</th>
     <td>null &#124; string</td>
     <td>"Deutschland"</td>
-    <td>Where the volunteering takes place, translated to the requested language</td>
+    <td>Where the project takes place, translated to the requested language</td>
   </tr>
   <tr>
     <th>title</th>

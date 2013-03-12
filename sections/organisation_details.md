@@ -2,7 +2,7 @@
 # Organisation Details ⇄ [List](organisation_list.md)
 
 ```nginx
-GET https://betterplace.org/en/api_v4/organisations/125.json
+GET https://api.betterplace.org/en/api_v4/organisations/125.json
 ```
 
 The details of a betterplace.org organisation.
