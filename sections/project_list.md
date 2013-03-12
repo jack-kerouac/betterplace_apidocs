@@ -134,7 +134,7 @@ It is possible to set multiple facet filters.
   <tr>
     <th>self</th>
     <td>Link to this resource itself
-(<a href="../project_details.md">project details</a>)
+(<a href="project_details.md">project details</a>)
 </td>
   </tr>
 </table>

@@ -197,7 +197,7 @@ like "Payback User" or empty/null for anonymous donations.
   <tr>
     <th>self</th>
     <td>Link to this resource itself
-(<a href="../project_details.md">project details</a>)
+(<a href="project_details.md">project details</a>)
 </td>
   </tr>
   <tr>
@@ -237,7 +237,7 @@ with betterplace.org but donated via one of our partner.
   <tr>
     <th>carrier.self</th>
     <td>Link to this resource itself
-(<a href="../organisation_details.md">organisation details</a>)
+(<a href="organisation_details.md">organisation details</a>)
 Note: Since the there is no api for users yet, this is only
 set for organisations.
 </td>

@@ -183,6 +183,18 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
     <td>Contact data for the organisation</td>
   </tr>
   <tr>
+    <th>carrier.latitude</th>
+    <td>string</td>
+    <td>"13.1234"</td>
+    <td>Contact data for the organisation</td>
+  </tr>
+  <tr>
+    <th>carrier.longitude</th>
+    <td>string</td>
+    <td>"54.123"</td>
+    <td>Contact data for the organisation</td>
+  </tr>
+  <tr>
     <th>vacancies</th>
     <td>number</td>
     <td>1</td>
@@ -310,6 +322,8 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
         "city": "Kassel",
         "zip": "34117",
         "country": "Germany",
+        "latitude": 51.3171,
+        "longitude": 9.49246,
         "links": [
 
         ]
@@ -354,6 +368,8 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
         "city": "Kassel",
         "zip": "34117",
         "country": "Germany",
+        "latitude": 51.3171,
+        "longitude": 9.49561,
         "links": [
 
         ]
@@ -404,6 +420,8 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
         "city": "Kassel",
         "zip": "34125",
         "country": "Germany",
+        "latitude": 51.327,
+        "longitude": 9.50941,
         "links": [
 
         ]

@@ -134,6 +134,18 @@ This ressource is not avaliable at the moment.
     <td>Contact data for the organisation</td>
   </tr>
   <tr>
+    <th>carrier.latitude</th>
+    <td>string</td>
+    <td>"13.1234"</td>
+    <td>Contact data for the organisation</td>
+  </tr>
+  <tr>
+    <th>carrier.longitude</th>
+    <td>string</td>
+    <td>"54.123"</td>
+    <td>Contact data for the organisation</td>
+  </tr>
+  <tr>
     <th>vacancies</th>
     <td>number</td>
     <td>1</td>
@@ -248,6 +260,8 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
     "city": "Kassel",
     "zip": "34117",
     "country": "Germany",
+    "latitude": 51.3171,
+    "longitude": 9.49561,
     "links": [
 
     ]

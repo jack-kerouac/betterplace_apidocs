@@ -30,7 +30,7 @@ and scheduled downtimes.
 * [Project **Blog Post** Details](sections/blog_post_details.md)
 * [Project **Opinions** List](sections/opinion_list.md)
 * [Project **Opinions** Details](sections/opinion_detail.md)
-* WIP [Project **Pictures** List](sections/picture_list.md)
+* TODO [Project **Pictures** List](sections/picture_list.md)
 * [**Volunteering** List and Search](sections/volunteering_list.md)
 * [**Volunteering** Details](sections/volunteering_details.md)
 * [**Organisation** List](sections/organisation_list.md)
@@ -190,11 +190,14 @@ The following HTTP result codes can be returned:
 
 Please contact developers@betterplace.org for more information
 
+1. Several documentation pages are empty
 1. The `links` to other api-calls dont use the api-subdomain but www instead
 1. The `links` to images dont use the asset path asset1 but www instead
+1. The pictures-list-docu-page is missing
 1. `projects/14/pictures.json` is broken (500)
 1. /project/id/opinions.json alsways return all opinions instead of those for the project
 1. Not all ressources have a documentation-url as part of the json
+1. The response-table does not show the root-documentation for response-elements with sub-elements (for example carrier.name is documented but carrier is not)
 
 
 ## API V1, V2, V3
