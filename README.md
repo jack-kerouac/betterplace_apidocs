@@ -18,7 +18,7 @@ developers@betterplace.org.
 ### Public API
 
 * General information below
-* [**Project** List and Search](sections/project_list.md) – Note: This returns a minimal result-set for use in map-views. The extended result set for list-views ist still TODO.
+* [**Project** List and Search](sections/project_list.md) – Note: This returns a minimal result-set for use in map-views. The extended result set for list-views ist still TOOD.
 * [**Project** Details](sections/project_details.md)
 * [Project **Needs** List](sections/need_list.md)
 * [Project **Needs** Details](sections/need_details.md)
@@ -37,40 +37,36 @@ developers@betterplace.org.
 
 ### Client API
 
+* [**Client** Details/Statistics](sections/client_details.md)
+* [**Client** Donations List](sections/client_donation_list.md)
+
 This part of the API can only be used in agreement with betterplace.org.
 Please [contact someone at betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung)
 for more information.
 
-* [**Client** Details/Statistics](sections/client_details.md)
-* [**Client** Donations List](sections/client_donation_list.md)
-* Client Project List
-* Client Project Details
+*Example:* The local german newspaper "Trierischer Volksfreund"
+has it's own donation portal at ["Meine Hilfe zählt"](http://www.volksfreund-servicecenter.de/projekte/).
 
 *Client projects:* Clients projects are projects on betterplace.org that are
 associated with the client-user. This way clients can control what projects
 are visible on their plattform.
 
-*Request-URLs:* Clients have to prepend some with the their client-id.
-For projects that would be `/clients/PERMALINK/projects.json` and `/clients/PERMALINK/projects/ID.json`.
-More information can be found in the description of each request.
+*Request-URLs:* Clients have to prepend all request with the their client-id.
+For projects that would be `/clients/PERMALINK/projects.json` and `/clients/PERMALINK/projects/ID.json`
 
 *Error Code:* If you request data for a project that is not part of the client
 projects, the API will return a `404` HTTP code.
-
-*Usage example:* The local german newspaper "Trierischer Volksfreund"
-has it's own donation portal at ["Meine Hilfe zählt"](http://www.volksfreund-servicecenter.de/projekte/) – actually it uses an older api-version but still it's the same idea ;-).
 
 
 ## General information
 
 * All request have to https
 * The response format is json, the request-extention .json
-* The response language is definde by the URL-language-section (/en/, /de/ (default), …)
 * We support [Cross-origin resource sharing (CORS)](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing), so no proxy or JSONP is required
 * No Authentication: All api calls are public at the moment but there will be feature that require a authentication in the future.
 
 
-### Request parameter format
+## Request parameter format
 
 The `order` and `facet` request parameter accept multiple key-value-parameter.
 We use the same convention as the [Google Static Maps API V2](https://developers.google.com/maps/documentation/staticmaps/#URL_Parameters).
@@ -85,54 +81,56 @@ This way you ma specify a primary and secondaray sort order: `order=rank:ASC|cre
 * Note that for readability-reasons we don't URL encode the params in this documentation
 
 
-### Pagination parameter
+## Pagination parameter
 
 The following parameters are avaliable for all list views.
 
+### Pagination request parameter
+
 <table>
   <tr>
-    <th>Request/Response</th>
+    <th>Parameter</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>page</code></td>
+    <td>Used to paginate through the list</td>
+  </tr>
+  <tr>
+    <td><code>per_page</code></td>
+    <td>The number of entries per page</td>
+  </tr>
+</table>
+
+### Pagination response parameter
+
+<table>
+  <tr>
     <th>Parameter</th>
     <th>Description</th>
     <th>Default</th>
   </tr>
   <tr>
-    <th>Request</th>
-    <td><code>page</code></td>
-    <td>Used to paginate through the list</td>
-  </tr>
-  <tr>
-    <th>Request</th>
-    <td><code>per_page</code></td>
-    <td>The number of entries per page</td>
-    <td></td>
-  </tr>
-  <tr>
-    <th>Response</th>
     <td><code>total_entries</code></td>
     <td>Count of all entries</td>
     <td>-</td>
   </tr>
   <tr>
-    <th>Response</th>
     <td><code>offset</code></td>
     <td>From which entry on the list continues, based on <code>per_page</code> <-- ???? Offset kann nicht manuell gesetzt werden, warum haben wir ihn dann überhaupt?</td>
     <td>0</td>
   </tr>
   <tr>
-    <th>Response</th>
     <td><code>total_pages</code></td>
     <td>Count of all pages, based on <code>per_page</code></td>
     <td>-</td>
   </tr>
   <tr>
-    <th>Response</th>
     <td><code>current_page</code></td>
     <td>What page we are on</td>
     <td>1</td>
   </tr>
   <tr>
-    <th>Response</th>
     <td><code>per_page</code></td>
     <td>Number of entries per page</td>
     <td>50</td>
@@ -144,10 +142,10 @@ The following parameters are avaliable for all list views.
 
 ### Error Messages
 
-If an error occurs, a JSON response messages is returned with a `name` and `reason` (optional).
-Clients that use the betterplace.org-staging-environment will also see a `backtrace` and `message`.
-
-Example:
+If an error occurs, a JSON response messages is returned to the client. In the
+JSON error messages the backtrace and message attributes are only included in
+the development or test environments. A message like this may be returned, if a
+resource couldn't be found (and the HTTP result code would be 404):
 
 ```json
 {
@@ -165,12 +163,12 @@ Example:
 
 The following HTTP result codes can be returned:
 
-* HTTP Code `404` is returned if a requested resource could not be found.
+- HTTP Code `404` is returned if a requested resource could not be found.
 
-* HTTP Code `400` is returned if a requested resource could not be created or updated,
-  if the submitted data was invalid.
+- HTTP Code `400` is returned if a requested resource could not be created or updated, if the
+  submitted data was invalid.
 
-* HTTP Code `500` is returned if a software error on the server was encountered.
+- HTTP Code `500` is returned if a software error on the server was encountered.
 
 
 ## API V1, V2, V3
