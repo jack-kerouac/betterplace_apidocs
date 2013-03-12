@@ -89,52 +89,50 @@ This way you ma specify a primary and secondaray sort order: `order=rank:ASC|cre
 
 The following parameters are avaliable for all list views.
 
-#### Pagination request parameter
-
 <table>
   <tr>
-    <th>Parameter</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td><code>page</code></td>
-    <td>Used to paginate through the list</td>
-  </tr>
-  <tr>
-    <td><code>per_page</code></td>
-    <td>The number of entries per page</td>
-  </tr>
-</table>
-
-#### Pagination response parameter
-
-<table>
-  <tr>
+    <th>Request/Response</th>
     <th>Parameter</th>
     <th>Description</th>
     <th>Default</th>
   </tr>
   <tr>
+    <th>Request</th>
+    <td><code>page</code></td>
+    <td>Used to paginate through the list</td>
+  </tr>
+  <tr>
+    <th>Request</th>
+    <td><code>per_page</code></td>
+    <td>The number of entries per page</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Response</th>
     <td><code>total_entries</code></td>
     <td>Count of all entries</td>
     <td>-</td>
   </tr>
   <tr>
+    <th>Response</th>
     <td><code>offset</code></td>
     <td>From which entry on the list continues, based on <code>per_page</code> <-- ???? Offset kann nicht manuell gesetzt werden, warum haben wir ihn dann überhaupt?</td>
     <td>0</td>
   </tr>
   <tr>
+    <th>Response</th>
     <td><code>total_pages</code></td>
     <td>Count of all pages, based on <code>per_page</code></td>
     <td>-</td>
   </tr>
   <tr>
+    <th>Response</th>
     <td><code>current_page</code></td>
     <td>What page we are on</td>
     <td>1</td>
   </tr>
   <tr>
+    <th>Response</th>
     <td><code>per_page</code></td>
     <td>Number of entries per page</td>
     <td>50</td>
@@ -142,13 +140,12 @@ The following parameters are avaliable for all list views.
 </table>
 
 
-### HTTP Result Codes and Error Messages
+## HTTP Result Codes and Error Messages
 
-#### Error Messages
+### Error Messages
 
 If an error occurs, a JSON response messages is returned with a `name` and `reason` (optional).
-
-_TODO:_ Clients that use the betterplace.org-staging-environment will also see a `backtrace` and `message`.
+Clients that use the betterplace.org-staging-environment will also see a `backtrace` and `message`.
 
 Example:
 
@@ -164,7 +161,7 @@ Example:
 }
 ```
 
-#### HTTP Result Codes
+### HTTP Result Codes
 
 The following HTTP result codes can be returned:
 
