@@ -1,16 +1,11 @@
 
-# Organisation List ⇄ [Details](organisation_details.md)
+# Project Opinion List
 
 ```nginx
-GET https://betterplace.org/en/api_v4/organisations.json
+GET https://betterplace.org/en/api_v4/projects/38/opinions.json
 ```
 
-A list of betterplace.org organisations.
-Results are contains in a *data* attribute.
-
-*For [betterplace.org clients](README.md#client-api):*
-This ressource is not avaliable at the moment.
-
+Project Opinion List
 
 ## Input Parameter
 
@@ -20,6 +15,12 @@ This ressource is not avaliable at the moment.
     <th>Example</th>
     <th>Required/Optional</th>
     <th>Description</th>
+  </tr>
+  <tr>
+    <th>project_id</th>
+    <td><code>38</code></td>
+    <td>required</td>
+    <td>Project-id as an integer number ≥ 14.</td>
   </tr>
 </table>
 

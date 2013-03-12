@@ -2,7 +2,7 @@
 # Volunteering List ⇄ [Details](volunteering_details.md)
 
 ```nginx
-GET http://betterplace.dev/en/api_v4/volunteering.json?nelat=51.123&nelng=12.123&order=created_at%3AASC&q=Homework+help&scope=location&swlat=51.001&swlng=12.001
+GET https://betterplace.org/en/api_v4/volunteering.json?nelat=51.123&nelng=12.123&order=created_at%3AASC&q=Homework+help&scope=location&swlat=51.001&swlng=12.001
 ```
 
 A list of betterplace.org volunteering offers (donate time).
@@ -77,17 +77,216 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
   </tr>
 </table>
 
-## Response Parameter
+## Response Attributes
 
-*TODO*
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Types</th>
+    <th>Example/Optional</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <th>id</th>
+    <td>number</td>
+    <td>1</td>
+    <td>An integer number ≥ 1</td>
+  </tr>
+  <tr>
+    <th>created_at</th>
+    <td>null &#124; string</td>
+    <td>"1994-11-05T13:15:30Z"</td>
+    <td>DateTime (ISO8601 with Timezone)</td>
+  </tr>
+  <tr>
+    <th>updated_at</th>
+    <td>null &#124; string</td>
+    <td>"1994-11-05T13:15:30Z"</td>
+    <td>DateTime (ISO8601 with Timezone)</td>
+  </tr>
+  <tr>
+    <th>latitude</th>
+    <td>number</td>
+    <td>52.499007</td>
+    <td>Decimal degrees based on user input</td>
+  </tr>
+  <tr>
+    <th>longitude</th>
+    <td>number</td>
+    <td>13.44947</td>
+    <td>Decimal degrees based on user input</td>
+  </tr>
+  <tr>
+    <th>street</th>
+    <td>null &#124; string</td>
+    <td>"Schlesische Straße 26"</td>
+    <td>Where the volunteering takes place</td>
+  </tr>
+  <tr>
+    <th>zip</th>
+    <td>null &#124; string</td>
+    <td>"10997"</td>
+    <td>Where the volunteering takes place</td>
+  </tr>
+  <tr>
+    <th>city</th>
+    <td>null &#124; string</td>
+    <td>"Berlin"</td>
+    <td>Where the volunteering takes place</td>
+  </tr>
+  <tr>
+    <th>country</th>
+    <td>null &#124; string</td>
+    <td>"Deutschland"</td>
+    <td>Where the volunteering takes place, translated to the requested language</td>
+  </tr>
+  <tr>
+    <th>title</th>
+    <td>string</td>
+    <td>TODO</td>
+    <td>Max 100 character unless the volunteering is imported</td>
+  </tr>
+  <tr>
+    <th>description</th>
+    <td>string</td>
+    <td>TODO</td>
+    <td>TODO</td>
+  </tr>
+  <tr>
+    <th>carrier.name</th>
+    <td>string</td>
+    <td>"Viva con Agua de Sankt Pauli e.V."</td>
+    <td>An organisation name, Users will be added later</td>
+  </tr>
+  <tr>
+    <th>carrier.street</th>
+    <td>string</td>
+    <td>"Rosenstr. 3"</td>
+    <td>The street of the organisation contact address</td>
+  </tr>
+  <tr>
+    <th>carrier.city</th>
+    <td>string</td>
+    <td>"Berlin"</td>
+    <td>The city of the organisation contact address</td>
+  </tr>
+  <tr>
+    <th>carrier.zip</th>
+    <td>string</td>
+    <td>"10123"</td>
+    <td>The zip code of the organisation contact address</td>
+  </tr>
+  <tr>
+    <th>carrier.country</th>
+    <td>string</td>
+    <td>"Germany"</td>
+    <td>The country of the organisation contact address</td>
+  </tr>
+  <tr>
+    <th>vacancies</th>
+    <td>number</td>
+    <td>1</td>
+    <td>The number of volunteers that are needed, provided by the manager</td>
+  </tr>
+  <tr>
+    <th>image.description</th>
+    <td>string</td>
+    <td></td>
+    <td>Image description</td>
+  </tr>
+  <tr>
+    <th>contact.name</th>
+    <td>string</td>
+    <td>Till Behnke</td>
+    <td>Fullname of the contact person.
+For imported volunteering offers, this is the
+contact-name that is provided on import.
+</td>
+  </tr>
+  <tr>
+    <th>contact.phone</th>
+    <td>string</td>
+    <td>030 - 7676 4488 44</td>
+    <td>Phone number for direct contact.
+No validations on input apply.
+</td>
+  </tr>
+  <tr>
+    <th>contact.email</th>
+    <td>string</td>
+    <td>change@betterplace.org</td>
+    <td>Plain text email-address for direct contact
+</td>
+  </tr>
+  <tr>
+    <th>topics</th>
+    <td>array</td>
+    <td>["Development cooperation", "Children & youth"]</td>
+    <td>Up to 4 categories that describe, what for which causes you need volunteers.
+Results are translated to the requested language.
+Possible results: "Animal & environment protection", "Culture & sports",
+"Children & youth", "Development cooperation ", "DisabledEducation", "Elderly people",
+"Human rights", "Immigrants", "Invalid", "Local help", "Socially deprived"
+</td>
+  </tr>
+  <tr>
+    <th>activities</th>
+    <td>array &#124; null</td>
+    <td>["consulting/coaching", "office work"]</td>
+    <td>Up to 4 categories that describe, what for which causes you need volunteers.
+Results are translated to the requested language.
+Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
+"doing the chores", "group care", "nursing/parenting", "office work",
+"organising/managing", "painting/designing", "tutoring/reading",
+"visiting/accompanying", "writing/translating"
+</td>
+  </tr>
+  <tr>
+    <th>imported_from</th>
+    <td>string</td>
+    <td>aktion_mensch</td>
+    <td>Betterplace imports volunteering offers from Aktions Mensch.</td>
+  </tr>
+</table>
+
+## Response Links
+#
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <th>self</th>
+    <td>Link to this resource itself
+(<a href="../volunteering_details.md">volunteering details</a>)
+</td>
+  </tr>
+  <tr>
+    <th>platform</th>
+    <td>Permalink to betterplace.org</td>
+  </tr>
+  <tr>
+    <th>carrier.logo</th>
+    <td>Thumbnail size</td>
+  </tr>
+  <tr>
+    <th>image.thumb</th>
+    <td>Thumbnail size</td>
+  </tr>
+  <tr>
+    <th>image.medium</th>
+    <td>Medium size</td>
+  </tr>
+</table>
 
 ## Response Example
 
 ```json
 {
-  "total_entries": 6678,
+  "total_entries": 6679,
   "offset": 3,
-  "total_pages": 2226,
+  "total_pages": 2227,
   "current_page": 2,
   "per_page": 3,
   "data": [
@@ -107,6 +306,10 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
       "carrier": {
         "format": "json",
         "name": "Betreuungsbehörde",
+        "street": "Rathaus Obere Königstrasse F 405 a 4. St.",
+        "city": "Kassel",
+        "zip": "34117",
+        "country": "Germany",
         "links": [
 
         ]
@@ -147,6 +350,10 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
       "carrier": {
         "format": "json",
         "name": "FreiwilligenZentrum Kassel",
+        "street": "Spohrstraße 5",
+        "city": "Kassel",
+        "zip": "34117",
+        "country": "Germany",
         "links": [
 
         ]
@@ -193,6 +400,10 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
       "carrier": {
         "format": "json",
         "name": "Blaue Helferinnen und Blaue Helfer im Klinikum Kassel",
+        "street": "Mönchebergstr. 41-43",
+        "city": "Kassel",
+        "zip": "34125",
+        "country": "Germany",
         "links": [
 
         ]

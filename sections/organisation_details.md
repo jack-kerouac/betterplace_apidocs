@@ -2,7 +2,7 @@
 # Organisation Details ⇄ [List](organisation_list.md)
 
 ```nginx
-GET http://betterplace.dev/en/api_v4/organisations/125.json
+GET https://betterplace.org/en/api_v4/organisations/125.json
 ```
 
 The details of a betterplace.org organisation.
@@ -29,9 +29,25 @@ if the organisation belongs to one of your projects.
   </tr>
 </table>
 
-## Response Parameter
+## Response Attributes
 
-*TODO*
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Types</th>
+    <th>Example/Optional</th>
+    <th>Description</th>
+  </tr>
+</table>
+
+## Response Links
+#
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+</table>
 
 ## Response Example
 

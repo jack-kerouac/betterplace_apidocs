@@ -2,7 +2,7 @@
 # Project Need List ⇄ [Details](need_details.md)
 
 ```nginx
-GET http://betterplace.dev/en/api_v4/projects/1114/needs.json
+GET https://betterplace.org/en/api_v4/projects/1114/needs.json
 ```
 
 A list of betterplace.org projects needs (donate money).
@@ -29,9 +29,25 @@ Use this ressource like `/clients/PERMALINK/projects/ID/needs.json`
   </tr>
 </table>
 
-## Response Parameter
+## Response Attributes
 
-*TODO*
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Types</th>
+    <th>Example/Optional</th>
+    <th>Description</th>
+  </tr>
+</table>
+
+## Response Links
+#
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+</table>
 
 ## Response Example
 

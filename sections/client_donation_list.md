@@ -2,7 +2,7 @@
 # Client donation list
 
 ```nginx
-GET http://betterplace.dev/en/api_v4/clients/volksfreund/client_donations.json
+GET https://betterplace.org/en/api_v4/clients/volksfreund/client_donations.json
 ```
 
 **For [betterplace.org clients](README.md#client-api) only:**
@@ -31,9 +31,25 @@ contains the results in its *data* attribute.
   </tr>
 </table>
 
-## Response Parameter
+## Response Attributes
 
-*TODO*
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Types</th>
+    <th>Example/Optional</th>
+    <th>Description</th>
+  </tr>
+</table>
+
+## Response Links
+#
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+</table>
 
 ## Response Example
 

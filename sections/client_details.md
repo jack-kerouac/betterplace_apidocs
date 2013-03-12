@@ -2,7 +2,7 @@
 # Client Details
 
 ```nginx
-GET http://betterplace.dev/en/api_v4/clients/Volksfreund.json
+GET https://betterplace.org/en/api_v4/clients/Volksfreund.json
 ```
 
 **This feature is avaliable only to betterplace.org-clients.**
@@ -28,9 +28,25 @@ Some client-statistics for a betterplace.org client.
   </tr>
 </table>
 
-## Response Parameter
+## Response Attributes
 
-*TODO*
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Types</th>
+    <th>Example/Optional</th>
+    <th>Description</th>
+  </tr>
+</table>
+
+## Response Links
+#
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+</table>
 
 ## Response Example
 

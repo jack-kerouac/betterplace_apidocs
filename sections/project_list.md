@@ -2,7 +2,7 @@
 # Project List ⇄ [Details](project_details.md)
 
 ```nginx
-GET http://betterplace.dev/en/api_v4/projects.json?nelat=51.123&nelng=12.123&order=rank%3AASC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001
+GET https://betterplace.org/en/api_v4/projects.json?facets=tax_deductible%3Atrue%7Ccompleted%3Afalse&nelat=51.123&nelng=12.123&order=rank%3AASC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001
 ```
 
 A list of betterplace.org projects (donate money).
@@ -52,6 +52,16 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
 </td>
   </tr>
   <tr>
+    <th>facets</th>
+    <td><code>tax_deductible:true|completed:false</code></td>
+    <td>optional</td>
+    <td>Filter the result set by <code>tax_deductible</code> or <code>completed</code>. Possible values are
+<code>true</code> or <code>false</code>.
+It is possible to set multiple facet filters.
+<a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
+</td>
+  </tr>
+  <tr>
     <th>nelat</th>
     <td><code>51.123</code></td>
     <td>optional</td>
@@ -77,9 +87,55 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
   </tr>
 </table>
 
-## Response Parameter
+## Response Attributes
 
-*TODO*
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Types</th>
+    <th>Example/Optional</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <th>id</th>
+    <td>number</td>
+    <td>4</td>
+    <td>An integer number ≥ 1</td>
+  </tr>
+  <tr>
+    <th>latitude</th>
+    <td>number</td>
+    <td>52.499007</td>
+    <td>Decimal degrees based on user input</td>
+  </tr>
+  <tr>
+    <th>longitude</th>
+    <td>number</td>
+    <td>13.44947</td>
+    <td>Decimal degrees based on user input</td>
+  </tr>
+  <tr>
+    <th>title</th>
+    <td>string</td>
+    <td>TODO</td>
+    <td>Max 50 character</td>
+  </tr>
+</table>
+
+## Response Links
+#
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <th>self</th>
+    <td>Link to this resource itself
+(<a href="../project_details.md">project details</a>)
+</td>
+  </tr>
+</table>
 
 ## Response Example
 

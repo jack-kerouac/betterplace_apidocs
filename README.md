@@ -1,9 +1,15 @@
-# The betterplace.org API Version 4 (BETA) – It is not public yet!
+# The betterplace.org API Version 4 (beta)
 
-Betterplace.org has a new version of its API. It's a REST-style API that returns
+This is the latest API for betterplace.org. It's a REST-style API that returns
 JSON for serialization.
+It incorporates some ideas from hypermedia apis like the link-strukture.
 
-*TODO*: Some note about hypermedia and other features
+**Still under development:** This API is still unter development for
+the new mobile feature of betterplace.org
+
+**Please provide feedback:** Since you are one of the first to read this
+document and use the API V4, please don't hesitate to provide any feedback at
+developers@betterplace.org.
 
 
 ## Table of content
@@ -11,7 +17,7 @@ JSON for serialization.
 ### Public API
 
 * General information below
-* [**Project** List and Search](sections/project_list.md)
+* [**Project** List and Search](sections/project_list.md) – Note: This returns a minimal result-set for use in map-views. The extended result set for list-views ist still TOOD.
 * [**Project** Details](sections/project_details.md)
 * [Project **Needs** List](sections/need_list.md)
 * [Project **Needs** Details](sections/need_details.md)
@@ -26,7 +32,6 @@ JSON for serialization.
 * TODO [**User** Details](sections/user_details.md)
 * TODO [**Fundraising Event** List and Search](sections/fundraising_event_list.md)
 * TODO [**Fundraising Event** Details](sections/fundraising_event_details.md)
-* TODO [**Donate Money**](sections/donate_money.md)
 
 
 ### Client API
@@ -35,7 +40,7 @@ JSON for serialization.
 * [**Client** Donations List](sections/client_donation_list.md)
 
 This part of the API can only be used in agreement with betterplace.org.
-Please [contact our someone at betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung)
+Please [contact someone at betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung)
 for more information.
 
 *Example:* The local german newspaper "Trierischer Volksfreund"
@@ -52,21 +57,12 @@ For projects that would be `/clients/PERMALINK/projects.json` and `/clients/PERM
 projects, the API will return a `404` HTTP code.
 
 
-## Making a Request
+## General information
 
-*TODO*: All requests have to be tunneled through **SSL** and their URLs start with
-Betterdocs::Global <-- ??
-
-
-## Response Formats
-
-The responses are returned in the format specified by the format extension of
-the used request URL. At the moment the following formats are supported:
-
-- json via .json
-- jsonp via .js or .jsonp with an optional `callback`-param
-
-*TODO*
+* All request have to https
+* The response format is json, the request-extention .json
+* We support [Cross-origin resource sharing (CORS)](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing), so no proxy or JSONP is required
+* No Authentication: All api calls are public at the moment but there will be feature that require a authentication in the future.
 
 
 ## Request parameter format
@@ -174,12 +170,6 @@ The following HTTP result codes can be returned:
 - HTTP Code `500` is returned if a software error on the server was encountered.
 
 
-## Authentication
-
-All api calls are public at the moment.
-There will be feature that require a authentication in the future.
-
-
 ## API V1, V2, V3
 
 betterplace.org has three depricated APIs. For more information http://www.betterplace.org/de/api/documentation/welcome
@@ -187,9 +177,10 @@ betterplace.org has three depricated APIs. For more information http://www.bette
 
 ## Example apps
 
-*TODO*
+There are no example Apps at this point.
+Please send the link to your app to developers@betterplace.
 
 
 ## About betterplace.org
 
-*TODO*
+Learn more about betterplace at http://www.betterplace.org/de/how_it_works
