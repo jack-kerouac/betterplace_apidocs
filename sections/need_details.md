@@ -46,6 +46,66 @@ to make sure you only request data that is associated with one of your projects.
     <th>Example/Optional</th>
     <th>Description</th>
   </tr>
+  <tr>
+    <th>id</th>
+    <td>number</td>
+    <td>29</td>
+    <td>A integer number ≥ 1</td>
+  </tr>
+  <tr>
+    <th>created_at</th>
+    <td>string</td>
+    <td>"1994-11-05T13:15:30Z"</td>
+    <td>DateTime (ISO8601 with Timezone)</td>
+  </tr>
+  <tr>
+    <th>updated_at</th>
+    <td>string</td>
+    <td>"1994-11-05T13:15:30Z"</td>
+    <td>DateTime (ISO8601 with Timezone)</td>
+  </tr>
+  <tr>
+    <th>title</th>
+    <td>string</td>
+    <td>TODO</td>
+    <td>Max 50 character</td>
+  </tr>
+  <tr>
+    <th>description</th>
+    <td>string</td>
+    <td>TODO</td>
+    <td>TODO</td>
+  </tr>
+  <tr>
+    <th>completed</th>
+    <td>boolean</td>
+    <td>false</td>
+    <td>True if the need is 100 % financed</td>
+  </tr>
+  <tr>
+    <th>progress_percentage</th>
+    <td>number</td>
+    <td>82</td>
+    <td>% financed</td>
+  </tr>
+  <tr>
+    <th>donated_amount_in_cents</th>
+    <td>number</td>
+    <td>12382</td>
+    <td>How many cents are donated already</td>
+  </tr>
+  <tr>
+    <th>open_amount_in_cents</th>
+    <td>number</td>
+    <td>12382</td>
+    <td>How many cents are still needed to complete the need</td>
+  </tr>
+  <tr>
+    <th>requested_amount_in_cents</th>
+    <td>number</td>
+    <td>12382</td>
+    <td>How much money is needed in total</td>
+  </tr>
 </table>
 
 ## Response Links
@@ -55,11 +115,44 @@ to make sure you only request data that is associated with one of your projects.
     <th>Linkname</th>
     <th>Description</th>
   </tr>
+  <tr>
+    <th>self</th>
+    <td>Link to this resource itself
+(<a href="element_details.md">element details</a>)
+</td>
+  </tr>
+  <tr>
+    <th>project</th>
+    <td>Link to the related <a href="../project_details.md">project's details</a>
+</td>
+  </tr>
 </table>
 
 ## Response Example
 
 ```json
-null
+{
+  "format": "json",
+  "id": 59220,
+  "created_at": "2013-01-29T11:25:47Z",
+  "updated_at": "2013-01-29T11:27:54Z",
+  "title": "Organisation",
+  "description": "Kosten im Zusammenhang mit der Entwicklung eines deutschlandweiten Patenprogramms, zur Förderung der Weitergabe von zwischenmenschlichen Stärken.\r\n\r\nDetails hierzu können erfragt werden unter parallelen.utd@gmail.com",
+  "completed": true,
+  "progress_percentage": 100,
+  "donated_amount_in_cents": 60000,
+  "open_amount_in_cents": 0,
+  "requested_amount_in_cents": 60000,
+  "links": [
+    {
+      "rel": "self",
+      "href": "http://www.betterplace.dev/en/api_v4/projects/11748/needs/59220.json"
+    },
+    {
+      "rel": "project",
+      "href": "http://www.betterplace.dev/en/api_v4/projects/11748.json"
+    }
+  ]
+}
 ```
 
