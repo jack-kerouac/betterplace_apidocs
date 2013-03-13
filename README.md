@@ -21,15 +21,18 @@ and scheduled downtimes.
 
 ### Public API
 
-* General information below
+* General information [↓ below](#general-information)
+* HTTP Result Codes and Error Messages [↓ below](#http-result-codes-and-error-messages)
+* Changelog [↓ below](#changelog)
+* Known issues [↓ below](#known-issues)
 * [**Project** List and Search](sections/project_list.md) – Note: This returns a minimal result set for use in map-views. The extended result set for list-views ist still TODO.
 * [**Project** Details](sections/project_details.md)
 * [Project **Needs** List](sections/need_list.md)
 * [Project **Needs** Details](sections/need_details.md)
 * [Project **Blog Post** List](sections/blog_post_list.md)
 * [Project **Blog Post** Details](sections/blog_post_details.md)
-* [Project **Opinions** List](sections/opinion_list.md)
-* [Project **Opinions** Details](sections/opinion_detail.md)
+* WIP [Project **Opinions** List](sections/opinion_list.md)
+* [Project **Opinions** Details](sections/opinion_details.md)
 * TODO [Project **Pictures** List](sections/picture_list.md)
 * [**Volunteering** List and Search](sections/volunteering_list.md)
 * [**Volunteering** Details](sections/volunteering_details.md)
@@ -183,6 +186,7 @@ The following HTTP result codes can be returned:
 
 ## Changelog
 
+* 2012-03-13: Update TOC, fix opinions-details and -list response, fix empty documentation (@tordans)
 * 2012-03-12: Several updates to readme, updates to descriptions for clients, updated opinions-docu, added know-issues and changelog sections (@tordans)
 * 2012-03-11: Initial version (@betterplace)
 
@@ -191,13 +195,14 @@ The following HTTP result codes can be returned:
 
 Please contact developers@betterplace.org for more information
 
-1. Several documentation pages are empty
+1. ~~Several documentation pages are empty~~
 1. The `links` to other api-calls dont use the api-subdomain but www instead
 1. The `links` to images dont use the asset path asset1 but www instead
 1. The pictures-list-docu-page is missing
 1. `projects/14/pictures.json` is broken (500)
-1. /project/id/opinions.json alsways return all opinions instead of those for the project
-1. Not all ressources have a documentation-url as part of the json
+1. ~~/project/id/opinions.json alsways return all opinions instead of those for the project~~
+1. Not all resources have a documentation-url as part of the json
+1. ~~The response-table is empty for some ressources~~
 1. The response-table does not show the root-documentation for response-elements with sub-elements (for example carrier.name is documented but carrier is not)
 
 
