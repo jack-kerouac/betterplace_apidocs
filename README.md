@@ -74,6 +74,7 @@ has it's own donation portal at ["Meine Hilfe zählt"](http://www.volksfreund-se
 * The response language is definde by the URL-language-section (/en/, /de/ (default), …)
 * We support [Cross-origin resource sharing (CORS)](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing), so no proxy or JSONP is required
 * No Authentication: All api calls are public at the moment but there will be feature that require a authentication in the future.
+* All responses are cached for 5 minutes at the moment
 
 
 ### Request parameter format
