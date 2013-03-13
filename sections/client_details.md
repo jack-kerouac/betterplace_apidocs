@@ -37,12 +37,6 @@ Some client-statistics for a betterplace.org client.
     <th>Description</th>
   </tr>
   <tr>
-    <th>permalink</th>
-    <td>string</td>
-    <td>Volksfreund</td>
-    <td>Permalink name for this client whithin the betterplace.org-client-system</td>
-  </tr>
-  <tr>
     <th>donated_amount_in_cents</th>
     <td>number</td>
     <td>10100</td>
@@ -110,7 +104,6 @@ This is also calculated based on the sum of all elements.
 ```json
 {
   "format": "json",
-  "permalink": "Volksfreund",
   "donated_amount_in_cents": 65707968,
   "open_amount_in_cents": 21493232,
   "requested_amount_in_cents": 87201200,
