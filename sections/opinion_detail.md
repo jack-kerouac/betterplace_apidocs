@@ -2,7 +2,7 @@
 # Project Opinion Details ⇄ [List](opinion_list.md)
 
 ```nginx
-GET https://api.betterplace.org/en/portals/22/projects.json?action=show&controller=api_v4%2Fopinions&project_id=38
+GET https://api.betterplace.org/en/api_v4/projects/38/opinions/22.json
 ```
 
 The details of a betterplace.org project opinion (donate money).
@@ -46,6 +46,51 @@ to make sure you only request data that is associated with one of your projects.
     <th>Example/Optional</th>
     <th>Description</th>
   </tr>
+  <tr>
+    <th>id</th>
+    <td>number</td>
+    <td>1</td>
+    <td>An integer number ≥ 1</td>
+  </tr>
+  <tr>
+    <th>created_at</th>
+    <td>string</td>
+    <td>"1994-11-05T13:15:30Z"</td>
+    <td>DateTime (ISO8601 with Timezone)</td>
+  </tr>
+  <tr>
+    <th>with_donation</th>
+    <td>boolean</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>score</th>
+    <td>string</td>
+    <td>positive</td>
+    <td>Opinions can be positive or negative (what we call critial).
+Critial opinions usually get a comment as answer very fast but
+there is no API for opinion-comments yet.
+</td>
+  </tr>
+  <tr>
+    <th>author.name</th>
+    <td>null &#124; string</td>
+    <td>"Till B."</td>
+    <td>Display name of a betterplace.org user.
+Possible formats: "Till B.", "T. Behnke", "Till Behnke".
+In the case of donation-opinions the name might also be anonymized
+like "Payback User" or empty/null for anonymous donations.
+</td>
+  </tr>
+  <tr>
+    <th>message</th>
+    <td>null &#124; string</td>
+    <td>"This is a great project. In spring 2007 I travelled around the area together with my children and …"</td>
+    <td>An optional message users can provide to tell others
+why they like or dislike this project
+</td>
+  </tr>
 </table>
 
 ## Response Links
@@ -55,11 +100,69 @@ to make sure you only request data that is associated with one of your projects.
     <th>Linkname</th>
     <th>Description</th>
   </tr>
+  <tr>
+    <th>self</th>
+    <td>Link to this resource itself
+(<a href="opinion_details.md">opinion details</a>)
+</td>
+  </tr>
+  <tr>
+    <th>author.platform</th>
+    <td>The user's profile on betterplace.org.
+To view a user profile you have to be logged in.
+This array is empty if the user has no useraccount
+with betterplace.org but donated via one of our partner.
+</td>
+  </tr>
+  <tr>
+    <th>author.picture.profile</th>
+    <td>Medium size</td>
+  </tr>
+  <tr>
+    <th>author.picture.thumb</th>
+    <td>Thumbnail size</td>
+  </tr>
 </table>
 
 ## Response Example
 
 ```json
-null
+{
+  "format": "json",
+  "id": 22,
+  "created_at": "2007-11-24T13:14:02Z",
+  "with_donation": false,
+  "score": "positive",
+  "author": {
+    "format": "json",
+    "name": "G. Krabbe",
+    "picture": {
+      "format": "json",
+      "links": [
+        {
+          "rel": "profile",
+          "href": "http://www.betterplace.org/paperclip/000/004/520/profile_Schule_Leutersdorf_2.jpg"
+        },
+        {
+          "rel": "thumb",
+          "href": "http://www.betterplace.org/paperclip/000/004/520/thumb_Schule_Leutersdorf_2.png"
+        }
+      ]
+    },
+    "links": [
+      {
+        "rel": "platform",
+        "href": "http://www.betterplace.dev/en/users/giesela_k"
+      }
+    ]
+  },
+  "message": "Ich bin zweimal in Bolivien gewesen, auch in El Alto und im COMPA, und ich habe gesehen, wie schwer das (Über-)leben für viele Leute ist. Wie wichtig Bildung ist, sollte ich als ehemalige Lehrerin ja wissen.... Das hier vorgestellte Projekt erinnert mich an die Fahrbibliotheken in der ehemaligen DDR; und wenn hier benachteiligten Kindern und Jugendlichen in Gegenden ohne kulturelle Infrastruktur eine adäquate Form von Bildung ermöglicht werden soll, ist das nur zu unterstützen. Nach meinen Möglichkeiten werde ich das Projekt unterstützen.",
+  "links": [
+    {
+      "rel": "self",
+      "href": "http://www.betterplace.dev/en/api_v4/projects/35/opinions/22.json"
+    }
+  ]
+}
 ```
 

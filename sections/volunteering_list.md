@@ -184,14 +184,14 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
   </tr>
   <tr>
     <th>carrier.latitude</th>
-    <td>string</td>
-    <td>"13.1234"</td>
+    <td>number</td>
+    <td>13.1234</td>
     <td>Contact data for the organisation</td>
   </tr>
   <tr>
     <th>carrier.longitude</th>
-    <td>string</td>
-    <td>"54.123"</td>
+    <td>number</td>
+    <td>54.123</td>
     <td>Contact data for the organisation</td>
   </tr>
   <tr>
@@ -289,6 +289,14 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
   <tr>
     <th>image.medium</th>
     <td>Medium size</td>
+  </tr>
+  <tr>
+    <th>contact.picture.profile</th>
+    <td>Medium size</td>
+  </tr>
+  <tr>
+    <th>contact.picture.thumb</th>
+    <td>Thumbnail size</td>
   </tr>
 </table>
 
