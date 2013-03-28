@@ -104,8 +104,8 @@ for the permalink
   <tr>
     <th>description</th>
     <td>string</td>
-    <td>TODO</td>
-    <td>TODO</td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <th>tax_deductible</th>

@@ -62,14 +62,14 @@ to make sure you only request data that is associated with one of your projects.
   <tr>
     <th>title</th>
     <td>string</td>
-    <td>TODO</td>
+    <td></td>
     <td>Max 50 character</td>
   </tr>
   <tr>
     <th>description</th>
     <td>string</td>
-    <td>TODO</td>
-    <td>TODO</td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <th>completed</th>
@@ -137,13 +137,13 @@ to make sure you only request data that is associated with one of your projects.
       "format": "json",
       "id": 58515,
       "created_at": "2013-01-14T08:49:05Z",
-      "updated_at": "2013-02-04T13:24:12Z",
+      "updated_at": "2013-03-28T10:13:17Z",
       "title": "Ping Pong Table ",
       "description": "A moveable Ping Pong (Table Tennis) table for our multi-sport facility in Skateistan's new Skatepark in Mazar-e-Sharif in Northern Afghanistan.",
       "completed": false,
-      "progress_percentage": 65,
-      "donated_amount_in_cents": 18700,
-      "open_amount_in_cents": 9700,
+      "progress_percentage": 66,
+      "donated_amount_in_cents": 18900,
+      "open_amount_in_cents": 9500,
       "requested_amount_in_cents": 28400,
       "links": [
         {

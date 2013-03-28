@@ -67,14 +67,14 @@ to make sure you only request data that is associated with one of your projects.
   <tr>
     <th>title</th>
     <td>string</td>
-    <td>TODO</td>
+    <td></td>
     <td>Max 50 character</td>
   </tr>
   <tr>
     <th>description</th>
     <td>string</td>
-    <td>TODO</td>
-    <td>TODO</td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <th>completed</th>

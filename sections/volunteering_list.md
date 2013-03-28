@@ -49,6 +49,10 @@ and shows results based on the lookup-bounding-box.
     <td>Order the result by <code>has_image</code> (default), <code>created_at</code> (second default).
 Use the optional <code>ASC</code> (default) or <code>DESC</code>.
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
+<br>
+The default order is the same as for the
+<a href="http//www.betterplace.org/en/volunteering/list">betterplace.org volunteering list</a>:
+<code>has_image:desc| carrier_has_image:desc| created_at:desc</code>
 </td>
   </tr>
   <tr>

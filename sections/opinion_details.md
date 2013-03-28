@@ -59,10 +59,10 @@ to make sure you only request data that is associated with one of your projects.
     <td>DateTime (ISO8601 with Timezone)</td>
   </tr>
   <tr>
-    <th>with_donation</th>
-    <td>boolean</td>
-    <td></td>
-    <td></td>
+    <th>donated_amount_in_cents</th>
+    <td>number</td>
+    <td>5000</td>
+    <td>If the opinion was created as part of a donation, this shows the opinions text</td>
   </tr>
   <tr>
     <th>score</th>
@@ -131,7 +131,6 @@ with betterplace.org but donated via one of our partner.
   "format": "json",
   "id": 22,
   "created_at": "2007-11-24T13:14:02Z",
-  "with_donation": false,
   "score": "positive",
   "author": {
     "format": "json",

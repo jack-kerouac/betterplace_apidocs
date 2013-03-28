@@ -79,10 +79,10 @@ It is possible to set multiple facet filters.
     <td>DateTime (ISO8601 with Timezone)</td>
   </tr>
   <tr>
-    <th>with_donation</th>
-    <td>boolean</td>
-    <td></td>
-    <td></td>
+    <th>donated_amount_in_cents</th>
+    <td>number</td>
+    <td>5000</td>
+    <td>If the opinion was created as part of a donation, this shows the opinions text</td>
   </tr>
   <tr>
     <th>score</th>
@@ -148,9 +148,9 @@ with betterplace.org but donated via one of our partner.
 
 ```json
 {
-  "total_entries": 375,
+  "total_entries": 376,
   "offset": 0,
-  "total_pages": 125,
+  "total_pages": 126,
   "current_page": 1,
   "per_page": 3,
   "data": [
@@ -158,7 +158,6 @@ with betterplace.org but donated via one of our partner.
       "format": "json",
       "id": 964,
       "created_at": "2009-03-18T16:34:37Z",
-      "with_donation": false,
       "score": "positive",
       "author": {
         "format": "json",
@@ -182,7 +181,6 @@ with betterplace.org but donated via one of our partner.
       "format": "json",
       "id": 1024,
       "created_at": "2009-03-31T18:21:52Z",
-      "with_donation": false,
       "score": "positive",
       "author": {
         "format": "json",
@@ -219,7 +217,6 @@ with betterplace.org but donated via one of our partner.
       "format": "json",
       "id": 1323,
       "created_at": "2009-06-14T08:58:06Z",
-      "with_donation": false,
       "score": "positive",
       "author": {
         "format": "json",

@@ -25,7 +25,7 @@ and scheduled downtimes.
 * HTTP Result Codes and Error Messages [↓ below](#http-result-codes-and-error-messages)
 * Changelog [↓ below](#changelog)
 * Known issues [↓ below](#known-issues)
-* [**Project** List and Search](sections/project_list.md) – Note: This returns a minimal result set for use in map-views. The extended result set for list-views ist still TODO.
+* [**Project** List and Search](sections/project_list.md)
 * [**Project** Details](sections/project_details.md)
 * [Project **Needs** List](sections/need_list.md)
 * [Project **Needs** Details](sections/need_details.md)
@@ -186,6 +186,8 @@ The following HTTP result codes can be returned:
 
 ## Changelog
 
+* 2012-03-28: The project-list now returns the full result-set for each project. The minimal result set is gone for now but will be added later. The default-number of results changed to 20 for all lists.
+* 2012-05~15: Add known issues, improve documentation, remove opinion.with_donation, add opinion.donated_amount_in_cents, project.description returns html now
 * 2012-03-13: Update TOC, fix opinions-details and -list response, fix empty documentation (@tordans)
 * 2012-03-12: Several updates to readme, updates to descriptions for clients, updated opinions-docu, added know-issues and changelog sections (@tordans)
 * 2012-03-11: Initial version (@betterplace)
@@ -195,20 +197,23 @@ The following HTTP result codes can be returned:
 
 Please contact developers@betterplace.org for more information
 
-1. ~~Several documentation pages are empty~~
-1. The `links` to other api-calls dont use the api-subdomain but www instead
-1. The `links` to images dont use the asset path asset1 but www instead
-1. The pictures-list-docu-page is missing
-1. `projects/14/pictures.json` is broken (500)
-1. ~~/project/id/opinions.json alsways return all opinions instead of those for the project~~
-1. Not all resources have a documentation-url as part of the json
-1. ~~The response-table is empty for some ressources~~
-1. The response-table does not show the root-documentation for response-elements with sub-elements (for example carrier.name is documented but carrier is not)
+1. ~~Documentation: Several documentation pages are empty~~
+1. All Ressources: The `links` to other api-calls dont use the api-subdomain but www instead
+1. All Ressources: The `links` to images dont use the asset path asset1 but www instead
+1. Documentation: The pictures-list-docu-page is missing
+1. ProjectPictures: `projects/14/pictures.json` is broken (500)
+1. ~~Opinions: /project/id/opinions.json alsways return all opinions instead of those for the project~~
+1. Documentation: Not all resources have a documentation-url as part of the json
+1. ~~Documentation: The response-table is empty for some ressources~~
+1. Documentation: The response-table does not show the root-documentation for response-elements with sub-elements (for example carrier.name is documented but carrier is not)
+1. Blogposts: There is no way yet to filter BlogPosts from PayoutBlogPost
+1. ClientProjectsTags: There is no way yet to filter Projects by ClientProjectsTags
+1. General OpinionsList: There is no list of opinions without a project-scope. So there is no way to show the last 4 opinions with a comment for example.
 
 
 ## API V1, V2, V3
 
-betterplace.org has three depricated APIs. For more information http://www.betterplace.org/de/api/documentation/welcome
+betterplace.org has three deprecated APIs. For more information contact product@betterplace.org.
 
 
 ## Example apps

@@ -51,7 +51,8 @@ that still has to be forwarded to one of the client-projects-needs.
     <td>number</td>
     <td>9900</td>
     <td>How many cents are still needed to complete all client projects.
-This is calculated based on the sum of all elements.
+This is calculated based on the sum of all
+<a href="need_details.md">needs (open_amount_in_cents)</a>.
 We also substract the money of the client-pool-fundraising-event
 that still has to be forwarded to one of the client-projects-needs.
 </td>
@@ -61,21 +62,22 @@ that still has to be forwarded to one of the client-projects-needs.
     <td>number</td>
     <td>11000</td>
     <td>How many cents are still needed to complete all client projects.
-This is also calculated based on the sum of all elements.
+This is also calculated based on the sum of all
+<a href="need_details.md">needs (requested_amount_in_cents)</a>.
 </td>
   </tr>
   <tr>
     <th>projects_count</th>
     <td>number</td>
     <td>100</td>
-    <td>The number of projects of this client</td>
+    <td>The number of <a href="../project_list.md">projects</a> of this client
+</td>
   </tr>
   <tr>
     <th>client_donations_count</th>
     <td>number</td>
     <td>200</td>
-    <td>The number of donations that are associated with this client.
-<a href="../client_donation_list.md">See client donation list</a> for more.
+    <td>The number of <a href="../client_donation_list.md">client donations</a> for this client
 </td>
   </tr>
 </table>
