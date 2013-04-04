@@ -142,6 +142,14 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
       "format": "json",
       "links": [
         {
+          "rel": "original",
+          "href": "http://www.betterplace.org/paperclip/000/000/632/original_Bonty_Botumile.jpg"
+        },
+        {
+          "rel": "large",
+          "href": "http://www.betterplace.org/paperclip/000/000/632/big_Bonty_Botumile.png"
+        },
+        {
           "rel": "profile",
           "href": "http://www.betterplace.org/paperclip/000/000/632/profile_Bonty_Botumile.jpg"
         },

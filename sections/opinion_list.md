@@ -135,6 +135,14 @@ with betterplace.org but donated via one of our partner.
 </td>
   </tr>
   <tr>
+    <th>author.picture.original</th>
+    <td>Original size as uploaded by the user</td>
+  </tr>
+  <tr>
+    <th>author.picture.large</th>
+    <td>Large size</td>
+  </tr>
+  <tr>
     <th>author.picture.profile</th>
     <td>Medium size</td>
   </tr>
@@ -148,7 +156,7 @@ with betterplace.org but donated via one of our partner.
 
 ```json
 {
-  "total_entries": 376,
+  "total_entries": 377,
   "offset": 0,
   "total_pages": 126,
   "current_page": 1,
@@ -189,6 +197,14 @@ with betterplace.org but donated via one of our partner.
           "format": "json",
           "links": [
             {
+              "rel": "original",
+              "href": "http://www.betterplace.org/paperclip/000/047/224/original_CIMG4253.JPG"
+            },
+            {
+              "rel": "large",
+              "href": "http://www.betterplace.org/paperclip/000/047/224/big_CIMG4253.png"
+            },
+            {
               "rel": "profile",
               "href": "http://www.betterplace.org/paperclip/000/047/224/profile_CIMG4253.jpg"
             },
@@ -224,6 +240,14 @@ with betterplace.org but donated via one of our partner.
         "picture": {
           "format": "json",
           "links": [
+            {
+              "rel": "original",
+              "href": "http://www.betterplace.org/paperclip/000/058/762/original_Mirwais_Mohsen_image.jpg"
+            },
+            {
+              "rel": "large",
+              "href": "http://www.betterplace.org/paperclip/000/058/762/big_Mirwais_Mohsen_image.png"
+            },
             {
               "rel": "profile",
               "href": "http://www.betterplace.org/paperclip/000/058/762/profile_Mirwais_Mohsen_image.jpg"

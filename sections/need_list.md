@@ -137,13 +137,13 @@ to make sure you only request data that is associated with one of your projects.
       "format": "json",
       "id": 58515,
       "created_at": "2013-01-14T08:49:05Z",
-      "updated_at": "2013-03-28T10:13:17Z",
+      "updated_at": "2013-03-28T17:14:42Z",
       "title": "Ping Pong Table ",
       "description": "A moveable Ping Pong (Table Tennis) table for our multi-sport facility in Skateistan's new Skatepark in Mazar-e-Sharif in Northern Afghanistan.",
       "completed": false,
-      "progress_percentage": 66,
-      "donated_amount_in_cents": 18900,
-      "open_amount_in_cents": 9500,
+      "progress_percentage": 67,
+      "donated_amount_in_cents": 19100,
+      "open_amount_in_cents": 9300,
       "requested_amount_in_cents": 28400,
       "links": [
         {

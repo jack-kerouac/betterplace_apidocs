@@ -159,12 +159,28 @@ with betterplace.org but donated via one of our partner.
 </td>
   </tr>
   <tr>
+    <th>picture.original</th>
+    <td>Original size as uploaded by the user</td>
+  </tr>
+  <tr>
+    <th>picture.large</th>
+    <td>Large size</td>
+  </tr>
+  <tr>
     <th>picture.profile</th>
     <td>Medium size</td>
   </tr>
   <tr>
     <th>picture.thumb</th>
     <td>Thumbnail size</td>
+  </tr>
+  <tr>
+    <th>picture.original</th>
+    <td>Original size as uploaded by the user</td>
+  </tr>
+  <tr>
+    <th>picture.large</th>
+    <td>Large size</td>
   </tr>
   <tr>
     <th>picture.profile</th>
@@ -208,6 +224,14 @@ with betterplace.org but donated via one of our partner.
           "format": "json",
           "links": [
             {
+              "rel": "original",
+              "href": "http://www.betterplace.org/paperclip/000/001/032/original_tegning-2.jpg"
+            },
+            {
+              "rel": "large",
+              "href": "http://www.betterplace.org/paperclip/000/001/032/big_tegning-2.png"
+            },
+            {
               "rel": "profile",
               "href": "http://www.betterplace.org/paperclip/000/001/032/profile_tegning-2.jpg"
             },
@@ -227,6 +251,14 @@ with betterplace.org but donated via one of our partner.
       "picture": {
         "format": "json",
         "links": [
+          {
+            "rel": "original",
+            "href": "http://www.betterplace.org/paperclip/000/000/339/original_logo_black.gif"
+          },
+          {
+            "rel": "large",
+            "href": "http://www.betterplace.org/paperclip/000/000/339/big_logo_black.png"
+          },
           {
             "rel": "profile",
             "href": "http://www.betterplace.org/paperclip/000/000/339/profile_logo_black.png"
@@ -274,6 +306,14 @@ with betterplace.org but donated via one of our partner.
           "format": "json",
           "links": [
             {
+              "rel": "original",
+              "href": "http://www.betterplace.org/paperclip/000/000/392/original_Andreas_Renner_GEXSI.jpg"
+            },
+            {
+              "rel": "large",
+              "href": "http://www.betterplace.org/paperclip/000/000/392/big_Andreas_Renner_GEXSI.png"
+            },
+            {
               "rel": "profile",
               "href": "http://www.betterplace.org/paperclip/000/000/392/profile_Andreas_Renner_GEXSI.jpg"
             },
@@ -293,6 +333,14 @@ with betterplace.org but donated via one of our partner.
       "picture": {
         "format": "json",
         "links": [
+          {
+            "rel": "original",
+            "href": "http://www.betterplace.org/paperclip/000/000/373/original_GEXSI.gif"
+          },
+          {
+            "rel": "large",
+            "href": "http://www.betterplace.org/paperclip/000/000/373/big_GEXSI.png"
+          },
           {
             "rel": "profile",
             "href": "http://www.betterplace.org/paperclip/000/000/373/profile_GEXSI.png"

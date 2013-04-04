@@ -186,6 +186,7 @@ The following HTTP result codes can be returned:
 
 ## Changelog
 
+* 2012-03-03: Add picture size 'large' and 'original' to image list for projects. Please note that the images-part of the API ist still beta and might change slightly in the future.
 * 2012-03-28: The project-list now returns the full result-set for each project. The minimal result set is gone for now but will be added later. The default-number of results changed to 20 for all lists.
 * 2012-05~15: Add known issues, improve documentation, remove opinion.with_donation, add opinion.donated_amount_in_cents, project.description returns html now
 * 2012-03-13: Update TOC, fix opinions-details and -list response, fix empty documentation (@tordans)
@@ -197,14 +198,11 @@ The following HTTP result codes can be returned:
 
 Please contact developers@betterplace.org for more information
 
-1. ~~Documentation: Several documentation pages are empty~~
 1. All Ressources: The `links` to other api-calls dont use the api-subdomain but www instead
 1. All Ressources: The `links` to images dont use the asset path asset1 but www instead
 1. Documentation: The pictures-list-docu-page is missing
 1. ProjectPictures: `projects/14/pictures.json` is broken (500)
-1. ~~Opinions: /project/id/opinions.json alsways return all opinions instead of those for the project~~
 1. Documentation: Not all resources have a documentation-url as part of the json
-1. ~~Documentation: The response-table is empty for some ressources~~
 1. Documentation: The response-table does not show the root-documentation for response-elements with sub-elements (for example carrier.name is documented but carrier is not)
 1. Blogposts: There is no way yet to filter BlogPosts from PayoutBlogPost
 1. ClientProjectsTags: There is no way yet to filter Projects by ClientProjectsTags

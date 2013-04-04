@@ -242,6 +242,14 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
     <td>Medium size</td>
   </tr>
   <tr>
+    <th>contact.picture.original</th>
+    <td>Original size as uploaded by the user</td>
+  </tr>
+  <tr>
+    <th>contact.picture.large</th>
+    <td>Large size</td>
+  </tr>
+  <tr>
     <th>contact.picture.profile</th>
     <td>Medium size</td>
   </tr>

@@ -115,6 +115,14 @@ with betterplace.org but donated via one of our partner.
 </td>
   </tr>
   <tr>
+    <th>author.picture.original</th>
+    <td>Original size as uploaded by the user</td>
+  </tr>
+  <tr>
+    <th>author.picture.large</th>
+    <td>Large size</td>
+  </tr>
+  <tr>
     <th>author.picture.profile</th>
     <td>Medium size</td>
   </tr>
@@ -138,6 +146,14 @@ with betterplace.org but donated via one of our partner.
     "picture": {
       "format": "json",
       "links": [
+        {
+          "rel": "original",
+          "href": "http://www.betterplace.org/paperclip/000/004/520/original_Schule_Leutersdorf_2.JPG"
+        },
+        {
+          "rel": "large",
+          "href": "http://www.betterplace.org/paperclip/000/004/520/big_Schule_Leutersdorf_2.png"
+        },
         {
           "rel": "profile",
           "href": "http://www.betterplace.org/paperclip/000/004/520/profile_Schule_Leutersdorf_2.jpg"

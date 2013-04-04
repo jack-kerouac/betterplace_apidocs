@@ -166,12 +166,28 @@ with betterplace.org but donated via one of our partner.
 </td>
   </tr>
   <tr>
+    <th>picture.original</th>
+    <td>Original size as uploaded by the user</td>
+  </tr>
+  <tr>
+    <th>picture.large</th>
+    <td>Large size</td>
+  </tr>
+  <tr>
     <th>picture.profile</th>
     <td>Medium size</td>
   </tr>
   <tr>
     <th>picture.thumb</th>
     <td>Thumbnail size</td>
+  </tr>
+  <tr>
+    <th>picture.original</th>
+    <td>Original size as uploaded by the user</td>
+  </tr>
+  <tr>
+    <th>picture.large</th>
+    <td>Large size</td>
   </tr>
   <tr>
     <th>picture.profile</th>
@@ -208,6 +224,14 @@ with betterplace.org but donated via one of our partner.
       "format": "json",
       "links": [
         {
+          "rel": "original",
+          "href": "http://www.betterplace.org/paperclip/000/007/084/original_Fidel.jpg"
+        },
+        {
+          "rel": "large",
+          "href": "http://www.betterplace.org/paperclip/000/007/084/big_Fidel.png"
+        },
+        {
           "rel": "profile",
           "href": "http://www.betterplace.org/paperclip/000/007/084/profile_Fidel.jpg"
         },
@@ -227,6 +251,14 @@ with betterplace.org but donated via one of our partner.
   "picture": {
     "format": "json",
     "links": [
+      {
+        "rel": "original",
+        "href": "http://www.betterplace.org/paperclip/000/007/098/original_Viva_con_Agua_Logo.jpg"
+      },
+      {
+        "rel": "large",
+        "href": "http://www.betterplace.org/paperclip/000/007/098/big_Viva_con_Agua_Logo.png"
+      },
       {
         "rel": "profile",
         "href": "http://www.betterplace.org/paperclip/000/007/098/profile_Viva_con_Agua_Logo.png"
