@@ -33,8 +33,8 @@ Results are contains in a *data* attribute.
     <th>id</th>
     <td><code>Ernaehrung</code></td>
     <td>required</td>
-    <td>The name of the client tag – a list of tags is provided
-by [betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung).
+    <td>The name of the client tag – a list of tags is provided by
+<a href="http://www.betterplace-solutions.de/#buergerzeitung">betterplace solutions</a>.
 </td>
   </tr>
 </table>
@@ -307,9 +307,9 @@ set for organisations.
 {
   "total_entries": 8,
   "offset": 0,
-  "total_pages": 3,
+  "total_pages": 4,
   "current_page": 1,
-  "per_page": 3,
+  "per_page": 2,
   "data": [
     {
       "id": 6270,
@@ -559,132 +559,6 @@ set for organisations.
         {
           "rel": "blog_posts",
           "href": "http://www.betterplace.dev/en/api_v4/projects/7559/blog_posts.json"
-        }
-      ]
-    },
-    {
-      "id": 7830,
-      "created_at": "2011-10-04T08:13:14Z",
-      "updated_at": "2012-09-13T00:15:25Z",
-      "latitude": 49.75278091430664,
-      "longitude": 6.68715000152588,
-      "street": "Am Weidengraben 31a",
-      "zip": "54296",
-      "city": "Trier",
-      "country": "Germany",
-      "title": "Ein Traum von einer Küche",
-      "description": "Unsere Projektnummer: 7830 - Als „Treffpunkt Am Weidengraben e.V.“ sind wir seit 1989 als freier Träger in der Jugendhilfe in der Stadt Trier tätig. Auf seit dieser Zeit unterhält der Verein ein Bewohnerzentrum im Stadtteil mit einem integrativen Hort für insgesamt 30 Kinder. Zusätzlich zu diesem Haus ist es den Verantwortlichen zum Jahreswechsel 2009/2010 gelungen, eine ehemalige Gastronomie im Stadtteil zum Jugendzentrum „Auf der Höhe\" umzugestalten. Auf insgesamt drei Etagen finden die Kinder und Jugendlichen ausreichend Platz, um die vielfältigen Angebote wahrzunehmen und ihren Neigungen nachzukommen. Diese Entwicklung war nötig, teilten sich doch die unterschiedlichen Abteilungen knapp 20 Jahre die wenigen Räume innerhalb des Bewohnerzentrums. <br />Zur verdeutlich der Situation sei hier kurz erwähnt, dass bis zu diesem Zeitpunkt täglich die 30 Kinder des Hortes, sowie Senior/innen als auch Kinder und Jugendliche des Stadtteils das Bewohnerzentrum für ihre jeweiligen Belange nutzten.<br />Hierbei kam der Küche des Hauses eine besondere Bedeutung zu. Sie wurde natürlich als \"Küche\" sowohl für den regelmäßig angebotenen Senioren Mittagstisch, als auch für Kochangebote im Rahmen des Kinder – und Jugend Clubs in der Jugendarbeit genutzt. Daneben bedienen sich ihrer in unterschiedlichen Nutzergruppen des Hauses und hier seien nicht zuletzt die vielfältigen Vermietungen der private Feierlichkeiten oder Jubiläen genannt, für die unsere Bewohnerzentrum gerne am Wochenende genutzt. Weiterhin war sie Ausweichquartier als Gruppenraum, wenn es wieder einmal eng wurde. <br />Nun kann man sich lebhaft vorstellen, dass über die Jahre intensiver Nutzung des Mobiliars trotz einer alles in allem sehr pfleglichen Behandlung Abnutzungserscheinungen nicht ausbleiben. Über die Jahre dringt Feuchtigkeit in die Arbeitsplatte, so dass diese an verschiedenen Stellen aufquillt. Schubladen gehen aus dem Leim bzw. laufen nicht mehr richtig in ihren Führungen, Scharniere brechen, Türen schließen nicht mehr richtig, usw. Alles kleinere Schäden, die aber in der Summe eine Reparatur unrentabel machen, da ganze Schränke ausgetauscht werden müssten.<br />Um unseren pädagogischen Angeboten im Bereich Gesundheit/Ernährung weiterhin nachkommen zu können, möchten wir langfristig unsere alte Küche gegen eine neue austauschen. Für viele Kinder ist die Frage einer gesunden Ernährung nicht unbedingt ein Thema, das in Elternhaus besprochen wird. Die Frage, was gekocht wird, den Einkauf und die Zubereitung bis hin zur gemeinsamen Mahlzeit wird von uns in unserer Arbeit gerne und regelmäßig aufgegriffen. <br />Um die Bedingungen dafür zu verbessern, bitten wir Sie um Ihre Unterstützung. Da wir in der Finanzierung unserer Arbeit wesentlich von städtischen Zuschüssen abhängig sind, ist eine solche Investitionen ohne ihre Unterstützung absehbar wohl nicht zu realisieren. <br />Wir tun selbst unser Möglichstes, um den „Traum einer neuen Küche“ verwirklichen zu können, doch alleine werden wir es wohl kaum schaffen.",
-      "tax_deductible": true,
-      "open_amount_in_cents": 0,
-      "positive_opinions_count": 33,
-      "negative_opinions_count": 0,
-      "donor_count": 22,
-      "progress_percentage": 100,
-      "incomplete_need_count": 0,
-      "completed_need_count": 10,
-      "blog_post_count": 12,
-      "contact": {
-        "name": "S. Zawar-Schlegel",
-        "picture": {
-          "links": [
-            {
-              "rel": "original",
-              "href": "http://www.betterplace.org/paperclip/000/262/879/original_Stefan%20Zawar-Schlegel.JPG"
-            },
-            {
-              "rel": "large",
-              "href": "http://www.betterplace.org/paperclip/000/262/879/big_Stefan%20Zawar-Schlegel.png"
-            },
-            {
-              "rel": "profile",
-              "href": "http://www.betterplace.org/paperclip/000/262/879/profile_Stefan%20Zawar-Schlegel.jpg"
-            },
-            {
-              "rel": "thumb",
-              "href": "http://www.betterplace.org/paperclip/000/262/879/thumb_Stefan%20Zawar-Schlegel.png"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "platform",
-            "href": "http://www.betterplace.dev/en/users/stefan_z4"
-          }
-        ]
-      },
-      "carrier": {
-        "name": "Treffpunkt am Weidengraben e.V.",
-        "picture": {
-          "links": [
-            {
-              "rel": "original",
-              "href": "http://www.betterplace.org/paperclip/000/262/878/original_Logo.jpg"
-            },
-            {
-              "rel": "large",
-              "href": "http://www.betterplace.org/paperclip/000/262/878/big_Logo.png"
-            },
-            {
-              "rel": "profile",
-              "href": "http://www.betterplace.org/paperclip/000/262/878/profile_Logo.png"
-            },
-            {
-              "rel": "thumb",
-              "href": "http://www.betterplace.org/paperclip/000/262/878/thumb_Logo.png"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "self",
-            "href": "http://www.betterplace.dev/en/api_v4/organisations/8576.json"
-          }
-        ]
-      },
-      "profile_picture": {
-        "links": [
-          {
-            "rel": "original",
-            "href": "http://www.betterplace.org/paperclip/000/265/390/original_big_Kuechenperspektive_II.png"
-          },
-          {
-            "rel": "large",
-            "href": "http://www.betterplace.org/paperclip/000/265/390/big_big_Kuechenperspektive_II.png"
-          },
-          {
-            "rel": "profile",
-            "href": "http://www.betterplace.org/paperclip/000/265/390/profile_big_Kuechenperspektive_II.jpg"
-          },
-          {
-            "rel": "thumb",
-            "href": "http://www.betterplace.org/paperclip/000/265/390/thumb_big_Kuechenperspektive_II.png"
-          }
-        ]
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/7830.json"
-        },
-        {
-          "rel": "platform",
-          "href": "http://www.betterplace.dev/en/projects/7830-ein-traum-von-einer-kuche"
-        },
-        {
-          "rel": "opinions",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/7830/opinions.json"
-        },
-        {
-          "rel": "pictures",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/7830/pictures.json"
-        },
-        {
-          "rel": "needs",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/7830/needs.json"
-        },
-        {
-          "rel": "blog_posts",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/7830/blog_posts.json"
         }
       ]
     }
