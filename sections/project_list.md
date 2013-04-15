@@ -277,7 +277,13 @@ like "Payback User" or empty/null for anonymous donations.
   </tr>
   <tr>
     <th>pictures</th>
-    <td></td>
+    <td>Link to <a href="../picture_list.md">project picture list</a>
+</td>
+  </tr>
+  <tr>
+    <th>needs</th>
+    <td>Link to <a href="../need_list.md">project need list</a>
+</td>
   </tr>
   <tr>
     <th>blog_posts</th>
@@ -361,10 +367,9 @@ set for organisations.
   "per_page": 3,
   "data": [
     {
-      "format": "json",
       "id": 1114,
       "created_at": "2009-03-10T10:12:16Z",
-      "updated_at": "2013-04-02T09:03:17Z",
+      "updated_at": "2013-04-04T18:21:55Z",
       "latitude": 34.531617284782,
       "longitude": 69.13581752939456,
       "street": "Taimani, behind Qasemi Winhouse",
@@ -374,8 +379,8 @@ set for organisations.
       "title": "Skateistan Afghanistan",
       "description": "With 68% of Afghanistan’s population under the age of 25, Skateistan strongly believes that youth are the ones most capable of bringing about social change.<br /><br />Skateistan is an Afghan NGO which operates Afghanistan’s (and the world’s) first co-educational skateboarding school. The Skateistan school engages nearly 400 Kabul youth weekly through skateboarding, and provides them with new opportunities in cross-cultural interaction, education, and personal empowerment programs. <br /><br />The students (ages 5-17) come from all of Afghanistan’s diverse ethnic and socioeconomic backgrounds, and include 40% female students, hundreds of streetworking children, and youth with disabilities. They develop skills in skateboarding, leadership, problem-solving, multimedia, and creative arts. The students themselves decide what they want to learn; we connect them with a safe space and opportunities for them to develop the skills that they consider important.<br /><br />For Afghan girls Skateistan's programming is especially important as there are very few recreational opportunities for females. For example, it is not culturally acceptable for girls in Afghanistan to ride bicycles or play sports in public. <br /><br />Skateistan has been active in Kabul since 2007 - with our facility built in 2009 - and in that time we’ve seen that Afghan youth of all ethnicities, genders, and socioeconomic backgrounds love to skateboard. Skateistan brings them together, equipping young men and women to lead their communities toward social change and development.<br /><br />In 2012 Skateistan will be opening its second Afghan facility in Mazar-e-Sharif, Northern Afghanistan. It will have space to teach up to 1000 youth weekly.<br /><br />Our program gives hundreds of oppressed youth a voice. Education and the opportunity for self-expression can break the cycles of poverty, illiteracy and exclusion, with sport paving the way.",
       "tax_deductible": true,
-      "open_amount_in_cents": 18686,
-      "positive_opinions_count": 377,
+      "open_amount_in_cents": 18486,
+      "positive_opinions_count": 378,
       "negative_opinions_count": 1,
       "donor_count": 283,
       "progress_percentage": 99,
@@ -383,10 +388,8 @@ set for organisations.
       "completed_need_count": 70,
       "blog_post_count": 52,
       "contact": {
-        "format": "json",
         "name": "F. Meyn",
         "picture": {
-          "format": "json",
           "links": [
             {
               "rel": "original",
@@ -414,10 +417,8 @@ set for organisations.
         ]
       },
       "carrier": {
-        "format": "json",
         "name": "Skateistan",
         "picture": {
-          "format": "json",
           "links": [
             {
               "rel": "original",
@@ -445,7 +446,6 @@ set for organisations.
         ]
       },
       "profile_picture": {
-        "format": "json",
         "links": [
           {
             "rel": "original",
@@ -483,13 +483,16 @@ set for organisations.
           "href": "http://www.betterplace.dev/en/api_v4/projects/1114/pictures.json"
         },
         {
+          "rel": "needs",
+          "href": "http://www.betterplace.dev/en/api_v4/projects/1114/needs.json"
+        },
+        {
           "rel": "blog_posts",
           "href": "http://www.betterplace.dev/en/api_v4/projects/1114/blog_posts.json"
         }
       ]
     },
     {
-      "format": "json",
       "id": 6233,
       "created_at": "2011-02-25T07:48:43Z",
       "updated_at": "2013-01-22T08:55:29Z",
@@ -509,10 +512,8 @@ set for organisations.
       "completed_need_count": 12,
       "blog_post_count": 24,
       "contact": {
-        "format": "json",
         "name": "F. Meyn",
         "picture": {
-          "format": "json",
           "links": [
             {
               "rel": "original",
@@ -540,10 +541,8 @@ set for organisations.
         ]
       },
       "carrier": {
-        "format": "json",
         "name": "Skateistan",
         "picture": {
-          "format": "json",
           "links": [
             {
               "rel": "original",
@@ -571,7 +570,6 @@ set for organisations.
         ]
       },
       "profile_picture": {
-        "format": "json",
         "links": [
           {
             "rel": "original",
@@ -607,6 +605,10 @@ set for organisations.
         {
           "rel": "pictures",
           "href": "http://www.betterplace.dev/en/api_v4/projects/6233/pictures.json"
+        },
+        {
+          "rel": "needs",
+          "href": "http://www.betterplace.dev/en/api_v4/projects/6233/needs.json"
         },
         {
           "rel": "blog_posts",

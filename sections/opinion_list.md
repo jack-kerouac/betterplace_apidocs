@@ -156,19 +156,17 @@ with betterplace.org but donated via one of our partner.
 
 ```json
 {
-  "total_entries": 377,
+  "total_entries": 378,
   "offset": 0,
   "total_pages": 126,
   "current_page": 1,
   "per_page": 3,
   "data": [
     {
-      "format": "json",
       "id": 964,
       "created_at": "2009-03-18T16:34:37Z",
       "score": "positive",
       "author": {
-        "format": "json",
         "name": "A. Bald",
         "links": [
           {
@@ -186,15 +184,12 @@ with betterplace.org but donated via one of our partner.
       ]
     },
     {
-      "format": "json",
       "id": 1024,
       "created_at": "2009-03-31T18:21:52Z",
       "score": "positive",
       "author": {
-        "format": "json",
         "name": "d. habibi",
         "picture": {
-          "format": "json",
           "links": [
             {
               "rel": "original",
@@ -230,15 +225,12 @@ with betterplace.org but donated via one of our partner.
       ]
     },
     {
-      "format": "json",
       "id": 1323,
       "created_at": "2009-06-14T08:58:06Z",
       "score": "positive",
       "author": {
-        "format": "json",
         "name": "m. mohsen",
         "picture": {
-          "format": "json",
           "links": [
             {
               "rel": "original",

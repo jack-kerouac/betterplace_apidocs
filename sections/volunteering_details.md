@@ -263,14 +263,12 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
 
 ```json
 {
-  "format": "json",
   "id": 23,
   "created_at": "2013-01-28T09:23:17Z",
   "updated_at": "2013-01-28T13:12:37Z",
   "title": "Essensausgabe/Fahrdienst",
   "description": "<p>Die Kasseler Tafel e.V. sammelt qualitativ einwandfreie Lebensmittel, die kurz vor dem Mindesthaltbarkeitsdatum stehen, bei Firmen in der Region ein und verteilt diese gegen einen symbolischen Betrag an bedürftige Mitbürgerinnen und Mitbürger.</p>\n<p>Freiwillige können sich in folgenden Bereichen bei der Kasseler Tafel betätigen:</p>\n<p>1. Lebensmittel sortieren und ausgeben</p>\n<p>2. als Fahrer: Abholung der Lebensmittel bei den Supermärkten</p>\n\n<p>Mehr Informationen finden Sie unter: http://kasseler-tafel.de/</p>\n<p>Wir freuen uns über Ihr Interesse! </p>\n\n<ul><li>Unfallversicherung</li><li>Haftpflichtversicherung</li><li>Anleitung durch Fachkräfte</li><li>Tätigkeitsnachweise</li><li>Ausstattung mit Medien / Arbeitsmaterialien</li></ul>",
   "carrier": {
-    "format": "json",
     "name": "FreiwilligenZentrum Kassel",
     "street": "Spohrstraße 5",
     "city": "Kassel",
@@ -284,7 +282,6 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
   },
   "vacancies": 1,
   "contact": {
-    "format": "json",
     "name": "Frank Gerhold",
     "phone": "0561 - 10 24 25",
     "email": "info@freiwilligenzentrumkassel.de"

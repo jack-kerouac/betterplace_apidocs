@@ -105,7 +105,6 @@ This is also calculated based on the sum of all
 
 ```json
 {
-  "format": "json",
   "donated_amount_in_cents": 65707968,
   "open_amount_in_cents": 21493232,
   "requested_amount_in_cents": 87201200,

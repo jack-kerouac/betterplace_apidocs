@@ -203,7 +203,6 @@ with betterplace.org but donated via one of our partner.
 
 ```json
 {
-  "format": "json",
   "id": 125,
   "slug": "vivaconagua",
   "created_at": "2008-02-06T16:10:42Z",
@@ -218,10 +217,8 @@ with betterplace.org but donated via one of our partner.
   "description": "Viva con Agua de Sankt Pauli e.V. is a leading German charity dedicated to fighting global poverty by helping the world’s poorest people gain access to clean water, basic sanitation and hygiene education, and encourages people from around the world to lend support.",
   "tax_deductible": true,
   "contact": {
-    "format": "json",
     "name": "C. Wiebe",
     "picture": {
-      "format": "json",
       "links": [
         {
           "rel": "original",
@@ -249,7 +246,6 @@ with betterplace.org but donated via one of our partner.
     ]
   },
   "picture": {
-    "format": "json",
     "links": [
       {
         "rel": "original",

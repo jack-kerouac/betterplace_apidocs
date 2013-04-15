@@ -203,7 +203,6 @@ with betterplace.org but donated via one of our partner.
   "per_page": 2,
   "data": [
     {
-      "format": "json",
       "id": 14,
       "slug": "mellemfolkeligtsamvirke",
       "created_at": "2007-07-03T11:54:42Z",
@@ -218,10 +217,8 @@ with betterplace.org but donated via one of our partner.
       "description": "Danish humanitarian organization promoting global democracy and fair trade since 1944.",
       "tax_deductible": false,
       "contact": {
-        "format": "json",
         "name": "Jeppe Bo P.",
         "picture": {
-          "format": "json",
           "links": [
             {
               "rel": "original",
@@ -249,7 +246,6 @@ with betterplace.org but donated via one of our partner.
         ]
       },
       "picture": {
-        "format": "json",
         "links": [
           {
             "rel": "original",
@@ -285,7 +281,6 @@ with betterplace.org but donated via one of our partner.
       ]
     },
     {
-      "format": "json",
       "id": 15,
       "slug": "gexsi",
       "created_at": "2007-07-03T15:06:31Z",
@@ -300,10 +295,8 @@ with betterplace.org but donated via one of our partner.
       "description": "GEXSI is a charitable organisation registered in the UK, with offices in London and Berlin. From Philanthropic Support to Commercial Investment Social entrepreneurs who want to become self-sustaining, GEXSI can assist in finding start-up assistance from donors or investors. GEXSI mobilises a blend of philanthropic funds and commercial financing, tailored to the specific needs of social enterprises.\r\n\r\nGEXSI links charitable donors, social entrepreneurs, and social investors in funding exceptional economic, ecological, and social projects for sustainable development in low-income regions around the world. In order to unleash Entrepreneurship in Low-income Countries, GEXSI mobilises the capital and expertise needed by social entrepreneurs to move from 'aid to market'. \r\n\r\nInitially, social enterprises often depend on grants. To move towards self-reliance, many need start-up support – access to expertise, markets and finance. Many evolving social enterprises experience a financing gap: their financial needs exceed microcredit capacities, but do not reach the levels of commercial financing. The Global Exchange for Social Investment (GEXSI) assists in closing this gap. For Social Entrepreneurs, GEXSI provides expertise and financing tailored to the needs of each social entrepreneur. The Global Exchange for Social Investment (GEXSI) focuses on businesses that have social, environmental and economic impact, and clear potential for scaling up or replication.\r\n\r\nGEXSI collaborates with enterprises requiring initial financial support in their business development. Enterprises assisted by GEXSI typically look for investments ranging from EUR 10,000 to EUR 500,000.\r\n\r\nFor social entrepreneurs, GEXSI: Provides technical expertise in business planning and investment structuring; Locates financing, and; Facilitates networking, mentorship and exchanges of information and expertise.\r\n\r\n",
       "tax_deductible": false,
       "contact": {
-        "format": "json",
         "name": "A. Renner",
         "picture": {
-          "format": "json",
           "links": [
             {
               "rel": "original",
@@ -331,7 +324,6 @@ with betterplace.org but donated via one of our partner.
         ]
       },
       "picture": {
-        "format": "json",
         "links": [
           {
             "rel": "original",

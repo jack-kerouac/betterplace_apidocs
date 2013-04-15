@@ -127,7 +127,6 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
 
 ```json
 {
-  "format": "json",
   "id": 22,
   "created_at": "2007-09-06T06:12:42Z",
   "updated_at": "2008-06-03T05:58:47Z",
@@ -136,10 +135,8 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
   "title": "Progress",
   "body": "We are making great progress as far as having a routine and regular turnout to rehearsal.I have spoken to Mudpie. All the outfits will be ready they say by the 25th. The modelling rehearsals begin after September 17th. Dances are looking quite good, the kids just need to rehearse at home so that the whole thing flows and looks finished.\n\n\n\t<p>I have now contacted a costume shop in South Africa and made some lengthy details. She will supply us with all we need from the time we order it in two weeks. Once she has sent me a quotation for her prices, I will readjust the budget accordingly.</p>\n\n\n\t<p>I encountered some problems with the illustrations of the book last week, but managed to solve them. The project is in control which is a great feeling. I am still planning to launch during the first two weekends in October, but if it does not work, we will just start a week later, so all should be well.</p>\n\n\n\t<p>I&#8217;ll keep everyone up to date about the progress.</p>",
   "author": {
-    "format": "json",
     "name": "Bontekanye B.",
     "picture": {
-      "format": "json",
       "links": [
         {
           "rel": "original",

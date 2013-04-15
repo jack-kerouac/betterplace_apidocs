@@ -134,16 +134,15 @@ to make sure you only request data that is associated with one of your projects.
   "per_page": 3,
   "data": [
     {
-      "format": "json",
       "id": 58515,
       "created_at": "2013-01-14T08:49:05Z",
-      "updated_at": "2013-03-28T17:14:42Z",
+      "updated_at": "2013-04-04T18:21:38Z",
       "title": "Ping Pong Table ",
       "description": "A moveable Ping Pong (Table Tennis) table for our multi-sport facility in Skateistan's new Skatepark in Mazar-e-Sharif in Northern Afghanistan.",
       "completed": false,
       "progress_percentage": 67,
-      "donated_amount_in_cents": 19100,
-      "open_amount_in_cents": 9300,
+      "donated_amount_in_cents": 19300,
+      "open_amount_in_cents": 9100,
       "requested_amount_in_cents": 28400,
       "links": [
         {
@@ -157,7 +156,6 @@ to make sure you only request data that is associated with one of your projects.
       ]
     },
     {
-      "format": "json",
       "id": 58518,
       "created_at": "2013-01-14T08:54:25Z",
       "updated_at": "2013-01-15T10:05:47Z",
@@ -180,7 +178,6 @@ to make sure you only request data that is associated with one of your projects.
       ]
     },
     {
-      "format": "json",
       "id": 58985,
       "created_at": "2013-01-22T18:35:15Z",
       "updated_at": "2013-01-22T18:35:16Z",

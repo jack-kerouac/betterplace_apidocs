@@ -132,7 +132,6 @@ to make sure you only request data that is associated with one of your projects.
 
 ```json
 {
-  "format": "json",
   "id": 59220,
   "created_at": "2013-01-29T11:25:47Z",
   "updated_at": "2013-01-29T11:27:54Z",

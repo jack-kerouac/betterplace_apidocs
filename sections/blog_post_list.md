@@ -132,7 +132,6 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
   "per_page": 2,
   "data": [
     {
-      "format": "json",
       "id": 22,
       "created_at": "2007-09-06T06:12:42Z",
       "updated_at": "2008-06-03T05:58:47Z",
@@ -141,10 +140,8 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
       "title": "Progress",
       "body": "We are making great progress as far as having a routine and regular turnout to rehearsal.I have spoken to Mudpie. All the outfits will be ready they say by the 25th. The modelling rehearsals begin after September 17th. Dances are looking quite good, the kids just need to rehearse at home so that the whole thing flows and looks finished.\n\n\n\t<p>I have now contacted a costume shop in South Africa and made some lengthy details. She will supply us with all we need from the time we order it in two weeks. Once she has sent me a quotation for her prices, I will readjust the budget accordingly.</p>\n\n\n\t<p>I encountered some problems with the illustrations of the book last week, but managed to solve them. The project is in control which is a great feeling. I am still planning to launch during the first two weekends in October, but if it does not work, we will just start a week later, so all should be well.</p>\n\n\n\t<p>I&#8217;ll keep everyone up to date about the progress.</p>",
       "author": {
-        "format": "json",
         "name": "Bontekanye B.",
         "picture": {
-          "format": "json",
           "links": [
             {
               "rel": "original",
@@ -183,7 +180,6 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
       ]
     },
     {
-      "format": "json",
       "id": 44,
       "created_at": "2007-09-21T13:14:12Z",
       "updated_at": "2008-06-03T05:58:48Z",
@@ -192,10 +188,8 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
       "title": "Book Launch in choral music and poetry",
       "body": "This year, October 2008 Bontekanye Botumile will launch her third children’s’ book “The Seed Children”.  This story carries a conservation message that encourages children to conserve trees, sensitise them on how their daily actions can damage their environment and teaches them about symbiotic relationships between trees and humans in story form.\n\n\n\t<p>The story has already been tested to international students ranging in age from Four to thirteen in Gaborone -West Wood International School, Broadhurst Primary school, 2008 Maitisong Festival and  Maun based Matshwane Primary School and Okavango International School.</p>\n\n\n\t<p>To further test the book, the exercise of reading a manuscript instead of a book had three objectives:</p>\n\n\n\t<p>teach students the process of  how a book is written and published</p>\n\n\n\t<p>demonstrate how their opinions and comments help the writer edit the story</p>\n\n\n\t<p>create a rite of passage so that they relate to the book in its final product stage.</p>\n\n\n\t<p>a marketing research tool to test the reception of the book on its primary target market. (children and teachers)</p>\n\n\n\t<p> THE LAUNCH FOR THE SEED CHILDREN </p>\n\n\n\t<p> THEME - “Trees are life! Reduce, Reuse, Recycle!”</p>\n\n\n\t<p> SLOGAN : “The next time you give a gift, give a tree or plant!”</p>\n\n\n\t<p>To start the chain of giving trees as gifts, 25 indigenous trees purchased from Government nursery will be given away to 25 children at each launch.</p>\n\n\n\t<p>Like the two previous books, the new book will be launched in a live performance and art fair in Maun, Orapa, Francistown, Sua Pan and Gaborone. The medium of the actual stage performance will be choral music, poetry and drama.</p>\n\n\n\t<p>The performance will be acted out by twenty unemployed youth with talent in choral singing, dancing and acting. In preparation for the launch, they will undergo rigorous training by  professionals in the performing arts for a minimum of six weeks prior to the launch.</p>",
       "author": {
-        "format": "json",
         "name": "Bontekanye B.",
         "picture": {
-          "format": "json",
           "links": [
             {
               "rel": "original",

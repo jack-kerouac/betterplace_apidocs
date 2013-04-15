@@ -136,15 +136,12 @@ with betterplace.org but donated via one of our partner.
 
 ```json
 {
-  "format": "json",
   "id": 22,
   "created_at": "2007-11-24T13:14:02Z",
   "score": "positive",
   "author": {
-    "format": "json",
     "name": "G. Krabbe",
     "picture": {
-      "format": "json",
       "links": [
         {
           "rel": "original",

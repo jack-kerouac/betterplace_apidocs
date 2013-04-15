@@ -27,13 +27,14 @@ and scheduled downtimes.
 * Known issues [↓ below](#known-issues)
 * [**Project** List and Search](sections/project_list.md)
 * [**Project** Details](sections/project_details.md)
-* [Project **Needs** List](sections/need_list.md)
-* [Project **Needs** Details](sections/need_details.md)
+* [Project **Need** List](sections/need_list.md)
+* [Project **Need** Details](sections/need_details.md)
 * [Project **Blog Post** List](sections/blog_post_list.md)
 * [Project **Blog Post** Details](sections/blog_post_details.md)
-* WIP [Project **Opinions** List](sections/opinion_list.md)
-* [Project **Opinions** Details](sections/opinion_details.md)
-* TODO [Project **Pictures** List](sections/picture_list.md)
+* WIP [Project **Opinion** List](sections/opinion_list.md)
+* [Project **Opinion** Details](sections/opinion_details.md)
+* TODO [Project **Picture** List](sections/picture_list.md)
+* TODO [Project **Picture** Details](sections/picture_detail.md)
 * [**Volunteering** List and Search](sections/volunteering_list.md)
 * [**Volunteering** Details](sections/volunteering_details.md)
 * [**Organisation** List](sections/organisation_list.md)
@@ -54,6 +55,7 @@ for more information.
 * [**Client** Project List and Search](sections/project_list.md) – See client section and ⁂1
 * [**Client** Project Details](sections/project_details.md) – See client section and ⁂1
 * [**Client** Blog Post List](sections/blog_post_list.md) – See client section
+* [**Client** Tag Project List](sections/client_tag_project_list.md) – See client section and ⁂1
 
 *(⁂1) Client projects:* Clients projects are projects on betterplace.org that are
 associated with the client-user. This way clients can control what projects
@@ -186,6 +188,7 @@ The following HTTP result codes can be returned:
 
 ## Changelog
 
+* 2012-04-15: Add "Client Tag Project List"
 * 2012-03-03: Add picture size 'large' and 'original' to image list for projects. Please note that the images-part of the API ist still beta and might change slightly in the future.
 * 2012-03-28: The project-list now returns the full result-set for each project. The minimal result set is gone for now but will be added later. The default-number of results changed to 20 for all lists.
 * 2012-05~15: Add known issues, improve documentation, remove opinion.with_donation, add opinion.donated_amount_in_cents, project.description returns html now
@@ -205,7 +208,6 @@ Please contact developers@betterplace.org for more information
 1. Documentation: Not all resources have a documentation-url as part of the json
 1. Documentation: The response-table does not show the root-documentation for response-elements with sub-elements (for example carrier.name is documented but carrier is not)
 1. Blogposts: There is no way yet to filter BlogPosts from PayoutBlogPost
-1. ClientProjectsTags: There is no way yet to filter Projects by ClientProjectsTags
 1. General OpinionsList: There is no list of opinions without a project-scope. So there is no way to show the last 4 opinions with a comment for example.
 
 
