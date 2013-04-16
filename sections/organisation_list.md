@@ -30,7 +30,7 @@ This ressource is not avaliable at the moment.
   <tr>
     <th>Attribute</th>
     <th>Types</th>
-    <th>Example/Optional</th>
+    <th>Example</th>
     <th>Description</th>
   </tr>
   <tr>
@@ -241,7 +241,7 @@ with betterplace.org but donated via one of our partner.
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.dev/en/users/jeppe_p"
+            "href": "https://api.betterplace.org/en/users/jeppe_p"
           }
         ]
       },
@@ -268,15 +268,15 @@ with betterplace.org but donated via one of our partner.
       "links": [
         {
           "rel": "self",
-          "href": "http://www.betterplace.dev/en/api_v4/organisations/14.json"
+          "href": "https://api.betterplace.org/en/api_v4/organisations/14.json"
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.dev/en/organisations/mellemfolkeligtsamvirke"
+          "href": "https://api.betterplace.org/en/organisations/mellemfolkeligtsamvirke"
         },
         {
           "rel": "projects",
-          "href": "http://www.betterplace.dev/en/api_v4/organisations/14/projects.json"
+          "href": "https://api.betterplace.org/en/api_v4/organisations/14/projects.json"
         }
       ]
     },
@@ -319,7 +319,7 @@ with betterplace.org but donated via one of our partner.
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.dev/en/users/andreas_r"
+            "href": "https://api.betterplace.org/en/users/andreas_r"
           }
         ]
       },
@@ -346,15 +346,15 @@ with betterplace.org but donated via one of our partner.
       "links": [
         {
           "rel": "self",
-          "href": "http://www.betterplace.dev/en/api_v4/organisations/15.json"
+          "href": "https://api.betterplace.org/en/api_v4/organisations/15.json"
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.dev/en/organisations/gexsi"
+          "href": "https://api.betterplace.org/en/organisations/gexsi"
         },
         {
           "rel": "projects",
-          "href": "http://www.betterplace.dev/en/api_v4/organisations/15/projects.json"
+          "href": "https://api.betterplace.org/en/api_v4/organisations/15/projects.json"
         }
       ]
     }

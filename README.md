@@ -55,7 +55,7 @@ for more information.
 * [**Client** Project List and Search](sections/project_list.md) – See client section and ⁂1
 * [**Client** Project Details](sections/project_details.md) – See client section and ⁂1
 * [**Client** Blog Post List](sections/blog_post_list.md) – See client section
-* [**Client** Tag Project List](sections/client_tag_project_list.md) – See client section and ⁂1
+* [**Client** Project-Tag Project List](sections/client_tag_project_list.md) – See client section and ⁂1
 
 *(⁂1) Client projects:* Clients projects are projects on betterplace.org that are
 associated with the client-user. This way clients can control what projects
@@ -188,7 +188,7 @@ The following HTTP result codes can be returned:
 
 ## Changelog
 
-* 2012-04-15: Add "Client Tag Project List"
+* 2012-04-15: Add "Client Project-Tag Project List"
 * 2012-03-03: Add picture size 'large' and 'original' to image list for projects. Please note that the images-part of the API ist still beta and might change slightly in the future.
 * 2012-03-28: The project-list now returns the full result-set for each project. The minimal result set is gone for now but will be added later. The default-number of results changed to 20 for all lists.
 * 2012-05~15: Add known issues, improve documentation, remove opinion.with_donation, add opinion.donated_amount_in_cents, project.description returns html now

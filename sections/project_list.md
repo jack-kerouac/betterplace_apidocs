@@ -100,7 +100,7 @@ It is possible to set multiple facet filters.
   <tr>
     <th>Attribute</th>
     <th>Types</th>
-    <th>Example/Optional</th>
+    <th>Example</th>
     <th>Description</th>
   </tr>
   <tr>
@@ -412,7 +412,7 @@ set for organisations.
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.dev/en/users/frauke_m3"
+            "href": "https://api.betterplace.org/en/users/frauke_m3"
           }
         ]
       },
@@ -441,7 +441,7 @@ set for organisations.
         "links": [
           {
             "rel": "self",
-            "href": "http://www.betterplace.dev/en/api_v4/organisations/1054.json"
+            "href": "https://api.betterplace.org/en/api_v4/organisations/1054.json"
           }
         ]
       },
@@ -468,27 +468,27 @@ set for organisations.
       "links": [
         {
           "rel": "self",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.dev/en/projects/1114-skateistan-afghanistan"
+          "href": "https://api.betterplace.org/en/projects/1114-skateistan-afghanistan"
         },
         {
           "rel": "opinions",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/1114/opinions.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/1114/pictures.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/1114/needs.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/1114/blog_posts.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/blog_posts.json"
         }
       ]
     },
@@ -536,7 +536,7 @@ set for organisations.
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.dev/en/users/frauke_m3"
+            "href": "https://api.betterplace.org/en/users/frauke_m3"
           }
         ]
       },
@@ -565,7 +565,7 @@ set for organisations.
         "links": [
           {
             "rel": "self",
-            "href": "http://www.betterplace.dev/en/api_v4/organisations/1054.json"
+            "href": "https://api.betterplace.org/en/api_v4/organisations/1054.json"
           }
         ]
       },
@@ -592,27 +592,27 @@ set for organisations.
       "links": [
         {
           "rel": "self",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/6233.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/6233.json"
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.dev/en/projects/6233-skateistan-cambodia"
+          "href": "https://api.betterplace.org/en/projects/6233-skateistan-cambodia"
         },
         {
           "rel": "opinions",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/6233/opinions.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/6233/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/6233/pictures.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/6233/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/6233/needs.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/6233/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/6233/blog_posts.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/6233/blog_posts.json"
         }
       ]
     }

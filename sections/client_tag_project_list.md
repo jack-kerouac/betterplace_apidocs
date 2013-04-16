@@ -1,13 +1,13 @@
 
-# Client donation list
+# Client project-tag project list
 
 ```nginx
- https://api.betterplace.org/en/api_v4/clients/Volksfreund/tags/Ernaehrung/projects.json
+GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/tags/Ernaehrung/projects.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
 
-This API returns all projects to a client project tag.
+This API returns all projects to a client project-tag.
 Client project tags are a custom client feature and andministered
 as a service of [betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung).
 
@@ -33,7 +33,7 @@ Results are contains in a *data* attribute.
     <th>id</th>
     <td><code>Ernaehrung</code></td>
     <td>required</td>
-    <td>The name of the client tag – a list of tags is provided by
+    <td>The name of the client project-tag – a list of tags is provided by
 <a href="http://www.betterplace-solutions.de/#buergerzeitung">betterplace solutions</a>.
 </td>
   </tr>
@@ -45,7 +45,7 @@ Results are contains in a *data* attribute.
   <tr>
     <th>Attribute</th>
     <th>Types</th>
-    <th>Example/Optional</th>
+    <th>Example</th>
     <th>Description</th>
   </tr>
   <tr>
@@ -357,7 +357,7 @@ set for organisations.
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.dev/en/users/katharina_b13"
+            "href": "https://api.betterplace.org/en/users/katharina_b13"
           }
         ]
       },
@@ -386,7 +386,7 @@ set for organisations.
         "links": [
           {
             "rel": "self",
-            "href": "http://www.betterplace.dev/en/api_v4/organisations/6396.json"
+            "href": "https://api.betterplace.org/en/api_v4/organisations/6396.json"
           }
         ]
       },
@@ -413,27 +413,27 @@ set for organisations.
       "links": [
         {
           "rel": "self",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/6270.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/6270.json"
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.dev/en/projects/6270-fruhstuck-fur-obdachlose-und-sozial-benachteiligte"
+          "href": "https://api.betterplace.org/en/projects/6270-fruhstuck-fur-obdachlose-und-sozial-benachteiligte"
         },
         {
           "rel": "opinions",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/6270/opinions.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/6270/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/6270/pictures.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/6270/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/6270/needs.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/6270/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/6270/blog_posts.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/6270/blog_posts.json"
         }
       ]
     },
@@ -482,7 +482,7 @@ set for organisations.
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.dev/en/users/julia_s42"
+            "href": "https://api.betterplace.org/en/users/julia_s42"
           }
         ]
       },
@@ -511,7 +511,7 @@ set for organisations.
         "links": [
           {
             "rel": "self",
-            "href": "http://www.betterplace.dev/en/api_v4/organisations/8354.json"
+            "href": "https://api.betterplace.org/en/api_v4/organisations/8354.json"
           }
         ]
       },
@@ -538,27 +538,27 @@ set for organisations.
       "links": [
         {
           "rel": "self",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/7559.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/7559.json"
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.dev/en/projects/7559-unterstutzen-sie-kinder-maasaifrauen-in-tansania"
+          "href": "https://api.betterplace.org/en/projects/7559-unterstutzen-sie-kinder-maasaifrauen-in-tansania"
         },
         {
           "rel": "opinions",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/7559/opinions.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/7559/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/7559/pictures.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/7559/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/7559/needs.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/7559/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/7559/blog_posts.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/7559/blog_posts.json"
         }
       ]
     }

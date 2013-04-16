@@ -33,7 +33,7 @@ Some client-statistics for a betterplace.org client.
   <tr>
     <th>Attribute</th>
     <th>Types</th>
-    <th>Example/Optional</th>
+    <th>Example</th>
     <th>Description</th>
   </tr>
   <tr>
@@ -113,11 +113,11 @@ This is also calculated based on the sum of all
   "links": [
     {
       "rel": "projects",
-      "href": "http://www.betterplace.dev/en/api_v4/clients/volksfreund/projects.json"
+      "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/projects.json"
     },
     {
       "rel": "client_donations",
-      "href": "http://www.betterplace.dev/en/api_v4/clients/volksfreund/client_donations.json"
+      "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/client_donations.json"
     }
   ]
 }

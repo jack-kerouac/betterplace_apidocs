@@ -63,7 +63,7 @@ It is possible to set multiple facet filters.
   <tr>
     <th>Attribute</th>
     <th>Types</th>
-    <th>Example/Optional</th>
+    <th>Example</th>
     <th>Description</th>
   </tr>
   <tr>
@@ -171,7 +171,7 @@ with betterplace.org but donated via one of our partner.
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.dev/en/users/alexandra_b"
+            "href": "https://api.betterplace.org/en/users/alexandra_b"
           }
         ]
       },
@@ -179,7 +179,7 @@ with betterplace.org but donated via one of our partner.
       "links": [
         {
           "rel": "self",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/1114/opinions/964.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/964.json"
         }
       ]
     },
@@ -212,7 +212,7 @@ with betterplace.org but donated via one of our partner.
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.dev/en/users/omar_a"
+            "href": "https://api.betterplace.org/en/users/omar_a"
           }
         ]
       },
@@ -220,7 +220,7 @@ with betterplace.org but donated via one of our partner.
       "links": [
         {
           "rel": "self",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/1114/opinions/1024.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/1024.json"
         }
       ]
     },
@@ -253,7 +253,7 @@ with betterplace.org but donated via one of our partner.
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.dev/en/users/mirwais_m"
+            "href": "https://api.betterplace.org/en/users/mirwais_m"
           }
         ]
       },
@@ -261,7 +261,7 @@ with betterplace.org but donated via one of our partner.
       "links": [
         {
           "rel": "self",
-          "href": "http://www.betterplace.dev/en/api_v4/projects/1114/opinions/1323.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/1323.json"
         }
       ]
     }

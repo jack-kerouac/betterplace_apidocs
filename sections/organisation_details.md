@@ -37,7 +37,7 @@ to make sure you only request data that is associated with one of your projects.
   <tr>
     <th>Attribute</th>
     <th>Types</th>
-    <th>Example/Optional</th>
+    <th>Example</th>
     <th>Description</th>
   </tr>
   <tr>
@@ -241,7 +241,7 @@ with betterplace.org but donated via one of our partner.
     "links": [
       {
         "rel": "platform",
-        "href": "http://www.betterplace.dev/en/users/christian_w"
+        "href": "https://api.betterplace.org/en/users/christian_w"
       }
     ]
   },
@@ -268,15 +268,15 @@ with betterplace.org but donated via one of our partner.
   "links": [
     {
       "rel": "self",
-      "href": "http://www.betterplace.dev/en/api_v4/organisations/125.json"
+      "href": "https://api.betterplace.org/en/api_v4/organisations/125.json"
     },
     {
       "rel": "platform",
-      "href": "http://www.betterplace.dev/en/organisations/vivaconagua"
+      "href": "https://api.betterplace.org/en/organisations/vivaconagua"
     },
     {
       "rel": "projects",
-      "href": "http://www.betterplace.dev/en/api_v4/organisations/125/projects.json"
+      "href": "https://api.betterplace.org/en/api_v4/organisations/125/projects.json"
     }
   ]
 }

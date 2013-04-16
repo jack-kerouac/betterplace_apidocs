@@ -87,7 +87,7 @@ The default order is the same as for the
   <tr>
     <th>Attribute</th>
     <th>Types</th>
-    <th>Example/Optional</th>
+    <th>Example</th>
     <th>Description</th>
   </tr>
   <tr>
@@ -363,11 +363,11 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
       "links": [
         {
           "rel": "self",
-          "href": "http://www.betterplace.dev/en/api_v4/volunteering/4.json"
+          "href": "https://api.betterplace.org/en/api_v4/volunteering/4.json"
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.dev/en/volunteering/4-betreuung-begleitung-im-rahmen-des-betreuungsrechts"
+          "href": "https://api.betterplace.org/en/volunteering/4-betreuung-begleitung-im-rahmen-des-betreuungsrechts"
         }
       ]
     },
@@ -406,11 +406,11 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
       "links": [
         {
           "rel": "self",
-          "href": "http://www.betterplace.dev/en/api_v4/volunteering/5.json"
+          "href": "https://api.betterplace.org/en/api_v4/volunteering/5.json"
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.dev/en/volunteering/5-patientenbesuchsdienst-im-diakonissen-und-burgfeldkrankenhaus"
+          "href": "https://api.betterplace.org/en/volunteering/5-patientenbesuchsdienst-im-diakonissen-und-burgfeldkrankenhaus"
         }
       ]
     },
@@ -456,11 +456,11 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
       "links": [
         {
           "rel": "self",
-          "href": "http://www.betterplace.dev/en/api_v4/volunteering/6.json"
+          "href": "https://api.betterplace.org/en/api_v4/volunteering/6.json"
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.dev/en/volunteering/6-blaue-helferin-blauer-helfer-besuchsdienst-im-klinikum-kassel"
+          "href": "https://api.betterplace.org/en/volunteering/6-blaue-helferin-blauer-helfer-besuchsdienst-im-klinikum-kassel"
         }
       ]
     }

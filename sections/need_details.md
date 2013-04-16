@@ -43,7 +43,7 @@ to make sure you only request data that is associated with one of your projects.
   <tr>
     <th>Attribute</th>
     <th>Types</th>
-    <th>Example/Optional</th>
+    <th>Example</th>
     <th>Description</th>
   </tr>
   <tr>
@@ -145,11 +145,11 @@ to make sure you only request data that is associated with one of your projects.
   "links": [
     {
       "rel": "self",
-      "href": "http://www.betterplace.dev/en/api_v4/projects/11748/needs/59220.json"
+      "href": "https://api.betterplace.org/en/api_v4/projects/11748/needs/59220.json"
     },
     {
       "rel": "project",
-      "href": "http://www.betterplace.dev/en/api_v4/projects/11748.json"
+      "href": "https://api.betterplace.org/en/api_v4/projects/11748.json"
     }
   ]
 }

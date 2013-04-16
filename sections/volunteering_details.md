@@ -34,7 +34,7 @@ This ressource is not avaliable at the moment.
   <tr>
     <th>Attribute</th>
     <th>Types</th>
-    <th>Example/Optional</th>
+    <th>Example</th>
     <th>Description</th>
   </tr>
   <tr>
@@ -296,11 +296,11 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
   "links": [
     {
       "rel": "self",
-      "href": "http://www.betterplace.dev/en/api_v4/volunteering/23.json"
+      "href": "https://api.betterplace.org/en/api_v4/volunteering/23.json"
     },
     {
       "rel": "platform",
-      "href": "http://www.betterplace.dev/en/volunteering/23-essensausgabe-fahrdienst"
+      "href": "https://api.betterplace.org/en/volunteering/23-essensausgabe-fahrdienst"
     }
   ]
 }

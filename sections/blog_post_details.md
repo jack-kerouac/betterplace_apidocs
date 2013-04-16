@@ -43,7 +43,7 @@ to make sure you only request data that is associated with one of your projects.
   <tr>
     <th>Attribute</th>
     <th>Types</th>
-    <th>Example/Optional</th>
+    <th>Example</th>
     <th>Description</th>
   </tr>
   <tr>
@@ -159,14 +159,14 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
     "links": [
       {
         "rel": "platform",
-        "href": "http://www.betterplace.dev/en/users/bontekanye_b"
+        "href": "https://api.betterplace.org/en/users/bontekanye_b"
       }
     ]
   },
   "links": [
     {
       "rel": "self",
-      "href": "http://www.betterplace.dev/en/api_v4/blog_posts/22.json"
+      "href": "https://api.betterplace.org/en/api_v4/blog_posts/22.json"
     },
     {
       "rel": "documentation",
