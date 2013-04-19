@@ -51,12 +51,13 @@ Please [contact someone at betterplace solutions](http://www.betterplace-solutio
 for more information.
 
 * [**Client** Details/Statistics](sections/client_details.md)
-* [**Client** Donation List](sections/client_donation_list.md)
+* [**Client** Donation List](sections/client_donations_list.md)
 * [**Client** Project List and Search](sections/project_list.md) – See client section and ⁂1
 * [**Client** Project Details](sections/project_details.md) – See client section and ⁂1
 * [**Client** Blog Post List](sections/blog_post_list.md) – See client section
 * [**Client** Project Opinion List](sections/opinion_list.md) – See client section
-* [**Client** Project-Tag Project List](sections/client_tag_project_list.md) – See client section
+* [**Client** Project-Tags List](sections/client_project_tags_list.md) – See client section
+* [**Client** Project-Tag Projects List](sections/client_project_tag_projects_list.md) – See client section
 
 *(⁂1) Client projects:* Clients projects are projects on betterplace.org that are
 associated with the client-user. This way clients can control what projects
@@ -190,6 +191,7 @@ The following HTTP result codes can be returned:
 
 ## Changelog
 
+* 2013-05-19: Added 'client project-tag list' (a list of all project-tags for a client) and 'client project-tag projects list' (a list of all projects for a client-project-tag).
 * 2013-04-18: Fixed project opinions. Add client opinions-feature. Note that many of the opinions-facets changed! Please re-read this part of the documentation.
 * 2013-04-17: Add project pictures API. Please note the DEPRICATION warning for the project- and volunteering-profilepicture (sizes large, profile and thumb are depricated and therefore renamed.)
 * 2012-04-15: Add "Client Project-Tag Project List".

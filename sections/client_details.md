@@ -77,7 +77,7 @@ This is also calculated based on the sum of all
     <th>client_donations_count</th>
     <td>number</td>
     <td>200</td>
-    <td>The number of <a href="../client_donation_list.md">client donations</a> for this client
+    <td>The number of <a href="../client_donations_list.md">client donations</a> for this client
 </td>
   </tr>
 </table>
@@ -96,7 +96,12 @@ This is also calculated based on the sum of all
   </tr>
   <tr>
     <th>client_donations</th>
-    <td>Link to the <a href="../client_donation_list.md">client donation list</a> of this client
+    <td>Link to the <a href="../client_donations_list.md">client donations list</a> of this client
+</td>
+  </tr>
+  <tr>
+    <th>client_project_tags</th>
+    <td>Link to the <a href="../client_project_tags_list.md">client project-tags list</a> of this client
 </td>
   </tr>
 </table>
@@ -118,6 +123,10 @@ This is also calculated based on the sum of all
     {
       "rel": "client_donations",
       "href": "https://www.betterplace.org/en/api_v4/clients/volksfreund/client_donations.json"
+    },
+    {
+      "rel": "client_project_tags",
+      "href": "https://www.betterplace.org/en/api_v4/clients/volksfreund/project_tags.json"
     }
   ]
 }

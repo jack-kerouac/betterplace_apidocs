@@ -2,12 +2,12 @@
 # Client project-tag project list
 
 ```nginx
-GET https://www.betterplace.org/en/api_v4/clients/Volksfreund/tags/Ernaehrung/projects.json
+GET https://www.betterplace.org/en/api_v4/clients/Volksfreund/project_tags/Ernaehrung/projects.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
 
-This API returns all projects to a client project-tag.
+This API returns all completed projects to a client project-tag.
 Client project tags are a custom client feature and andministered
 as a service of [betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung).
 
@@ -312,81 +312,79 @@ set for organisations.
   "per_page": 2,
   "data": [
     {
-      "id": 6270,
-      "created_at": "2011-03-01T22:06:55Z",
-      "updated_at": "2012-09-13T00:12:12Z",
-      "latitude": 49.7577018737793,
-      "longitude": 6.64428997039795,
-      "street": "Sichelstr. 36",
-      "zip": "54290",
-      "city": "Trier",
-      "country": "Germany",
-      "title": "Frühstück für Obdachlose und sozial Benachteiligte",
-      "description": "Unsere Projektnummer: 6270 - Der Arbeitskreis für Obdachlose und sozial Benachteiligte (AKOS) wurde 1995 von Trierer Studierenden gegründet. In der Diskussion mit den an der Hilfe beteiligten Behörden und Institutionen wurde deutlich, dass die materielle Versorgung in Trier mit Geld, Nahrungsmitteln, usw. als gut bezeichnet werden kann. Diese offizielle Versorgung mit materiellen Gütern ist jedoch zumeist nicht darauf gerichtet, die Menschen im psycho-sozialen Bereich zu unterstützen. <br /><br />An dieser Stelle setzt die ehrenamtliche Tätigkeit des AKOS an. Wir bieten jeden Samstag von 7 bis 10 Uhr ein leckeres Büffet an. Das Frühstück ist ein neutraler Ort. Hier treffen sich keine Bettler oder Schnorrer, sondern Menschen, die Hunger haben. Aber die meisten unseren Gäste kommen nicht nur wegen des Essens, sondern vor allem wegen der Gesellschaft. Wir haben ein offenes Ohr für unsere Gäste, die jemanden zum zuhören brauchen, Rat suchen oder einfach ein bisschen plaudern wollen. Gespräche werden nicht von Stehendem zu Sitzendem, von oben herab, von Normalbürger zu Außenseiter geführt, sondern von Kaffeetrinker zu Brötchenesser. Es werden ganz normale \"Frühstücksgespräche\" geführt!<br /><br /><br />Es gibt Leute mit alter Kleidung, die in unserer Kleiderkammer nach etwas Neuem suchen. Andere haben sich extra für den Samstag rausgeputzt. SpätaussiedlerInnen, Studierende, junge Mütter mit ihren Kindern sind genauso Gast wie Trierer Urgesteine oder Durchreisende. Es gibt die ewigen Nörgler, wie die immer Lachenden, denen kein Unglück den Tag verderben kann. Das Spektrum der Gäste ist groß. <br /><br />Wir sind keine Institution, die Obdachlose oder soziale Härtefälle betreuen. Wir haben nicht den Anspruch, jemanden auf den \"richtigen Weg\" zu bringen - aber wenn wir gut zusammen frühstücken und miteinander sprechen, dann wird das vielleicht auch ein Stückchen weniger notwendig.<br /><br />Unser Frühstücksangebot ist für jeden offen, die Zahl unserer Gäste schwankt zwischen 30 und 50. Unsere ehrenamtlichen HelferInnen sind genau so unterschiedlich wie unsere Frühstücksgäste: es gibt junge und ältere, Studierende und Arbeitstätige. Aktiv sind derzeit ca. 20 HelferInnen, wobei pro Frühstück 3 bis 7 HelferInnen anwesend sind.<br /><br />Ein herzliches Dankeschön auch an unsere großzügigen Sachspender, die uns jede Woche mit Nahrungsmitteln unterstützen: Bäckerei Kirwald, Fleischerei Tyszak, Trierer Tafel, F. G. Wallner e.K Eier Butter Käse Großhandel sowie die KHG Trier, die uns die Räume zur Verfügung stellt.<br /><br />Leider zeigt unsere Küchenausstattung nach all den Jahren einige Abnutzungserscheinungen und daher würden wir gern einige Gegenstände ersetzen, die einerseits dringend benötigt werden (z.B. neue Kaffeemaschinen) und andererseits gern einige Neuanschaffungen tätigen, um das Frühstück noch einladender zu gestalten (z.B. Wärmesuppentopf, um im Winter  etwas warmes anbieten zu können).",
+      "id": 10745,
+      "created_at": "2012-09-04T07:48:34Z",
+      "updated_at": "2013-03-18T11:03:11Z",
+      "latitude": 34.733879,
+      "longitude": 36.71817,
+      "city": "Homs",
+      "country": "Syrian Arab Republic",
+      "title": "Christen in Homs / Syrien! - Sie warten auf Hilfe",
+      "description": "Unsere Projektnummer: 10745- Die IGFM–Wittlich, mit ihrer Vorsitzenden Katrin Bornmüller, unterstützt die Christen in Homs in Syrien. Sie sind unverschuldet zwischen die Fronten des alten und noch immer starken Regimes der Alawiten unter Führung des Präsidenten Assad und den Aufständischen – meist sunnitischen Muslimen - geraten.<br /><br />Bald nachdem am 15. März 2011 eine kleine Demonstration die Unruhen in Syrien auslösten, brach auch in Homs der Widerstand gegen das Regime aus.  Diese Groß- und Industriestadt, mit etwa 1 Mill. Einwohner, liegt auf halbem Weg zwischen den Zentren Damaskus und Aleppo. Sie hatte etwa 10% Christen verschiedener Konfessionen. In der Innenstadt waren 10 Kirchen. Alle sind inzwischen stark beschädigt – manche bis zur Unbrauchbarkeit. Die Aufständischen hatten sich besonders in den christlichen Stadtteilen verschanzt, die dann extrem stark beschossen wurden. Viele Einwohner aller Religionen sind geflüchtet. Auch Priester und Bischöfe haben die Stadt verlassen. Schulen und die Universität sind schon viele Monate geschlossen. Die Bewohner haben ihre Arbeitsplätze und damit ihr Einkommen verloren. Viele Wohnungen sind unbrauchbar, andere besetzt.<br /><br />Die IGFM hält Kontakt zu zwei Jesuitenpatres. Sie hatten eigene Gemeinden in der Innenstadt und führten vor den Toren von Homs das landwirtschaftliches Projekt Al Ard – die Erde - in dem Behinderte betreut wurden. Die Jesuiten wollen Homs nicht den Rücken kehren und versuchen denen zu helfen, die nicht fortgehen konnten oder wollten – gleich welcher Religion. Obwohl ihr Pfarrhaus beschädigt ist, haben sie dort 50 Obdachlose aufgenommen und 200 in den Gebäuden von Al Ard. Für Kinder versuchen sie Schulunterricht zu organisieren.<br /><br />Es ist unvorstellbar schwer Lebensmittel und Medikamente in die Stadt hinein zu bekommen. Die Preise sind gewaltig gestiegen. Ersparnisse sind verbraucht. Die IGFM hat einen Weg erprobt Geld direkt in die Hände der Jesuiten zu bringen und die Kommunikation aufrecht zu halten.<br /><br />Ihre Hilfe kommt an!",
       "tax_deductible": true,
-      "open_amount_in_cents": -10000,
-      "positive_opinions_count": 22,
+      "open_amount_in_cents": 0,
+      "positive_opinions_count": 28,
       "negative_opinions_count": 0,
-      "donor_count": 18,
-      "progress_percentage": 112,
+      "donor_count": 21,
+      "progress_percentage": 100,
       "incomplete_need_count": 0,
-      "completed_need_count": 5,
-      "blog_post_count": 7,
+      "completed_need_count": 1,
+      "blog_post_count": 2,
       "contact": {
-        "name": "Anja H.",
+        "name": "K. Bornmüller",
         "picture": {
           "links": [
             {
               "rel": "original",
-              "href": "http://www.betterplace.org/paperclip/000/303/789/original_akos.jpg"
+              "href": "http://www.betterplace.org/paperclip/000/166/874/original_JHV_2009_004.jpg"
             },
             {
               "rel": "large_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/303/789/big_akos.png"
+              "href": "http://www.betterplace.org/paperclip/000/166/874/big_JHV_2009_004.png"
             },
             {
               "rel": "profile_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/303/789/profile_akos.jpg"
+              "href": "http://www.betterplace.org/paperclip/000/166/874/profile_JHV_2009_004.jpg"
             },
             {
               "rel": "thumb_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/303/789/thumb_akos.png"
+              "href": "http://www.betterplace.org/paperclip/000/166/874/thumb_JHV_2009_004.png"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/katharina_b13"
+            "href": "https://www.betterplace.org/en/users/katrin_b13"
           }
         ]
       },
       "carrier": {
-        "name": "AKOS",
+        "name": "Internationale Gesellschaft für Menschenrechte",
         "picture": {
           "links": [
             {
               "rel": "original",
-              "href": "http://www.betterplace.org/paperclip/000/216/500/original_logo.gif"
+              "href": "http://www.betterplace.org/paperclip/000/166/879/original_IGFM_Logo_blau_R32_G90_B165.jpg"
             },
             {
               "rel": "large_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/216/500/big_logo.png"
+              "href": "http://www.betterplace.org/paperclip/000/166/879/big_IGFM_Logo_blau_R32_G90_B165.png"
             },
             {
               "rel": "profile_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/216/500/profile_logo.png"
+              "href": "http://www.betterplace.org/paperclip/000/166/879/profile_IGFM_Logo_blau_R32_G90_B165.png"
             },
             {
               "rel": "thumb_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/216/500/thumb_logo.png"
+              "href": "http://www.betterplace.org/paperclip/000/166/879/thumb_IGFM_Logo_blau_R32_G90_B165.png"
             }
           ]
         },
         "links": [
           {
             "rel": "self",
-            "href": "https://www.betterplace.org/en/api_v4/organisations/6396.json"
+            "href": "https://www.betterplace.org/en/api_v4/organisations/4621.json"
           }
         ]
       },
@@ -394,124 +392,125 @@ set for organisations.
         "links": [
           {
             "rel": "original",
-            "href": "http://www.betterplace.org/paperclip/000/216/488/original_profilbild.JPG"
+            "href": "http://www.betterplace.org/paperclip/000/290/036/original_Syrien32sp8-12.jpg"
           },
           {
             "rel": "large_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/216/488/big_profilbild.png"
+            "href": "http://www.betterplace.org/paperclip/000/290/036/big_Syrien32sp8-12.png"
           },
           {
             "rel": "profile_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/216/488/profile_profilbild.jpg"
+            "href": "http://www.betterplace.org/paperclip/000/290/036/profile_Syrien32sp8-12.jpg"
           },
           {
             "rel": "thumb_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/216/488/thumb_profilbild.png"
+            "href": "http://www.betterplace.org/paperclip/000/290/036/thumb_Syrien32sp8-12.png"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "https://www.betterplace.org/en/api_v4/projects/6270.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/10745.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/projects/6270-fruhstuck-fur-obdachlose-und-sozial-benachteiligte"
+          "href": "https://www.betterplace.org/en/projects/10745-christen-in-homs-syrien-sie-warten-auf-hilfe"
         },
         {
           "rel": "opinions",
-          "href": "https://www.betterplace.org/en/api_v4/projects/6270/opinions.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/10745/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "https://www.betterplace.org/en/api_v4/projects/6270/pictures.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/10745/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "https://www.betterplace.org/en/api_v4/projects/6270/needs.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/10745/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "https://www.betterplace.org/en/api_v4/projects/6270/blog_posts.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/10745/blog_posts.json"
         }
       ]
     },
     {
-      "id": 7559,
-      "created_at": "2011-08-29T19:19:36Z",
-      "updated_at": "2012-09-13T00:14:52Z",
-      "latitude": -3.36160039901733,
-      "longitude": 36.68631362915039,
-      "street": "Mianzini Road",
-      "city": "Arusha",
-      "country": "Tanzania",
-      "title": "Unterstützen Sie Kinder & Maasaifrauen in Tansania",
-      "description": "Unsere Projektnummer: 7559 - Mama Hindu ist Gründerin, treibende Kraft und gute Seele des \"Centre for Women and Children Development\" (CWCD) im tansanischen Arusha. Seit nunmehr 15 Jahren setzt Mama Hindu all ihre Zeit und Energie für in Not geratene Frauen, Kinder und Jugendliche ein. Durch das CWCD ermöglicht sie den Unterprivilegierten in der Region Arusha durch Zuwendung, Bildung und Aufklärung eine echte Zukunftsperspektive. <br /><br />Das Engagement des CWCD erstreckt sich auf unterschiedliche Bereiche, die sich im Wesentlichen mit den Themen Bildung, Aufklärung, Emanzipation und Hilfe gegen Hunger und Armut auseinandersetzen. Ein Schwerpunkt des CWCD ist eine Schule mit Kindergarten für unterprivilegierte Kinder. <br /><br />Weiterhin unterstützt und betreibt das CWCD zahlreiche Projekte in Maasai-Dörfern in der unmittelbaren Umgebung von Arusha, um den Schwachen in der tansanischen Gesellschaft Werkzeuge für die Hilfe zur Selbsthilfe an die Hand zu geben. Die Schwachen sind in erster Linie Waisen oder Halbwaisen, Witwen und allein gelassene Ehefrauen, deren gesellschaftlicher Status oft ein Leben in Armut bedeutet.<br /><br />Mama Hindu ist auch Namensgeberin unseres 2010 gegründeten Fördervereins, der sich der effektiven Unterstützung des CWCD verschrieben hat. Gesammelte Spenden leiten wir direkt und zweckgebunden an das CWCD weiter, wobei regelmäßige Besuche des Vereinsvorstandes vor Ort (selbstverständlich privat finanziert) die Ermittlung von Fortschritten und aktuellem Bedarf sicherstellen.<br /><br />Der Förderverein in Deutschland ist stark mit der Region Trier verbunden. Viele engagierte Mitglieder des Vereins sind wohnhaft in Trier, darunter auch die zweite Vorsitzende Julia Scherer. Zudem besteht eine Partnerschaft zwischen dem Kindergarten „Spatzennest“ in Trier und dem Kindergarten der Waisenschule. Auch unterstützt die Universität Trier das CWCD schon seit mehreren Jahren durch verschiedene Projekte.",
+      "id": 12431,
+      "created_at": "2013-02-20T07:40:37Z",
+      "updated_at": "2013-03-18T11:02:43Z",
+      "latitude": 56.969664,
+      "longitude": 23.15319,
+      "street": "",
+      "zip": "",
+      "city": "Tukums",
+      "country": "Latvia",
+      "title": "IGFM-Hilfstransporte für Lettland",
+      "description": "Unsere Projektnummer: 12431 - Sorgenfreies Leben von 70 € Rente, 200 € Durchschnittseinkommen von einem Viertel der Bevölkerung – aber Lebenshaltungskosten wie bei uns?<br /><br />Der Ombudsmann Lettlands bestätigte in einem Schreiben im November vergangenen Jahres, was viele arme lettische Bürger der Arbeitsgruppe Wittlich der Internationalen Gesellschaft für Menschenrechte schon seit Jahren schreiben. Lettland ist seit 2004 Mitglied der EU, aber den Anschluss an Europa hat Litauen verloren. 70% der Bevölkerung leben in bitterster Armut. Nach offiziellen Angaben liegt die Arbeitslosenquote in Lettland bei 15,9%. Diese Zahl trügt, denn Arbeitslose, die länger als ein Jahr ohne Beschäftigung sind, werden als solche nicht mehr geführt. Eine Grundsicherung wie etwa in Deutschland gibt es nicht. Offiziell garantiert  der lettische Staat eine kostenfreie medizinische Versorgung, doch wird der Patient nahezu immer eine „freiwillige Spende“ abverlangt. Die Versorgung in den Krankenhäusern ist katastrophal, es fehlt an allem, um die Kranken anständig versorgen zu können.<br /><br />Die Internationale Gesellschaft für Menschenrechte IGFM – Wittlich mit ihrer Vorsitzenden Katrin Bornmüller organisiert seit 1990 Hilfsgütertransporte mittels Sattelschleppern. Vor kurzem wurde sogar ein Traktor befördert, um arbeitslosen Menschen eine Chance zu geben, im Wald zu arbeiten. Auch 50 Krankenhausbetten und viele medizinische Geräte kamen so in lettische Krankenhäuser. Zuverlässiger Partner ist die IGFM-Sektion, gegründet und geführt von Peteris Lazda, ehemaliger Dissident, politischer Gefangener in der Sowjetunion, Opfer eines Vergiftungsversuchs durch den KGB. Sie hat ein Lager, in dem die Hilfsgüter sortiert werden. Die Leute kommen zu festen Ausgabezeiten und erhalten Kleidung, Schuhe und die notwendigsten Dinge für den Haushalt. Die Empfänger müssen einen Bedürftigkeitsnachweis haben. Jeder wird auf einer Liste eingetragen und muss den Empfang der Güter mit seiner Unterschrift bestätigen.<br /><br />Auch Sie können helfen. In diesem Jahr sollen noch fünf Transporte nach Lettland geschickt werden, die Spritpreise jedoch diktieren mehr und mehr die Möglichkeiten. Allein die Transportkosten betragen ca. 2.200 €. Schließlich sollen auch Lebensmittelpakete gepackt und Medikamente gekauft werden. Jede Spende hilft!",
       "tax_deductible": true,
       "open_amount_in_cents": 0,
-      "positive_opinions_count": 24,
+      "positive_opinions_count": 17,
       "negative_opinions_count": 0,
-      "donor_count": 17,
+      "donor_count": 15,
       "progress_percentage": 100,
       "incomplete_need_count": 0,
-      "completed_need_count": 7,
-      "blog_post_count": 3,
+      "completed_need_count": 1,
+      "blog_post_count": 1,
       "contact": {
-        "name": "J. Scherer",
+        "name": "K. Bornmüller",
         "picture": {
           "links": [
             {
               "rel": "original",
-              "href": "http://www.betterplace.org/paperclip/000/260/996/original_jule%20und%20mama%20hindu.JPG"
+              "href": "http://www.betterplace.org/paperclip/000/166/874/original_JHV_2009_004.jpg"
             },
             {
               "rel": "large_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/260/996/big_jule%20und%20mama%20hindu.png"
+              "href": "http://www.betterplace.org/paperclip/000/166/874/big_JHV_2009_004.png"
             },
             {
               "rel": "profile_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/260/996/profile_jule%20und%20mama%20hindu.jpg"
+              "href": "http://www.betterplace.org/paperclip/000/166/874/profile_JHV_2009_004.jpg"
             },
             {
               "rel": "thumb_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/260/996/thumb_jule%20und%20mama%20hindu.png"
+              "href": "http://www.betterplace.org/paperclip/000/166/874/thumb_JHV_2009_004.png"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/julia_s42"
+            "href": "https://www.betterplace.org/en/users/katrin_b13"
           }
         ]
       },
       "carrier": {
-        "name": "Mama Hindu e.V. - Förderverein des CWCD",
+        "name": "Internationale Gesellschaft für Menschenrechte",
         "picture": {
           "links": [
             {
               "rel": "original",
-              "href": "http://www.betterplace.org/paperclip/000/261/143/original_logo_MH_1a.jpg"
+              "href": "http://www.betterplace.org/paperclip/000/166/879/original_IGFM_Logo_blau_R32_G90_B165.jpg"
             },
             {
               "rel": "large_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/261/143/big_logo_MH_1a.png"
+              "href": "http://www.betterplace.org/paperclip/000/166/879/big_IGFM_Logo_blau_R32_G90_B165.png"
             },
             {
               "rel": "profile_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/261/143/profile_logo_MH_1a.png"
+              "href": "http://www.betterplace.org/paperclip/000/166/879/profile_IGFM_Logo_blau_R32_G90_B165.png"
             },
             {
               "rel": "thumb_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/261/143/thumb_logo_MH_1a.png"
+              "href": "http://www.betterplace.org/paperclip/000/166/879/thumb_IGFM_Logo_blau_R32_G90_B165.png"
             }
           ]
         },
         "links": [
           {
             "rel": "self",
-            "href": "https://www.betterplace.org/en/api_v4/organisations/8354.json"
+            "href": "https://www.betterplace.org/en/api_v4/organisations/4621.json"
           }
         ]
       },
@@ -519,46 +518,46 @@ set for organisations.
         "links": [
           {
             "rel": "original",
-            "href": "http://www.betterplace.org/paperclip/000/260/995/original_IMG_1562.JPG"
+            "href": "http://www.betterplace.org/paperclip/000/303/274/original_LV-Ausladen.jpg"
           },
           {
             "rel": "large_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/260/995/big_IMG_1562.png"
+            "href": "http://www.betterplace.org/paperclip/000/303/274/big_LV-Ausladen.png"
           },
           {
             "rel": "profile_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/260/995/profile_IMG_1562.jpg"
+            "href": "http://www.betterplace.org/paperclip/000/303/274/profile_LV-Ausladen.jpg"
           },
           {
             "rel": "thumb_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/260/995/thumb_IMG_1562.png"
+            "href": "http://www.betterplace.org/paperclip/000/303/274/thumb_LV-Ausladen.png"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "https://www.betterplace.org/en/api_v4/projects/7559.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/12431.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/projects/7559-unterstutzen-sie-kinder-maasaifrauen-in-tansania"
+          "href": "https://www.betterplace.org/en/projects/12431-igfm-hilfstransporte-fur-lettland"
         },
         {
           "rel": "opinions",
-          "href": "https://www.betterplace.org/en/api_v4/projects/7559/opinions.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/12431/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "https://www.betterplace.org/en/api_v4/projects/7559/pictures.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/12431/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "https://www.betterplace.org/en/api_v4/projects/7559/needs.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/12431/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "https://www.betterplace.org/en/api_v4/projects/7559/blog_posts.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/12431/blog_posts.json"
         }
       ]
     }
