@@ -2,13 +2,13 @@
 # Volunteering Details ⇄ [List](volunteering_list.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/volunteering/23.json
+GET https://www.betterplace.org/en/api_v4/volunteering/23.json
 ```
 
 The details of a betterplace.org volunteering offer (donate time).
 
 *For [betterplace.org clients](../README.md#client-api):*
-This ressource is not avaliable at the moment.
+This resource is not avaliable at the moment.
 
 
 ## Input Parameter
@@ -234,6 +234,10 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
     <td>Thumbnail size</td>
   </tr>
   <tr>
+    <th>image.original</th>
+    <td>Original size</td>
+  </tr>
+  <tr>
     <th>image.thumb</th>
     <td>Thumbnail size</td>
   </tr>
@@ -246,16 +250,16 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
     <td>Original size as uploaded by the user</td>
   </tr>
   <tr>
-    <th>contact.picture.large</th>
-    <td>Large size</td>
+    <th>contact.picture.large_attention_deprecated</th>
+    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
-    <th>contact.picture.profile</th>
-    <td>Medium size</td>
+    <th>contact.picture.profile_attention_deprecated</th>
+    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
   <tr>
-    <th>contact.picture.thumb</th>
-    <td>Thumbnail size</td>
+    <th>contact.picture.thumb_attention_deprecated</th>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
 </table>
 
@@ -265,7 +269,7 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
 {
   "id": 23,
   "created_at": "2013-01-28T09:23:17Z",
-  "updated_at": "2013-01-28T13:12:37Z",
+  "updated_at": "2013-03-18T00:30:47Z",
   "title": "Essensausgabe/Fahrdienst",
   "description": "<p>Die Kasseler Tafel e.V. sammelt qualitativ einwandfreie Lebensmittel, die kurz vor dem Mindesthaltbarkeitsdatum stehen, bei Firmen in der Region ein und verteilt diese gegen einen symbolischen Betrag an bedürftige Mitbürgerinnen und Mitbürger.</p>\n<p>Freiwillige können sich in folgenden Bereichen bei der Kasseler Tafel betätigen:</p>\n<p>1. Lebensmittel sortieren und ausgeben</p>\n<p>2. als Fahrer: Abholung der Lebensmittel bei den Supermärkten</p>\n\n<p>Mehr Informationen finden Sie unter: http://kasseler-tafel.de/</p>\n<p>Wir freuen uns über Ihr Interesse! </p>\n\n<ul><li>Unfallversicherung</li><li>Haftpflichtversicherung</li><li>Anleitung durch Fachkräfte</li><li>Tätigkeitsnachweise</li><li>Ausstattung mit Medien / Arbeitsmaterialien</li></ul>",
   "carrier": {
@@ -296,11 +300,11 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/en/api_v4/volunteering/23.json"
+      "href": "https://www.betterplace.org/en/api_v4/volunteering/23.json"
     },
     {
       "rel": "platform",
-      "href": "https://api.betterplace.org/en/volunteering/23-essensausgabe-fahrdienst"
+      "href": "https://www.betterplace.org/en/volunteering/23-essensausgabe-fahrdienst"
     }
   ]
 }

@@ -2,7 +2,7 @@
 # Client donation list
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations.json
+GET https://www.betterplace.org/en/api_v4/clients/Volksfreund/client_donations.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -10,7 +10,7 @@ GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations.j
 This API returns all donations to all client projects that where made using
 the client donation form (but none of the other donation-sources).
 
-Results are contains in a *data* attribute.
+Results are contained in a *data* attribute.
 
 
 ## Input Parameter

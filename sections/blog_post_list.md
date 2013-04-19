@@ -2,11 +2,11 @@
 # Project Blog Post List ⇄ [Details](blog_post_details.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects/38/blog_posts.json
+GET https://www.betterplace.org/en/api_v4/projects/38/blog_posts.json
 ```
 
 A list of betterplace.org projects blog posts.
-Results are contains in a *data* attribute.
+Results are contained in a *data* attribute.
 
 *For [betterplace.org clients](../README.md#client-api):*
 
@@ -148,15 +148,15 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
               "href": "http://www.betterplace.org/paperclip/000/000/632/original_Bonty_Botumile.jpg"
             },
             {
-              "rel": "large",
+              "rel": "large_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/000/632/big_Bonty_Botumile.png"
             },
             {
-              "rel": "profile",
+              "rel": "profile_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/000/632/profile_Bonty_Botumile.jpg"
             },
             {
-              "rel": "thumb",
+              "rel": "thumb_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/000/632/thumb_Bonty_Botumile.png"
             }
           ]
@@ -164,14 +164,14 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
         "links": [
           {
             "rel": "platform",
-            "href": "https://api.betterplace.org/en/users/bontekanye_b"
+            "href": "https://www.betterplace.org/en/users/bontekanye_b"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/blog_posts/22.json"
+          "href": "https://www.betterplace.org/en/api_v4/blog_posts/22.json"
         },
         {
           "rel": "documentation",
@@ -196,15 +196,15 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
               "href": "http://www.betterplace.org/paperclip/000/000/632/original_Bonty_Botumile.jpg"
             },
             {
-              "rel": "large",
+              "rel": "large_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/000/632/big_Bonty_Botumile.png"
             },
             {
-              "rel": "profile",
+              "rel": "profile_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/000/632/profile_Bonty_Botumile.jpg"
             },
             {
-              "rel": "thumb",
+              "rel": "thumb_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/000/632/thumb_Bonty_Botumile.png"
             }
           ]
@@ -212,14 +212,14 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
         "links": [
           {
             "rel": "platform",
-            "href": "https://api.betterplace.org/en/users/bontekanye_b"
+            "href": "https://www.betterplace.org/en/users/bontekanye_b"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/blog_posts/44.json"
+          "href": "https://www.betterplace.org/en/api_v4/blog_posts/44.json"
         },
         {
           "rel": "documentation",

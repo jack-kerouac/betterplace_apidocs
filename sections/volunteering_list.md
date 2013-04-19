@@ -2,14 +2,14 @@
 # Volunteering List ⇄ [Details](volunteering_details.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/volunteering.json?nelat=51.123&nelng=12.123&order=created_at%3AASC&q=Homework+help&scope=location&swlat=51.001&swlng=12.001
+GET https://www.betterplace.org/en/api_v4/volunteering.json?nelat=51.123&nelng=12.123&order=created_at%3AASC&q=Homework+help&scope=location&swlat=51.001&swlng=12.001
 ```
 
 A list of betterplace.org volunteering offers (donate time).
-Results are contains in a *data* attribute.
+Results are contained in a *data* attribute.
 
 *For [betterplace.org clients](../README.md#client-api):*
-This ressource is not avaliable at the moment.
+This resource is not avaliable at the moment.
 
 
 ## Input Parameter
@@ -287,6 +287,10 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
     <td>Thumbnail size</td>
   </tr>
   <tr>
+    <th>image.original</th>
+    <td>Original size</td>
+  </tr>
+  <tr>
     <th>image.thumb</th>
     <td>Thumbnail size</td>
   </tr>
@@ -299,16 +303,16 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
     <td>Original size as uploaded by the user</td>
   </tr>
   <tr>
-    <th>contact.picture.large</th>
-    <td>Large size</td>
+    <th>contact.picture.large_attention_deprecated</th>
+    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
-    <th>contact.picture.profile</th>
-    <td>Medium size</td>
+    <th>contact.picture.profile_attention_deprecated</th>
+    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
   <tr>
-    <th>contact.picture.thumb</th>
-    <td>Thumbnail size</td>
+    <th>contact.picture.thumb_attention_deprecated</th>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
 </table>
 
@@ -316,16 +320,16 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
 
 ```json
 {
-  "total_entries": 6679,
+  "total_entries": 7765,
   "offset": 3,
-  "total_pages": 2227,
+  "total_pages": 2589,
   "current_page": 2,
   "per_page": 3,
   "data": [
     {
       "id": 4,
       "created_at": "2013-01-28T09:23:08Z",
-      "updated_at": "2013-01-28T13:12:30Z",
+      "updated_at": "2013-03-18T00:30:41Z",
       "latitude": 51.3171,
       "longitude": 9.49246,
       "street": "Rathaus Obere Königstrasse F 405 a 4. St.",
@@ -353,7 +357,7 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
         "email": "heidi.schulz@stadt-kassel.de"
       },
       "topics": [
-        "Invalid",
+        "Health",
         "Disabled"
       ],
       "activities": [
@@ -363,18 +367,18 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/volunteering/4.json"
+          "href": "https://www.betterplace.org/en/api_v4/volunteering/4.json"
         },
         {
           "rel": "platform",
-          "href": "https://api.betterplace.org/en/volunteering/4-betreuung-begleitung-im-rahmen-des-betreuungsrechts"
+          "href": "https://www.betterplace.org/en/volunteering/4-betreuung-begleitung-im-rahmen-des-betreuungsrechts"
         }
       ]
     },
     {
       "id": 5,
       "created_at": "2013-01-28T09:23:09Z",
-      "updated_at": "2013-01-28T13:12:31Z",
+      "updated_at": "2013-03-18T00:30:42Z",
       "title": "Patientenbesuchsdienst im Diakonissen- und Burgfeldkrankenhaus",
       "description": "<ul><li>Wir stellen den Menschen in den Mittelpunkt</li>\n    <li>Wir sind für die Patienten da</li>\n    <li>Wir begleiten Spaziergänge im Haus und draußen</li>\n    <li>Wir lesen vor aus \"Was ihr wollt\"</li>\n    <li>Wir erledigen Besorgungen</li>\n    <li>Wir bringen die Bücherei ans Bett</li>\n    <li>Wir gehen Kranken zur Hand</li>\n    <li>Wir hören zu, begleiten und betreuen</li>\n    <li>Wir helfen bei der Aufnahme ins Krankenhaus</li>\n</ul>\n\n<p>Jeder/r von uns arbeitet einen Tag pro Woche von 9:00 bis 12:00 Uhr auf einer Station. Wir treffen uns monatlich zu 2stündigen Themennachmittagen zum Gedanken- und Erfahrungsaustausch. Das Einsatzgebiet (Aufnahme, Pflege, Büchereidienst oder Dienst im Altenheim) kann nach Neigung gewählt werden.</p>\n<p>Bei all diesen Aufgaben sind wir durch das Krankenhaus pauschal unfallversichert.</p>\n<p>Es gibt einen monatlich festgelegten Einsatzplan.</p>\n<p>Wir freuen uns über Ihr Interesse und beantworten gern Ihre Fragen.</p>\n\n<ul><li>Unfallversicherung</li><li>Haftpflichtversicherung</li><li>regelmäßige Informationen</li><li>Erfahrungsaustausch</li><li>Fortbildung/Qualifizierungsangebote</li><li>Anleitung durch Fachkräfte</li><li>Tätigkeitsnachweise</li><li>kostenlose Verpflegung</li><li>kostenlose Veranstaltungen</li></ul>",
       "carrier": {
@@ -396,7 +400,7 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
         "email": "info@freiwilligenzentrumkassel.de"
       },
       "topics": [
-        "Invalid",
+        "Health",
         "Elderly people"
       ],
       "activities": [
@@ -406,18 +410,18 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/volunteering/5.json"
+          "href": "https://www.betterplace.org/en/api_v4/volunteering/5.json"
         },
         {
           "rel": "platform",
-          "href": "https://api.betterplace.org/en/volunteering/5-patientenbesuchsdienst-im-diakonissen-und-burgfeldkrankenhaus"
+          "href": "https://www.betterplace.org/en/volunteering/5-patientenbesuchsdienst-im-diakonissen-und-burgfeldkrankenhaus"
         }
       ]
     },
     {
       "id": 6,
       "created_at": "2013-01-28T09:23:09Z",
-      "updated_at": "2013-01-28T13:12:31Z",
+      "updated_at": "2013-03-18T00:30:42Z",
       "latitude": 51.327,
       "longitude": 9.50938,
       "street": "Mönchebergstr. 41-43",
@@ -446,7 +450,7 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
       },
       "topics": [
         "Children & youth",
-        "Invalid",
+        "Health",
         "Elderly people"
       ],
       "activities": [
@@ -456,11 +460,11 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/volunteering/6.json"
+          "href": "https://www.betterplace.org/en/api_v4/volunteering/6.json"
         },
         {
           "rel": "platform",
-          "href": "https://api.betterplace.org/en/volunteering/6-blaue-helferin-blauer-helfer-besuchsdienst-im-klinikum-kassel"
+          "href": "https://www.betterplace.org/en/volunteering/6-blaue-helferin-blauer-helfer-besuchsdienst-im-klinikum-kassel"
         }
       ]
     }

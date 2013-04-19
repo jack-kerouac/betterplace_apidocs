@@ -2,7 +2,7 @@
 # Project Need Details ⇄ [List](need_list.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects/1114/needs/59220.json
+GET https://www.betterplace.org/en/api_v4/projects/1114/needs/59220.json
 ```
 
 The details of a betterplace.org project need (donate money).
@@ -132,24 +132,24 @@ to make sure you only request data that is associated with one of your projects.
 
 ```json
 {
-  "id": 59220,
-  "created_at": "2013-01-29T11:25:47Z",
-  "updated_at": "2013-01-29T11:27:54Z",
-  "title": "Organisation",
-  "description": "Kosten im Zusammenhang mit der Entwicklung eines deutschlandweiten Patenprogramms, zur Förderung der Weitergabe von zwischenmenschlichen Stärken.\r\n\r\nDetails hierzu können erfragt werden unter parallelen.utd@gmail.com",
+  "id": 58985,
+  "created_at": "2013-01-22T18:35:15Z",
+  "updated_at": "2013-02-16T14:31:18Z",
+  "title": "Heater for the Kitchen",
+  "description": "Heater for kitchen facility in Kabul where we cook meals for our \"Back-to-School\" program 5 days/week.",
   "completed": true,
   "progress_percentage": 100,
-  "donated_amount_in_cents": 60000,
+  "donated_amount_in_cents": 6100,
   "open_amount_in_cents": 0,
-  "requested_amount_in_cents": 60000,
+  "requested_amount_in_cents": 6100,
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/en/api_v4/projects/11748/needs/59220.json"
+      "href": "https://www.betterplace.org/en/api_v4/projects/1114/needs/58985.json"
     },
     {
       "rel": "project",
-      "href": "https://api.betterplace.org/en/api_v4/projects/11748.json"
+      "href": "https://www.betterplace.org/en/api_v4/projects/1114.json"
     }
   ]
 }

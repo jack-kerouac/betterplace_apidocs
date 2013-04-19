@@ -2,11 +2,11 @@
 # Project Need List ⇄ [Details](need_details.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects/1114/needs.json
+GET https://www.betterplace.org/en/api_v4/projects/1114/needs.json
 ```
 
 A list of betterplace.org projects needs (donate money).
-Results are contains in a *data* attribute.
+Results are contained in a *data* attribute.
 The details and list view show the same data per project need.
 
 *For [betterplace.org clients](../README.md#client-api):*
@@ -127,75 +127,75 @@ to make sure you only request data that is associated with one of your projects.
 
 ```json
 {
-  "total_entries": 73,
+  "total_entries": 74,
   "offset": 0,
   "total_pages": 25,
   "current_page": 1,
   "per_page": 3,
   "data": [
     {
-      "id": 58515,
-      "created_at": "2013-01-14T08:49:05Z",
-      "updated_at": "2013-04-04T18:21:38Z",
-      "title": "Ping Pong Table ",
-      "description": "A moveable Ping Pong (Table Tennis) table for our multi-sport facility in Skateistan's new Skatepark in Mazar-e-Sharif in Northern Afghanistan.",
+      "id": 59517,
+      "created_at": "2013-02-05T15:27:06Z",
+      "updated_at": "2013-04-17T16:21:40Z",
+      "title": "Vehicle Fuel ",
+      "description": "Fuel to transport students and staff to and from Skatepark in Kabul for 2013.",
       "completed": false,
-      "progress_percentage": 67,
-      "donated_amount_in_cents": 19300,
-      "open_amount_in_cents": 9100,
-      "requested_amount_in_cents": 28400,
+      "progress_percentage": 50,
+      "donated_amount_in_cents": 89970,
+      "open_amount_in_cents": 87530,
+      "requested_amount_in_cents": 177500,
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs/58515.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/1114/needs/59517.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/1114.json"
         }
       ]
     },
     {
-      "id": 58518,
-      "created_at": "2013-01-14T08:54:25Z",
-      "updated_at": "2013-01-15T10:05:47Z",
-      "title": "Full Badminton Set",
-      "description": "This kit has everything needed for Badminton including 3 nets, 16 rackets and 20 shuttlecocks. The kit is for Skateistan's multi-sport facility at the new Skatepark in Mazar-e-Sharif, in Northern Afghanistan. ",
-      "completed": false,
-      "progress_percentage": 91,
-      "donated_amount_in_cents": 34014,
-      "open_amount_in_cents": 3286,
-      "requested_amount_in_cents": 37300,
+      "id": 5228,
+      "created_at": "2009-03-10T10:38:39Z",
+      "updated_at": "2009-07-29T06:31:00Z",
+      "title": "Warme Mahlzeiten",
+      "description": "Wer sich viel bewegt, der muss auch richtig essen: Mit nur 50 Euro im Monat lassen sich 8-10 warme Mahlzeiten für rund 30 Waisenkinder bereitstellen, die zweimal in der Woche von dem Skateistan-Team besucht werden und lernen Skateboard zu fahren.",
+      "completed": true,
+      "progress_percentage": 100,
+      "donated_amount_in_cents": 5000,
+      "open_amount_in_cents": 0,
+      "requested_amount_in_cents": 5000,
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs/58518.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/1114/needs/5228.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/1114.json"
         }
       ]
     },
     {
-      "id": 58985,
-      "created_at": "2013-01-22T18:35:15Z",
-      "updated_at": "2013-01-22T18:35:16Z",
-      "title": "Heater for the Kitchen",
-      "description": "Heater for kitchen facility in Kabul where we cook meals for our \"Back-to-School\" program 5 days/week.",
-      "completed": false,
-      "progress_percentage": 0,
-      "donated_amount_in_cents": 0,
-      "open_amount_in_cents": 6100,
-      "requested_amount_in_cents": 6100,
+      "id": 5229,
+      "created_at": "2009-03-10T10:54:30Z",
+      "updated_at": "2009-07-29T06:31:03Z",
+      "title": "Skateboardlehrer",
+      "description": "Mirwais, 13, ist Afghanistans erster talentierter Skateboardlehrer. Früher wusch er für 2 Dollar am Tag Autos auf der Straße. Heute ist er Skateistans Angestellter und kann mit seinem Gehalt (167 Euro/Monat) seine Familie ernähren.",
+      "completed": true,
+      "progress_percentage": 100,
+      "donated_amount_in_cents": 16700,
+      "open_amount_in_cents": 0,
+      "requested_amount_in_cents": 16700,
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs/58985.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/1114/needs/5229.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/1114.json"
         }
       ]
     }

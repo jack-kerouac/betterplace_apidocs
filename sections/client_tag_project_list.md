@@ -2,7 +2,7 @@
 # Client project-tag project list
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/tags/Ernaehrung/projects.json
+GET https://www.betterplace.org/en/api_v4/clients/Volksfreund/tags/Ernaehrung/projects.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -248,16 +248,16 @@ with betterplace.org but donated via one of our partner.
     <td>Original size as uploaded by the user</td>
   </tr>
   <tr>
-    <th>profile_picture.large</th>
-    <td>Large size</td>
+    <th>profile_picture.large_attention_deprecated</th>
+    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
-    <th>profile_picture.profile</th>
-    <td>Medium size</td>
+    <th>profile_picture.profile_attention_deprecated</th>
+    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
   <tr>
-    <th>profile_picture.thumb</th>
-    <td>Thumbnail size</td>
+    <th>profile_picture.thumb_attention_deprecated</th>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
   <tr>
     <th>carrier.self</th>
@@ -272,32 +272,32 @@ set for organisations.
     <td>Original size as uploaded by the user</td>
   </tr>
   <tr>
-    <th>profile_picture.large</th>
-    <td>Large size</td>
+    <th>profile_picture.large_attention_deprecated</th>
+    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
-    <th>profile_picture.profile</th>
-    <td>Medium size</td>
+    <th>profile_picture.profile_attention_deprecated</th>
+    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
   <tr>
-    <th>profile_picture.thumb</th>
-    <td>Thumbnail size</td>
+    <th>profile_picture.thumb_attention_deprecated</th>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
   <tr>
     <th>profile_picture.original</th>
     <td>Original size as uploaded by the user</td>
   </tr>
   <tr>
-    <th>profile_picture.large</th>
-    <td>Large size</td>
+    <th>profile_picture.large_attention_deprecated</th>
+    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
-    <th>profile_picture.profile</th>
-    <td>Medium size</td>
+    <th>profile_picture.profile_attention_deprecated</th>
+    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
   <tr>
-    <th>profile_picture.thumb</th>
-    <td>Thumbnail size</td>
+    <th>profile_picture.thumb_attention_deprecated</th>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
 </table>
 
@@ -305,9 +305,9 @@ set for organisations.
 
 ```json
 {
-  "total_entries": 8,
+  "total_entries": 9,
   "offset": 0,
-  "total_pages": 4,
+  "total_pages": 5,
   "current_page": 1,
   "per_page": 2,
   "data": [
@@ -333,31 +333,31 @@ set for organisations.
       "completed_need_count": 5,
       "blog_post_count": 7,
       "contact": {
-        "name": "K. Böhme",
+        "name": "Anja H.",
         "picture": {
           "links": [
             {
               "rel": "original",
-              "href": "http://www.betterplace.org/paperclip/000/216/494/original_pf.jpg"
+              "href": "http://www.betterplace.org/paperclip/000/303/789/original_akos.jpg"
             },
             {
-              "rel": "large",
-              "href": "http://www.betterplace.org/paperclip/000/216/494/big_pf.png"
+              "rel": "large_attention_deprecated",
+              "href": "http://www.betterplace.org/paperclip/000/303/789/big_akos.png"
             },
             {
-              "rel": "profile",
-              "href": "http://www.betterplace.org/paperclip/000/216/494/profile_pf.jpg"
+              "rel": "profile_attention_deprecated",
+              "href": "http://www.betterplace.org/paperclip/000/303/789/profile_akos.jpg"
             },
             {
-              "rel": "thumb",
-              "href": "http://www.betterplace.org/paperclip/000/216/494/thumb_pf.png"
+              "rel": "thumb_attention_deprecated",
+              "href": "http://www.betterplace.org/paperclip/000/303/789/thumb_akos.png"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://api.betterplace.org/en/users/katharina_b13"
+            "href": "https://www.betterplace.org/en/users/katharina_b13"
           }
         ]
       },
@@ -370,15 +370,15 @@ set for organisations.
               "href": "http://www.betterplace.org/paperclip/000/216/500/original_logo.gif"
             },
             {
-              "rel": "large",
+              "rel": "large_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/216/500/big_logo.png"
             },
             {
-              "rel": "profile",
+              "rel": "profile_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/216/500/profile_logo.png"
             },
             {
-              "rel": "thumb",
+              "rel": "thumb_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/216/500/thumb_logo.png"
             }
           ]
@@ -386,7 +386,7 @@ set for organisations.
         "links": [
           {
             "rel": "self",
-            "href": "https://api.betterplace.org/en/api_v4/organisations/6396.json"
+            "href": "https://www.betterplace.org/en/api_v4/organisations/6396.json"
           }
         ]
       },
@@ -397,15 +397,15 @@ set for organisations.
             "href": "http://www.betterplace.org/paperclip/000/216/488/original_profilbild.JPG"
           },
           {
-            "rel": "large",
+            "rel": "large_attention_deprecated",
             "href": "http://www.betterplace.org/paperclip/000/216/488/big_profilbild.png"
           },
           {
-            "rel": "profile",
+            "rel": "profile_attention_deprecated",
             "href": "http://www.betterplace.org/paperclip/000/216/488/profile_profilbild.jpg"
           },
           {
-            "rel": "thumb",
+            "rel": "thumb_attention_deprecated",
             "href": "http://www.betterplace.org/paperclip/000/216/488/thumb_profilbild.png"
           }
         ]
@@ -413,27 +413,27 @@ set for organisations.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/6270.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/6270.json"
         },
         {
           "rel": "platform",
-          "href": "https://api.betterplace.org/en/projects/6270-fruhstuck-fur-obdachlose-und-sozial-benachteiligte"
+          "href": "https://www.betterplace.org/en/projects/6270-fruhstuck-fur-obdachlose-und-sozial-benachteiligte"
         },
         {
           "rel": "opinions",
-          "href": "https://api.betterplace.org/en/api_v4/projects/6270/opinions.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/6270/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "https://api.betterplace.org/en/api_v4/projects/6270/pictures.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/6270/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "https://api.betterplace.org/en/api_v4/projects/6270/needs.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/6270/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "https://api.betterplace.org/en/api_v4/projects/6270/blog_posts.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/6270/blog_posts.json"
         }
       ]
     },
@@ -466,15 +466,15 @@ set for organisations.
               "href": "http://www.betterplace.org/paperclip/000/260/996/original_jule%20und%20mama%20hindu.JPG"
             },
             {
-              "rel": "large",
+              "rel": "large_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/260/996/big_jule%20und%20mama%20hindu.png"
             },
             {
-              "rel": "profile",
+              "rel": "profile_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/260/996/profile_jule%20und%20mama%20hindu.jpg"
             },
             {
-              "rel": "thumb",
+              "rel": "thumb_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/260/996/thumb_jule%20und%20mama%20hindu.png"
             }
           ]
@@ -482,7 +482,7 @@ set for organisations.
         "links": [
           {
             "rel": "platform",
-            "href": "https://api.betterplace.org/en/users/julia_s42"
+            "href": "https://www.betterplace.org/en/users/julia_s42"
           }
         ]
       },
@@ -495,15 +495,15 @@ set for organisations.
               "href": "http://www.betterplace.org/paperclip/000/261/143/original_logo_MH_1a.jpg"
             },
             {
-              "rel": "large",
+              "rel": "large_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/261/143/big_logo_MH_1a.png"
             },
             {
-              "rel": "profile",
+              "rel": "profile_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/261/143/profile_logo_MH_1a.png"
             },
             {
-              "rel": "thumb",
+              "rel": "thumb_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/261/143/thumb_logo_MH_1a.png"
             }
           ]
@@ -511,7 +511,7 @@ set for organisations.
         "links": [
           {
             "rel": "self",
-            "href": "https://api.betterplace.org/en/api_v4/organisations/8354.json"
+            "href": "https://www.betterplace.org/en/api_v4/organisations/8354.json"
           }
         ]
       },
@@ -522,15 +522,15 @@ set for organisations.
             "href": "http://www.betterplace.org/paperclip/000/260/995/original_IMG_1562.JPG"
           },
           {
-            "rel": "large",
+            "rel": "large_attention_deprecated",
             "href": "http://www.betterplace.org/paperclip/000/260/995/big_IMG_1562.png"
           },
           {
-            "rel": "profile",
+            "rel": "profile_attention_deprecated",
             "href": "http://www.betterplace.org/paperclip/000/260/995/profile_IMG_1562.jpg"
           },
           {
-            "rel": "thumb",
+            "rel": "thumb_attention_deprecated",
             "href": "http://www.betterplace.org/paperclip/000/260/995/thumb_IMG_1562.png"
           }
         ]
@@ -538,27 +538,27 @@ set for organisations.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/7559.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/7559.json"
         },
         {
           "rel": "platform",
-          "href": "https://api.betterplace.org/en/projects/7559-unterstutzen-sie-kinder-maasaifrauen-in-tansania"
+          "href": "https://www.betterplace.org/en/projects/7559-unterstutzen-sie-kinder-maasaifrauen-in-tansania"
         },
         {
           "rel": "opinions",
-          "href": "https://api.betterplace.org/en/api_v4/projects/7559/opinions.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/7559/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "https://api.betterplace.org/en/api_v4/projects/7559/pictures.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/7559/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "https://api.betterplace.org/en/api_v4/projects/7559/needs.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/7559/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "https://api.betterplace.org/en/api_v4/projects/7559/blog_posts.json"
+          "href": "https://www.betterplace.org/en/api_v4/projects/7559/blog_posts.json"
         }
       ]
     }

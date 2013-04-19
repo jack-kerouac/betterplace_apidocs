@@ -2,15 +2,15 @@
 # Organisation List ⇄ [Details](organisation_details.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/organisations.json
+GET https://www.betterplace.org/en/api_v4/organisations.json
 ```
 
 A list of betterplace.org organisations.
-Results are contains in a *data* attribute.
+Results are contained in a *data* attribute.
 The details and list view show the same data per organisation.
 
 *For [betterplace.org clients](../README.md#client-api):*
-This ressource is not avaliable at the moment.
+This resource is not avaliable at the moment.
 
 
 ## Input Parameter
@@ -163,32 +163,32 @@ with betterplace.org but donated via one of our partner.
     <td>Original size as uploaded by the user</td>
   </tr>
   <tr>
-    <th>picture.large</th>
-    <td>Large size</td>
+    <th>picture.large_attention_deprecated</th>
+    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
-    <th>picture.profile</th>
-    <td>Medium size</td>
+    <th>picture.profile_attention_deprecated</th>
+    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
   <tr>
-    <th>picture.thumb</th>
-    <td>Thumbnail size</td>
+    <th>picture.thumb_attention_deprecated</th>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
   <tr>
     <th>picture.original</th>
     <td>Original size as uploaded by the user</td>
   </tr>
   <tr>
-    <th>picture.large</th>
-    <td>Large size</td>
+    <th>picture.large_attention_deprecated</th>
+    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
-    <th>picture.profile</th>
-    <td>Medium size</td>
+    <th>picture.profile_attention_deprecated</th>
+    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
   <tr>
-    <th>picture.thumb</th>
-    <td>Thumbnail size</td>
+    <th>picture.thumb_attention_deprecated</th>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
 </table>
 
@@ -196,9 +196,9 @@ with betterplace.org but donated via one of our partner.
 
 ```json
 {
-  "total_entries": 6702,
+  "total_entries": 7147,
   "offset": 0,
-  "total_pages": 3351,
+  "total_pages": 3574,
   "current_page": 1,
   "per_page": 2,
   "data": [
@@ -225,15 +225,15 @@ with betterplace.org but donated via one of our partner.
               "href": "http://www.betterplace.org/paperclip/000/001/032/original_tegning-2.jpg"
             },
             {
-              "rel": "large",
+              "rel": "large_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/001/032/big_tegning-2.png"
             },
             {
-              "rel": "profile",
+              "rel": "profile_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/001/032/profile_tegning-2.jpg"
             },
             {
-              "rel": "thumb",
+              "rel": "thumb_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/001/032/thumb_tegning-2.png"
             }
           ]
@@ -241,7 +241,7 @@ with betterplace.org but donated via one of our partner.
         "links": [
           {
             "rel": "platform",
-            "href": "https://api.betterplace.org/en/users/jeppe_p"
+            "href": "https://www.betterplace.org/en/users/jeppe_p"
           }
         ]
       },
@@ -252,15 +252,15 @@ with betterplace.org but donated via one of our partner.
             "href": "http://www.betterplace.org/paperclip/000/000/339/original_logo_black.gif"
           },
           {
-            "rel": "large",
+            "rel": "large_attention_deprecated",
             "href": "http://www.betterplace.org/paperclip/000/000/339/big_logo_black.png"
           },
           {
-            "rel": "profile",
+            "rel": "profile_attention_deprecated",
             "href": "http://www.betterplace.org/paperclip/000/000/339/profile_logo_black.png"
           },
           {
-            "rel": "thumb",
+            "rel": "thumb_attention_deprecated",
             "href": "http://www.betterplace.org/paperclip/000/000/339/thumb_logo_black.png"
           }
         ]
@@ -268,15 +268,15 @@ with betterplace.org but donated via one of our partner.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/organisations/14.json"
+          "href": "https://www.betterplace.org/en/api_v4/organisations/14.json"
         },
         {
           "rel": "platform",
-          "href": "https://api.betterplace.org/en/organisations/mellemfolkeligtsamvirke"
+          "href": "https://www.betterplace.org/en/organisations/mellemfolkeligtsamvirke"
         },
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/en/api_v4/organisations/14/projects.json"
+          "href": "https://www.betterplace.org/en/api_v4/organisations/14/projects.json"
         }
       ]
     },
@@ -303,15 +303,15 @@ with betterplace.org but donated via one of our partner.
               "href": "http://www.betterplace.org/paperclip/000/000/392/original_Andreas_Renner_GEXSI.jpg"
             },
             {
-              "rel": "large",
+              "rel": "large_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/000/392/big_Andreas_Renner_GEXSI.png"
             },
             {
-              "rel": "profile",
+              "rel": "profile_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/000/392/profile_Andreas_Renner_GEXSI.jpg"
             },
             {
-              "rel": "thumb",
+              "rel": "thumb_attention_deprecated",
               "href": "http://www.betterplace.org/paperclip/000/000/392/thumb_Andreas_Renner_GEXSI.png"
             }
           ]
@@ -319,7 +319,7 @@ with betterplace.org but donated via one of our partner.
         "links": [
           {
             "rel": "platform",
-            "href": "https://api.betterplace.org/en/users/andreas_r"
+            "href": "https://www.betterplace.org/en/users/andreas_r"
           }
         ]
       },
@@ -330,15 +330,15 @@ with betterplace.org but donated via one of our partner.
             "href": "http://www.betterplace.org/paperclip/000/000/373/original_GEXSI.gif"
           },
           {
-            "rel": "large",
+            "rel": "large_attention_deprecated",
             "href": "http://www.betterplace.org/paperclip/000/000/373/big_GEXSI.png"
           },
           {
-            "rel": "profile",
+            "rel": "profile_attention_deprecated",
             "href": "http://www.betterplace.org/paperclip/000/000/373/profile_GEXSI.png"
           },
           {
-            "rel": "thumb",
+            "rel": "thumb_attention_deprecated",
             "href": "http://www.betterplace.org/paperclip/000/000/373/thumb_GEXSI.png"
           }
         ]
@@ -346,15 +346,15 @@ with betterplace.org but donated via one of our partner.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/organisations/15.json"
+          "href": "https://www.betterplace.org/en/api_v4/organisations/15.json"
         },
         {
           "rel": "platform",
-          "href": "https://api.betterplace.org/en/organisations/gexsi"
+          "href": "https://www.betterplace.org/en/organisations/gexsi"
         },
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/en/api_v4/organisations/15/projects.json"
+          "href": "https://www.betterplace.org/en/api_v4/organisations/15/projects.json"
         }
       ]
     }

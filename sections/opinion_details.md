@@ -2,7 +2,7 @@
 # Project Opinion Details ⇄ [List](opinion_list.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects/38/opinions/22.json
+GET https://www.betterplace.org/en/api_v4/projects/38/opinions/22.json
 ```
 
 The details of a betterplace.org project opinion (donate money).
@@ -68,9 +68,8 @@ to make sure you only request data that is associated with one of your projects.
     <th>score</th>
     <td>string</td>
     <td>positive</td>
-    <td>Opinions can be positive or negative (what we call critial).
-Critial opinions usually get a comment as answer very fast but
-there is no API for opinion-comments yet.
+    <td>Opinions can be positive or negative. Negative opinions usually get
+a comment as answer very fast but there is no API for opinion-comments yet.
 </td>
   </tr>
   <tr>
@@ -119,16 +118,16 @@ with betterplace.org but donated via one of our partner.
     <td>Original size as uploaded by the user</td>
   </tr>
   <tr>
-    <th>author.picture.large</th>
-    <td>Large size</td>
+    <th>author.picture.large_attention_deprecated</th>
+    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
-    <th>author.picture.profile</th>
-    <td>Medium size</td>
+    <th>author.picture.profile_attention_deprecated</th>
+    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
   <tr>
-    <th>author.picture.thumb</th>
-    <td>Thumbnail size</td>
+    <th>author.picture.thumb_attention_deprecated</th>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
 </table>
 
@@ -148,15 +147,15 @@ with betterplace.org but donated via one of our partner.
           "href": "http://www.betterplace.org/paperclip/000/004/520/original_Schule_Leutersdorf_2.JPG"
         },
         {
-          "rel": "large",
+          "rel": "large_attention_deprecated",
           "href": "http://www.betterplace.org/paperclip/000/004/520/big_Schule_Leutersdorf_2.png"
         },
         {
-          "rel": "profile",
+          "rel": "profile_attention_deprecated",
           "href": "http://www.betterplace.org/paperclip/000/004/520/profile_Schule_Leutersdorf_2.jpg"
         },
         {
-          "rel": "thumb",
+          "rel": "thumb_attention_deprecated",
           "href": "http://www.betterplace.org/paperclip/000/004/520/thumb_Schule_Leutersdorf_2.png"
         }
       ]
@@ -164,7 +163,7 @@ with betterplace.org but donated via one of our partner.
     "links": [
       {
         "rel": "platform",
-        "href": "https://api.betterplace.org/en/users/giesela_k"
+        "href": "https://www.betterplace.org/en/users/giesela_k"
       }
     ]
   },
@@ -172,7 +171,7 @@ with betterplace.org but donated via one of our partner.
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/en/api_v4/projects/35/opinions/22.json"
+      "href": "https://www.betterplace.org/en/api_v4/projects/35/opinions/22.json"
     }
   ]
 }

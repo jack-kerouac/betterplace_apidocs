@@ -31,10 +31,10 @@ and scheduled downtimes.
 * [Project **Need** Details](sections/need_details.md)
 * [Project **Blog Post** List](sections/blog_post_list.md)
 * [Project **Blog Post** Details](sections/blog_post_details.md)
-* WIP [Project **Opinion** List](sections/opinion_list.md)
+* [Project **Opinion** List](sections/opinion_list.md)
 * [Project **Opinion** Details](sections/opinion_details.md)
-* TODO [Project **Picture** List](sections/picture_list.md)
-* TODO [Project **Picture** Details](sections/picture_detail.md)
+* [Project **Pictures** List](sections/project_picture_list.md)
+* [Project **Pictures** Details](sections/project_picture_details.md)
 * [**Volunteering** List and Search](sections/volunteering_list.md)
 * [**Volunteering** Details](sections/volunteering_details.md)
 * [**Organisation** List](sections/organisation_list.md)
@@ -55,7 +55,8 @@ for more information.
 * [**Client** Project List and Search](sections/project_list.md) – See client section and ⁂1
 * [**Client** Project Details](sections/project_details.md) – See client section and ⁂1
 * [**Client** Blog Post List](sections/blog_post_list.md) – See client section
-* [**Client** Project-Tag Project List](sections/client_tag_project_list.md) – See client section and ⁂1
+* [**Client** Project Opinion List](sections/opinion_list.md) – See client section
+* [**Client** Project-Tag Project List](sections/client_tag_project_list.md) – See client section
 
 *(⁂1) Client projects:* Clients projects are projects on betterplace.org that are
 associated with the client-user. This way clients can control what projects
@@ -74,17 +75,16 @@ has it's own donation portal at ["Meine Hilfe zählt"](http://www.volksfreund-se
 
 ## General information
 
-* All request have to https
-* The response format is json, the request-extention .json
-* The response language is definde by the URL-language-section (/en/, /de/ (default), …)
+* All request have to be via https protocol
+* The response format is json, the request format extention .json
+* The response language is defined by the URL-language-prefix (/en/, /de/ (default), …)
 * We support [Cross-origin resource sharing (CORS)](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing), so no proxy or JSONP is required
-* No Authentication: All api calls are public at the moment but there will be feature that require a authentication in the future.
-* All responses are cached for 5 minutes at the moment
-
+* No Authentication: All api calls are public at the moment but there will be
+  feature that require authentication in the future.
 
 ### Request parameter format
 
-The `order` and `facet` request parameter accept multiple key-value-parameter.
+The `order` and `facet` request parameters accept multiple key-value-parameter.
 We use the same convention as the [Google Static Maps API V2](https://developers.google.com/maps/documentation/staticmaps/#URL_Parameters).
 
 Example: `foo:bar|lorem:ipsum`
@@ -97,58 +97,60 @@ This way you ma specify a primary and secondaray sort order: `order=rank:ASC|cre
 * Note that for readability-reasons we don't URL encode the params in this documentation
 
 
-### Pagination parameter
+### List parameters and attributes
 
-The following parameters are avaliable for all list views.
+The following request parameters can be set for all list views.
 
 <table>
   <tr>
-    <th>Type</th>
     <th>Parameter</th>
     <th>Description</th>
     <th>Default</th>
   </tr>
   <tr>
-    <th>Request</th>
     <td><code>page</code></td>
     <td>Used to paginate through the list</td>
-    <td></td>
+    <td>1</td>
   </tr>
   <tr>
-    <th>Request</th>
     <td><code>per_page</code></td>
     <td>The number of entries per page</td>
-    <td></td>
+    <td>20</td>
+  </tr>
+</table>
+
+The following attributes are returned in all list view responses:
+
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Description</th>
+    <th>Example</th>
   </tr>
   <tr>
-    <th>Response</th>
     <td><code>total_entries</code></td>
     <td>Count of all entries</td>
-    <td></td>
+    <td>23</td>
   </tr>
   <tr>
-    <th>Response</th>
     <td><code>offset</code></td>
-    <td>From which entry on the list continues, based on <code>per_page</code> <-- ???? Offset kann nicht manuell gesetzt werden, warum haben wir ihn dann überhaupt?</td>
+    <td>The number of entries that are skipped before the current listing begins, <code>= max(page - 1, 0) * per_page</code></td>
     <td>0</td>
   </tr>
   <tr>
-    <th>Response</th>
     <td><code>total_pages</code></td>
     <td>Count of all pages, based on <code>per_page</code></td>
-    <td></td>
+    <td>42</td>
   </tr>
   <tr>
-    <th>Response</th>
     <td><code>current_page</code></td>
     <td>What page we are on</td>
     <td>1</td>
   </tr>
   <tr>
-    <th>Response</th>
     <td><code>per_page</code></td>
     <td>Number of entries per page</td>
-    <td>50</td>
+    <td>20</td>
   </tr>
 </table>
 
@@ -188,7 +190,9 @@ The following HTTP result codes can be returned:
 
 ## Changelog
 
-* 2012-04-15: Add "Client Project-Tag Project List"
+* 2013-04-18: Fixed project opinions. Add client opinions-feature. Note that many of the opinions-facets changed! Please re-read this part of the documentation.
+* 2013-04-17: Add project pictures API. Please note the DEPRICATION warning for the project- and volunteering-profilepicture (sizes large, profile and thumb are depricated and therefore renamed.)
+* 2012-04-15: Add "Client Project-Tag Project List".
 * 2012-03-03: Add picture size 'large' and 'original' to image list for projects. Please note that the images-part of the API ist still beta and might change slightly in the future.
 * 2012-03-28: The project-list now returns the full result-set for each project. The minimal result set is gone for now but will be added later. The default-number of results changed to 20 for all lists.
 * 2012-05~15: Add known issues, improve documentation, remove opinion.with_donation, add opinion.donated_amount_in_cents, project.description returns html now
@@ -201,8 +205,8 @@ The following HTTP result codes can be returned:
 
 Please contact developers@betterplace.org for more information
 
-1. All Ressources: The `links` to other api-calls dont use the api-subdomain but www instead
-1. All Ressources: The `links` to images dont use the asset path asset1 but www instead
+1. All Resources: The `links` to other api-calls dont use the api-subdomain but www instead
+1. All Resources: The `links` to images dont use the asset path asset1 but www instead
 1. Documentation: The pictures-list-docu-page is missing
 1. ProjectPictures: `projects/14/pictures.json` is broken (500)
 1. Documentation: Not all resources have a documentation-url as part of the json

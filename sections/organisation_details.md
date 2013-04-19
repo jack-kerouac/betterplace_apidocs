@@ -2,7 +2,7 @@
 # Organisation Details ⇄ [List](organisation_list.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/organisations/125.json
+GET https://www.betterplace.org/en/api_v4/organisations/125.json
 ```
 
 The details of a betterplace.org organisation.
@@ -170,32 +170,32 @@ with betterplace.org but donated via one of our partner.
     <td>Original size as uploaded by the user</td>
   </tr>
   <tr>
-    <th>picture.large</th>
-    <td>Large size</td>
+    <th>picture.large_attention_deprecated</th>
+    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
-    <th>picture.profile</th>
-    <td>Medium size</td>
+    <th>picture.profile_attention_deprecated</th>
+    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
   <tr>
-    <th>picture.thumb</th>
-    <td>Thumbnail size</td>
+    <th>picture.thumb_attention_deprecated</th>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
   <tr>
     <th>picture.original</th>
     <td>Original size as uploaded by the user</td>
   </tr>
   <tr>
-    <th>picture.large</th>
-    <td>Large size</td>
+    <th>picture.large_attention_deprecated</th>
+    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
-    <th>picture.profile</th>
-    <td>Medium size</td>
+    <th>picture.profile_attention_deprecated</th>
+    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
   <tr>
-    <th>picture.thumb</th>
-    <td>Thumbnail size</td>
+    <th>picture.thumb_attention_deprecated</th>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
   </tr>
 </table>
 
@@ -206,7 +206,7 @@ with betterplace.org but donated via one of our partner.
   "id": 125,
   "slug": "vivaconagua",
   "created_at": "2008-02-06T16:10:42Z",
-  "updated_at": "2013-01-30T22:44:23Z",
+  "updated_at": "2013-04-18T11:00:24Z",
   "latitude": 53.55759811401367,
   "longitude": 9.96815967559815,
   "street": "Neuer Kamp 32",
@@ -225,15 +225,15 @@ with betterplace.org but donated via one of our partner.
           "href": "http://www.betterplace.org/paperclip/000/007/084/original_Fidel.jpg"
         },
         {
-          "rel": "large",
+          "rel": "large_attention_deprecated",
           "href": "http://www.betterplace.org/paperclip/000/007/084/big_Fidel.png"
         },
         {
-          "rel": "profile",
+          "rel": "profile_attention_deprecated",
           "href": "http://www.betterplace.org/paperclip/000/007/084/profile_Fidel.jpg"
         },
         {
-          "rel": "thumb",
+          "rel": "thumb_attention_deprecated",
           "href": "http://www.betterplace.org/paperclip/000/007/084/thumb_Fidel.png"
         }
       ]
@@ -241,7 +241,7 @@ with betterplace.org but donated via one of our partner.
     "links": [
       {
         "rel": "platform",
-        "href": "https://api.betterplace.org/en/users/christian_w"
+        "href": "https://www.betterplace.org/en/users/christian_w"
       }
     ]
   },
@@ -252,15 +252,15 @@ with betterplace.org but donated via one of our partner.
         "href": "http://www.betterplace.org/paperclip/000/007/098/original_Viva_con_Agua_Logo.jpg"
       },
       {
-        "rel": "large",
+        "rel": "large_attention_deprecated",
         "href": "http://www.betterplace.org/paperclip/000/007/098/big_Viva_con_Agua_Logo.png"
       },
       {
-        "rel": "profile",
+        "rel": "profile_attention_deprecated",
         "href": "http://www.betterplace.org/paperclip/000/007/098/profile_Viva_con_Agua_Logo.png"
       },
       {
-        "rel": "thumb",
+        "rel": "thumb_attention_deprecated",
         "href": "http://www.betterplace.org/paperclip/000/007/098/thumb_Viva_con_Agua_Logo.png"
       }
     ]
@@ -268,15 +268,15 @@ with betterplace.org but donated via one of our partner.
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/en/api_v4/organisations/125.json"
+      "href": "https://www.betterplace.org/en/api_v4/organisations/125.json"
     },
     {
       "rel": "platform",
-      "href": "https://api.betterplace.org/en/organisations/vivaconagua"
+      "href": "https://www.betterplace.org/en/organisations/vivaconagua"
     },
     {
       "rel": "projects",
-      "href": "https://api.betterplace.org/en/api_v4/organisations/125/projects.json"
+      "href": "https://www.betterplace.org/en/api_v4/organisations/125/projects.json"
     }
   ]
 }

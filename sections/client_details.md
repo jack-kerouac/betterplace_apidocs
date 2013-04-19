@@ -2,7 +2,7 @@
 # Client Details
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/clients/Volksfreund.json
+GET https://www.betterplace.org/en/api_v4/clients/Volksfreund.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -105,19 +105,19 @@ This is also calculated based on the sum of all
 
 ```json
 {
-  "donated_amount_in_cents": 65707968,
-  "open_amount_in_cents": 21493232,
-  "requested_amount_in_cents": 87201200,
-  "projects_count": 176,
-  "client_donations_count": 4965,
+  "donated_amount_in_cents": 75686632,
+  "open_amount_in_cents": 37370368,
+  "requested_amount_in_cents": 113057000,
+  "projects_count": 212,
+  "client_donations_count": 6091,
   "links": [
     {
       "rel": "projects",
-      "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/projects.json"
+      "href": "https://www.betterplace.org/en/api_v4/clients/volksfreund/projects.json"
     },
     {
       "rel": "client_donations",
-      "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/client_donations.json"
+      "href": "https://www.betterplace.org/en/api_v4/clients/volksfreund/client_donations.json"
     }
   ]
 }

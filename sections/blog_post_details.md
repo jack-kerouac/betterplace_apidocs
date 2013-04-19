@@ -2,7 +2,7 @@
 # Project Blog Post Details ⇄ [List](blog_post_list.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects/38/blog_posts/22.json
+GET https://www.betterplace.org/en/api_v4/projects/38/blog_posts/22.json
 ```
 
 The details of a betterplace.org project blog post.
@@ -143,15 +143,15 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
           "href": "http://www.betterplace.org/paperclip/000/000/632/original_Bonty_Botumile.jpg"
         },
         {
-          "rel": "large",
+          "rel": "large_attention_deprecated",
           "href": "http://www.betterplace.org/paperclip/000/000/632/big_Bonty_Botumile.png"
         },
         {
-          "rel": "profile",
+          "rel": "profile_attention_deprecated",
           "href": "http://www.betterplace.org/paperclip/000/000/632/profile_Bonty_Botumile.jpg"
         },
         {
-          "rel": "thumb",
+          "rel": "thumb_attention_deprecated",
           "href": "http://www.betterplace.org/paperclip/000/000/632/thumb_Bonty_Botumile.png"
         }
       ]
@@ -159,14 +159,14 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
     "links": [
       {
         "rel": "platform",
-        "href": "https://api.betterplace.org/en/users/bontekanye_b"
+        "href": "https://www.betterplace.org/en/users/bontekanye_b"
       }
     ]
   },
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/en/api_v4/blog_posts/22.json"
+      "href": "https://www.betterplace.org/en/api_v4/blog_posts/22.json"
     },
     {
       "rel": "documentation",
