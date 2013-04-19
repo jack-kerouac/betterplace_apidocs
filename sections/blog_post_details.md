@@ -1,5 +1,5 @@
 
-# Project Blog Post Details ⇄ [List](blog_post_list.md)
+# Project Blog Post Details ⇄ [List](blog_posts_list.md)
 
 ```nginx
 GET https://www.betterplace.org/en/api_v4/projects/38/blog_posts/22.json

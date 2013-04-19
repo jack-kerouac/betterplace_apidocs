@@ -1,5 +1,5 @@
 
-# Client donation list
+# Client donations list
 
 ```nginx
 GET https://www.betterplace.org/en/api_v4/clients/Volksfreund/client_donations.json

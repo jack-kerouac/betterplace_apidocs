@@ -1,5 +1,5 @@
 
-# Client tags list
+# Client project-tags list
 
 ```nginx
 GET https://www.betterplace.org/en/api_v4/clients/Volksfreund/project_tags.json
@@ -49,7 +49,7 @@ Results are contained in a *data* attribute.
     <th>projects_count</th>
     <td>number</td>
     <td>23</td>
-    <td>The number of <a href="../project_list.md">projects</a>
+    <td>The number of <a href="../projects_list.md">projects</a>
 that where tagged with this tag.
 </td>
   </tr>
@@ -64,7 +64,7 @@ that where tagged with this tag.
   </tr>
   <tr>
     <th>projects</th>
-    <td>Link to the <a href="project_list.md">project list</a> of all tagged projects for the current client.
+    <td>Link to the <a href="../projects_list.md">project list</a> of all tagged projects for the current client.
 </td>
   </tr>
 </table>

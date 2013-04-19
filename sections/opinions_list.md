@@ -1,5 +1,5 @@
 
-# Project Opinion List ⇄ [Details](opinion_details.md)
+# Project Opinions List ⇄ [Details](opinion_details.md)
 
 ```nginx
 GET https://www.betterplace.org/en/api_v4/projects/1114/opinions.json?facets=has_message%3Atrue&order=created_at%3AASC

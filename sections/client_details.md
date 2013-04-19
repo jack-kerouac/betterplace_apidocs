@@ -70,7 +70,7 @@ This is also calculated based on the sum of all
     <th>projects_count</th>
     <td>number</td>
     <td>100</td>
-    <td>The number of <a href="../project_list.md">projects</a> of this client
+    <td>The number of <a href="../projects_list.md">projects</a> of this client
 </td>
   </tr>
   <tr>
@@ -91,7 +91,7 @@ This is also calculated based on the sum of all
   </tr>
   <tr>
     <th>projects</th>
-    <td>Link to the <a href="../project_list.md">project list</a> of this client
+    <td>Link to the <a href="../projects_list.md">project list</a> of this client
 </td>
   </tr>
   <tr>

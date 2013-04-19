@@ -25,22 +25,22 @@ and scheduled downtimes.
 * HTTP Result Codes and Error Messages [↓ below](#http-result-codes-and-error-messages)
 * Changelog [↓ below](#changelog)
 * Known issues [↓ below](#known-issues)
-* [**Project** List and Search](sections/project_list.md)
+* [**Projects** List and Search](sections/projects_list.md)
 * [**Project** Details](sections/project_details.md)
-* [Project **Need** List](sections/need_list.md)
+* [Project **Needs** List](sections/needs_list.md)
 * [Project **Need** Details](sections/need_details.md)
-* [Project **Blog Post** List](sections/blog_post_list.md)
+* [Project **Blog Posts** List](sections/blog_posts_list.md)
 * [Project **Blog Post** Details](sections/blog_post_details.md)
-* [Project **Opinion** List](sections/opinion_list.md)
+* [Project **Opinions** List](sections/opinions_list.md)
 * [Project **Opinion** Details](sections/opinion_details.md)
-* [Project **Pictures** List](sections/project_picture_list.md)
-* [Project **Pictures** Details](sections/project_picture_details.md)
+* [Project **Pictures** List](sections/project_pictures_list.md)
+* [Project **Picture** Details](sections/project_picture_details.md)
 * [**Volunteering** List and Search](sections/volunteering_list.md)
 * [**Volunteering** Details](sections/volunteering_details.md)
-* [**Organisation** List](sections/organisation_list.md)
+* [**Organisations** List](sections/organisations_list.md)
 * [**Organisation** Details](sections/organisation_details.md)
 * TODO [**User** Details](sections/user_details.md)
-* TODO [**Fundraising Event** List and Search](sections/fundraising_event_list.md)
+* TODO [**Fundraising Events** List and Search](sections/fundraising_events_list.md)
 * TODO [**Fundraising Event** Details](sections/fundraising_event_details.md)
 
 
@@ -51,11 +51,11 @@ Please [contact someone at betterplace solutions](http://www.betterplace-solutio
 for more information.
 
 * [**Client** Details/Statistics](sections/client_details.md)
-* [**Client** Donation List](sections/client_donations_list.md)
-* [**Client** Project List and Search](sections/project_list.md) – See client section and ⁂1
+* [**Client** Donations List](sections/client_donations_list.md)
+* [**Client** Projects List and Search](sections/projects_list.md) – See client section and ⁂1
 * [**Client** Project Details](sections/project_details.md) – See client section and ⁂1
-* [**Client** Blog Post List](sections/blog_post_list.md) – See client section
-* [**Client** Project Opinion List](sections/opinion_list.md) – See client section
+* [**Client** Blog Posts List](sections/blog_posts_list.md) – See client section
+* [**Client** Project Opinions List](sections/opinions_list.md) – See client section
 * [**Client** Project-Tags List](sections/client_project_tags_list.md) – See client section
 * [**Client** Project-Tag Projects List](sections/client_project_tag_projects_list.md) – See client section
 
@@ -191,6 +191,7 @@ The following HTTP result codes can be returned:
 
 ## Changelog
 
+* 2013-05-19: Change the naming of api-docu-files to follow rails-pluralization-convention
 * 2013-05-19: Added 'client project-tag list' (a list of all project-tags for a client) and 'client project-tag projects list' (a list of all projects for a client-project-tag).
 * 2013-04-18: Fixed project opinions. Add client opinions-feature. Note that many of the opinions-facets changed! Please re-read this part of the documentation.
 * 2013-04-17: Add project pictures API. Please note the DEPRICATION warning for the project- and volunteering-profilepicture (sizes large, profile and thumb are depricated and therefore renamed.)

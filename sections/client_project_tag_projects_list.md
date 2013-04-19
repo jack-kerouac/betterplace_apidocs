@@ -1,5 +1,5 @@
 
-# Client project-tag project list
+# Client project-tag projects list
 
 ```nginx
 GET https://www.betterplace.org/en/api_v4/clients/Volksfreund/project_tags/Ernaehrung/projects.json
@@ -217,7 +217,7 @@ like "Payback User" or empty/null for anonymous donations.
   </tr>
   <tr>
     <th>opinions</th>
-    <td>Link to <a href="../opinion_list.md">opinion list</a>
+    <td>Link to <a href="../opinions_list.md">opinion list</a>
 </td>
   </tr>
   <tr>
@@ -227,12 +227,12 @@ like "Payback User" or empty/null for anonymous donations.
   </tr>
   <tr>
     <th>needs</th>
-    <td>Link to <a href="../need_list.md">project need list</a>
+    <td>Link to <a href="../needs_list.md">project need list</a>
 </td>
   </tr>
   <tr>
     <th>blog_posts</th>
-    <td>Link to <a href="../blog_post_list.md">blog post list</a>
+    <td>Link to <a href="../blog_posts_list.md">blog post list</a>
 </td>
   </tr>
   <tr>

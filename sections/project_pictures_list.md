@@ -1,5 +1,5 @@
 
-# Project Picture List ⇄ [Details](project_picture_details.md)
+# Project Pictures List ⇄ [Details](project_picture_details.md)
 
 ```nginx
 GET https://www.betterplace.org/en/api_v4/projects/1114/pictures.json
@@ -187,7 +187,7 @@ projects, the API will return a `404` HTTP code.
 ```
 
 
-# Project Picture Details ⇄ [List](project_picture_list.md)
+# Project Picture Details ⇄ [List](project_pictures_list.md)
 
 ```nginx
 GET https://www.betterplace.org/en/api_v4/projects/1114/pictures/286505.json

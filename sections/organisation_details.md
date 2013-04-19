@@ -1,5 +1,5 @@
 
-# Organisation Details ⇄ [List](organisation_list.md)
+# Organisation Details ⇄ [List](organisations_list.md)
 
 ```nginx
 GET https://www.betterplace.org/en/api_v4/organisations/125.json
@@ -154,7 +154,7 @@ like "Payback User" or empty/null for anonymous donations.
   </tr>
   <tr>
     <th>projects</th>
-    <td>Link to the <a href="project_list.md">project list</a> of this organisation
+    <td>Link to the <a href="projects_list.md">project list</a> of this organisation
 </td>
   </tr>
   <tr>
