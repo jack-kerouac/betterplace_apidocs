@@ -87,7 +87,13 @@ to make sure you only request data that is associated with one of your projects.
     <th>donated_amount_in_cents</th>
     <td>number</td>
     <td>12382</td>
-    <td>How many cents are donated already</td>
+    <td>How many cents are donated already.
+This includes all donations that can be given to a need
+(direct donation, forwarding of project donation,
+forwarding of organisation donation,
+forwarding of fundraising event donations,
+offline donations and also(!) external donations)
+</td>
   </tr>
   <tr>
     <th>open_amount_in_cents</th>
@@ -113,7 +119,7 @@ to make sure you only request data that is associated with one of your projects.
   <tr>
     <th>self</th>
     <td>Link to this resource itself
-(<a href="element_details.md">element details</a>)
+(<a href="need_details.md">need details</a>)
 </td>
   </tr>
   <tr>

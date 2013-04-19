@@ -7,7 +7,7 @@ GET https://www.betterplace.org/en/api_v4/clients/Volksfreund/project_tags/Ernae
 
 **For [betterplace.org clients](../README.md#client-api) only:**
 
-This API returns all completed projects to a client project-tag.
+This API returns all incomplete projects to a client project-tag.
 Client project tags are a custom client feature and andministered
 as a service of [betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung).
 

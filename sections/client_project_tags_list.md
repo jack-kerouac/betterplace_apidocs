@@ -73,15 +73,15 @@ that where tagged with this tag.
 
 ```json
 {
-  "total_entries": 23,
+  "total_entries": 20,
   "offset": 0,
-  "total_pages": 12,
+  "total_pages": 10,
   "current_page": 1,
   "per_page": 2,
   "data": [
     {
       "tag": "Gesundheit",
-      "projects_count": 57,
+      "projects_count": 11,
       "links": [
         {
           "rel": "projects",
@@ -91,7 +91,7 @@ that where tagged with this tag.
     },
     {
       "tag": "Bildung",
-      "projects_count": 48,
+      "projects_count": 18,
       "links": [
         {
           "rel": "projects",
