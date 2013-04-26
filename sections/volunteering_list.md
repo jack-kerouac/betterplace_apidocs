@@ -299,6 +299,10 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
     <td>Medium size</td>
   </tr>
   <tr>
+    <th>image.regular</th>
+    <td>Regular size</td>
+  </tr>
+  <tr>
     <th>contact.picture.original</th>
     <td>Original size as uploaded by the user</td>
   </tr>
