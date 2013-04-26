@@ -2,13 +2,13 @@
 # Client project-tag projects list
 
 ```nginx
-GET https://www.betterplace.org/en/api_v4/clients/Volksfreund/project_tags/Ernaehrung/projects.json?facets=has_message%3Atrue
+GET https://www.betterplace.org/en/api_v4/clients/Volksfreund/project_tags/Trier/projects.json?facets=completed%3Atrue
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
 
 This API returns all projects to a client project-tag.
-Client project tags are a custom client feature and andministered
+Client project tags are a custom client feature and administered
 as a service of [betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung).
 
 Results are contains in a *data* attribute.
@@ -31,7 +31,7 @@ Results are contains in a *data* attribute.
   </tr>
   <tr>
     <th>id</th>
-    <td><code>Ernaehrung</code></td>
+    <td><code>Trier</code></td>
     <td>required</td>
     <td>The name of the client project-tag – a list of tags is provided by
 <a href="http://www.betterplace-solutions.de/#buergerzeitung">betterplace solutions</a>.
@@ -39,7 +39,7 @@ Results are contains in a *data* attribute.
   </tr>
   <tr>
     <th>facets</th>
-    <td><code>has_message:true</code></td>
+    <td><code>completed:true</code></td>
     <td>optional</td>
     <td>Filter the result set:
 <code>facets=completed:true</code> / <code>false</code>
@@ -315,13 +315,262 @@ set for organisations.
 
 ```json
 {
-  "total_entries": 0,
+  "total_entries": 29,
   "offset": 0,
-  "total_pages": 1,
+  "total_pages": 15,
   "current_page": 1,
   "per_page": 2,
   "data": [
-
+    {
+      "id": 7551,
+      "created_at": "2011-08-28T22:19:43Z",
+      "updated_at": "2013-04-04T22:18:14Z",
+      "latitude": -4.0347900390625,
+      "longitude": 21.75629997253418,
+      "city": "Kinshasa",
+      "country": "Congo (Democratic Republic)",
+      "title": "Ausbildungswerkstatt für Kinder im Kongo",
+      "description": "Unsere Projektnummer: 7551 - In der Demokratische Republik Kongo sind sehr viele Kinder durch Armut und Krieg zu den Straßenkindern geworden. Unter ihnen zählen ehemalige Kindersoldaten, Waisenkinder und Kinder aus sehr armen Familien. Um sich das Brot zu verdienen, sind viele Jungenmädchen zur Straßenprostitution geworden und die meisten Jungs sind Straßendieb und kriminellen. Die schwächten Kinder die sich nicht zu helfen wissen erkranken meistens an Marasmus und sterben anschließend. Diesen Kindern fehlt jegliche Hilfe zum Überleben. Der kongolesische Staat hat bisher keinerlei Hilfsmaßnahmen für diese Kindergrupe unternommen. Ohne Hilfe von außen haben diesen Kinder keiner Zukunft. <br /><br />Seit 2007 haben wir uns auf die Arbeit gemacht und unterstützen heute 40 Kinder aus Kinshasa und Bukavu mit Patenschaft und Spenden. In Zusammenarbeit mit unseren Partner Vorort verteilen wir Nahrungsmittel und sorgen für die nötige medizinische Versorgung, damit die Kleinen erst einmal zu Kräften kommen. Im Weiteren kümmern wir uns um ihre Schulbildung; wir verteilen Schulmaterialien und übernehmen die Schulgebühren für sie. Denn nachdem der Hunger gestillt ist, braucht jedes Kind Bildung, um sich aus seinem Schicksal befreien zu können.<br /><br />Viele von den Kinder die wir seit 4 Jahren den Besuch der Schule ermöglicht haben könnten mit unserer Hilfe die sekundären Schulabschluss absolvieren bzw. erlangen. Mit nur diesem Abschluss ist es leider nicht möglich eine Zukunftssichere Arbeitsstelle zu finden. Eine weitführende Schule und/oder ein Studium zu besuchen kostet viele Geld und ist nicht erfolgssprechend. Da diese Kinder nach ihrer Schulabschlusse keine Arbeit haben und wir sie bisher nichts Weiteres anbieten könnten, sind einige von ihnen wieder dahin gelangt wo sie herkamen; sie sind wieder zu Straßenkindern geworden und laufen Gefahr wieder in der Prostitution und in der Kriminalität zu gelangen.<br /><br />Mit einer abgeschlossenen Ausbildung sehen wir eine große Chance diese Kinder sowie weitere hilfsbedürftige Kinder eine Arbeitsplatz zu vermitteln. Ziel ist, sie auf eigene Füße zu stellen um zu verhindern dass sie nicht wieder auf die Straße gelangen. Genau gesagt: Hauptziel ist, sie dauerhaft aus der Armut zu holen. <br /><br />Geplant ist den Bau einer Ausbildungswerkstatt (für Schneiderei, Schreinerei, KFZ-Mechaniker und EDV) und eine medizinische Notfallstation. <br />Für den Anfang wollen wir erstmals eine Schneidereiwerkstatt für ca. 20 Kinder in der Hauptstadt Kinshasa bauen. Dort sollen in erste Linie Mädchen als Schneiderin ausgebildet werden. Nach erfolgreichen abgeschlossen Ausbildung von 1,5 Jahre werden sie die Möglichkeit haben sich selbständig zu machen oder auf freie Markt einen Arbeitsplatz zu bekommen.<br /><br />Um diese Maßnahme realisieren zu können, benötigen wir finanzielle und/oder materielle Hilfe!",
+      "tax_deductible": true,
+      "open_amount_in_cents": 2453200,
+      "positive_opinions_count": 31,
+      "negative_opinions_count": 0,
+      "donor_count": 26,
+      "progress_percentage": 8,
+      "incomplete_need_count": 13,
+      "completed_need_count": 3,
+      "blog_post_count": 3,
+      "contact": {
+        "name": "M. Namegabe",
+        "picture": {
+          "links": [
+            {
+              "rel": "original",
+              "href": "http://www.betterplace.org/paperclip/000/176/415/original_Foto1__Manda__1_.jpg"
+            },
+            {
+              "rel": "large_attention_deprecated",
+              "href": "http://www.betterplace.org/paperclip/000/176/415/big_Foto1__Manda__1_.png"
+            },
+            {
+              "rel": "profile_attention_deprecated",
+              "href": "http://www.betterplace.org/paperclip/000/176/415/profile_Foto1__Manda__1_.jpg"
+            },
+            {
+              "rel": "thumb_attention_deprecated",
+              "href": "http://www.betterplace.org/paperclip/000/176/415/thumb_Foto1__Manda__1_.png"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/en/users/manda_n"
+          }
+        ]
+      },
+      "carrier": {
+        "name": "Agentur für Kinderpatenschaft e. V.",
+        "picture": {
+          "links": [
+            {
+              "rel": "original",
+              "href": "http://www.betterplace.org/paperclip/000/176/461/original_Akipa_LOGO_1_.jpg"
+            },
+            {
+              "rel": "large_attention_deprecated",
+              "href": "http://www.betterplace.org/paperclip/000/176/461/big_Akipa_LOGO_1_.png"
+            },
+            {
+              "rel": "profile_attention_deprecated",
+              "href": "http://www.betterplace.org/paperclip/000/176/461/profile_Akipa_LOGO_1_.png"
+            },
+            {
+              "rel": "thumb_attention_deprecated",
+              "href": "http://www.betterplace.org/paperclip/000/176/461/thumb_Akipa_LOGO_1_.png"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://www.betterplace.org/en/api_v4/organisations/5044.json"
+          }
+        ]
+      },
+      "profile_picture": {
+        "links": [
+          {
+            "rel": "original",
+            "href": "http://www.betterplace.org/paperclip/000/264/083/original_P1000771.JPG"
+          },
+          {
+            "rel": "large_attention_deprecated",
+            "href": "http://www.betterplace.org/paperclip/000/264/083/big_P1000771.png"
+          },
+          {
+            "rel": "profile_attention_deprecated",
+            "href": "http://www.betterplace.org/paperclip/000/264/083/profile_P1000771.jpg"
+          },
+          {
+            "rel": "thumb_attention_deprecated",
+            "href": "http://www.betterplace.org/paperclip/000/264/083/thumb_P1000771.png"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://www.betterplace.org/en/api_v4/projects/7551.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.org/en/projects/7551-ausbildungswerkstatt-fur-kinder-im-kongo"
+        },
+        {
+          "rel": "opinions",
+          "href": "https://www.betterplace.org/en/api_v4/projects/7551/opinions.json"
+        },
+        {
+          "rel": "pictures",
+          "href": "https://www.betterplace.org/en/api_v4/projects/7551/pictures.json"
+        },
+        {
+          "rel": "needs",
+          "href": "https://www.betterplace.org/en/api_v4/projects/7551/needs.json"
+        },
+        {
+          "rel": "blog_posts",
+          "href": "https://www.betterplace.org/en/api_v4/projects/7551/blog_posts.json"
+        }
+      ]
+    },
+    {
+      "id": 7701,
+      "created_at": "2011-09-16T15:06:28Z",
+      "updated_at": "2013-03-22T08:03:19Z",
+      "latitude": 49.74660110473633,
+      "longitude": 6.63549995422363,
+      "street": "Saarstraße 55",
+      "zip": "54290",
+      "city": "Trier",
+      "country": "Germany",
+      "title": "Förderung des Ehrenamts in der AIDS-Hilfe",
+      "description": "Unsere Projektnummer: 7701 - Ehrenamt ist nicht umsonst, aber auch nicht kostenlos! Helfen Sie uns, freiwilligen Helfer/innen günstige Rahmenbedingungen für ihr Engagement zu bieten!<br /><br />Ohne unsere freiwilligen Helferinnen und Helfer könnten wir als AIDS-Hilfe viele unserer Angebote gar nicht aufrecht erhalten. Egal ob im Vorstand, bei der Organisation des Positiven-Frühstücks oder am Infostand – unsere ehrenamtlichen Mitarbeiter/innen stellen uns ihre Zeit, ihre Energie und ihre ganz persönlichen Kompetenzen zur Verfügung, damit wir unserer Arbeit nachgehen können. So sind es Ehrenamtliche, die einmal in der Woche ein „Positiven-Frühstück“ und damit eine niedrigschwellige Begegnungsmöglichkeit für Menschen mit HIV und AIDS organisieren, und ebenso sind es Ehrenamtliche, die in Schulklassen und Jugendgruppen über HIV-Übertragungswege, Schutzmöglichkeiten und die Situation der von HIV betroffenen Menschen informieren. Freiwillige Helfer/innen stehen am Informationsstand für Fragen zu HIV zur Verfügung und unterstützen auch das Beraterteam unseres Anonymen Beratungstelefons. Insgesamt sind es um die 30 Ehrenamtlichen, die uns in unserer Arbeit unterstützen.<br /><br />Während einige Tätigkeiten nur wenig Vor- und Hintergrundwissen erfordern, können andere Aufgaben nur nach einer gründlichen Einarbeitung von Ehrenamtlichen übernommen werden. Eine solche Einarbeitung ist vor allem zeitintensiv. Da der Großteil unserer Helfer/innen Arbeit bzw. Studium, Privatleben und Ehrenamt unter einen Hut bringen muss, dauert es mitunter recht lange, bis sich unsere Ehrenamtlichen wirklich eigenständig in die Beratungs-, Unterstützungs- und Präventionsarbeit einbringen können.<br /><br />Durch eine Reihe aufeinander aufbauender Schulungs- und Fortbildungsveranstaltungen könnte die Einarbeitungszeit für unsere freiwilligen Helfer/innen deutlich verkürzt werden. Ein solches Angebot zu erstellen und umzusetzen kostet jedoch Geld, das die AIDS-Hilfe Trier alleine nicht aufbringen kann. Daher unsere Bitte: Helfen Sie uns, damit unsere Ehrenamtlichen ihrerseits helfen können! Spenden Sie für unser Projekt Geld, damit die Zeitspenden unserer Helfer/innen schnellstmöglich der inhaltlichen AIDS-Hilfe-Arbeit zugute kommen. <br /><br />Wir möchten ansprechende Infoflyer drucken, um mehr Menschen über die Möglichkeit eines Engagements in der AIDS-Hilfe zu informieren. Fortbildungen zu den medizinischen Hintergründen von HIV-Infektion und AIDS-Erkrankung, zur Beratungs-, der psychosozialen Unterstützungs- sowie zur Präventionsarbeit sollen bis zu zehn neuen Ehrenamtlichen einen schnelleren Einstieg in unsere Arbeit ermöglichen. Darüber hinaus benötigen wir für die Durchführung der Fortbildungen eine Multifunktionswand, die auch langfristig der Einarbeitung neuer Ehrenamtlicher zugute kommen kann.<br /><br />Ihre Hilfe zählt! Unsere Ehrenamtlichen zählen auf Sie!",
+      "tax_deductible": true,
+      "open_amount_in_cents": 90300,
+      "positive_opinions_count": 19,
+      "negative_opinions_count": 0,
+      "donor_count": 16,
+      "progress_percentage": 68,
+      "incomplete_need_count": 4,
+      "completed_need_count": 4,
+      "blog_post_count": 17,
+      "contact": {
+        "name": "B. Geller",
+        "picture": {
+          "links": [
+            {
+              "rel": "original",
+              "href": "http://www.betterplace.org/paperclip/000/262/052/original_Bernd%20Geller.jpg"
+            },
+            {
+              "rel": "large_attention_deprecated",
+              "href": "http://www.betterplace.org/paperclip/000/262/052/big_Bernd%20Geller.png"
+            },
+            {
+              "rel": "profile_attention_deprecated",
+              "href": "http://www.betterplace.org/paperclip/000/262/052/profile_Bernd%20Geller.jpg"
+            },
+            {
+              "rel": "thumb_attention_deprecated",
+              "href": "http://www.betterplace.org/paperclip/000/262/052/thumb_Bernd%20Geller.png"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/en/users/bernd_g6"
+          }
+        ]
+      },
+      "carrier": {
+        "name": "AIDS-Hilfe Trier e.V.",
+        "picture": {
+          "links": [
+            {
+              "rel": "original",
+              "href": "http://www.betterplace.org/paperclip/000/262/053/original_Logo%20AIDS-Hilfe%20Trier%20e.V..jpg"
+            },
+            {
+              "rel": "large_attention_deprecated",
+              "href": "http://www.betterplace.org/paperclip/000/262/053/big_Logo%20AIDS-Hilfe%20Trier%20e.V..png"
+            },
+            {
+              "rel": "profile_attention_deprecated",
+              "href": "http://www.betterplace.org/paperclip/000/262/053/profile_Logo%20AIDS-Hilfe%20Trier%20e.V..png"
+            },
+            {
+              "rel": "thumb_attention_deprecated",
+              "href": "http://www.betterplace.org/paperclip/000/262/053/thumb_Logo%20AIDS-Hilfe%20Trier%20e.V..png"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://www.betterplace.org/en/api_v4/organisations/8515.json"
+          }
+        ]
+      },
+      "profile_picture": {
+        "links": [
+          {
+            "rel": "original",
+            "href": "http://www.betterplace.org/paperclip/000/262/049/original_Fotolia_30845874_XS.jpg"
+          },
+          {
+            "rel": "large_attention_deprecated",
+            "href": "http://www.betterplace.org/paperclip/000/262/049/big_Fotolia_30845874_XS.png"
+          },
+          {
+            "rel": "profile_attention_deprecated",
+            "href": "http://www.betterplace.org/paperclip/000/262/049/profile_Fotolia_30845874_XS.jpg"
+          },
+          {
+            "rel": "thumb_attention_deprecated",
+            "href": "http://www.betterplace.org/paperclip/000/262/049/thumb_Fotolia_30845874_XS.png"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://www.betterplace.org/en/api_v4/projects/7701.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.org/en/projects/7701-forderung-des-ehrenamts-in-der-aids-hilfe"
+        },
+        {
+          "rel": "opinions",
+          "href": "https://www.betterplace.org/en/api_v4/projects/7701/opinions.json"
+        },
+        {
+          "rel": "pictures",
+          "href": "https://www.betterplace.org/en/api_v4/projects/7701/pictures.json"
+        },
+        {
+          "rel": "needs",
+          "href": "https://www.betterplace.org/en/api_v4/projects/7701/needs.json"
+        },
+        {
+          "rel": "blog_posts",
+          "href": "https://www.betterplace.org/en/api_v4/projects/7701/blog_posts.json"
+        }
+      ]
+    }
   ]
 }
 ```
