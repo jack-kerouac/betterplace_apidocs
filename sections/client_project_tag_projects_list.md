@@ -2,7 +2,7 @@
 # Client project-tag projects list
 
 ```nginx
-GET https://www.betterplace.org/en/api_v4/clients/Volksfreund/project_tags/Trier/projects.json?facets=completed%3Atrue
+GET https://www.betterplace.org/en/api_v4/clients/Volksfreund/project_tags/Trier/projects.json?facets=completed%3Afalse
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -39,7 +39,7 @@ Results are contains in a *data* attribute.
   </tr>
   <tr>
     <th>facets</th>
-    <td><code>completed:true</code></td>
+    <td><code>completed:false</code></td>
     <td>optional</td>
     <td>Filter the result set:
 <code>facets=completed:true</code> / <code>false</code>
