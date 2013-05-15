@@ -2,7 +2,7 @@
 # Client donations list
 
 ```nginx
-GET https://www.betterplace.org/en/api_v4/clients/Volksfreund/client_donations.json
+GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**

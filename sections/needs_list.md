@@ -2,7 +2,7 @@
 # Project Needs List ⇄ [Details](need_details.md)
 
 ```nginx
-GET https://www.betterplace.org/en/api_v4/projects/1114/needs.json
+GET https://api.betterplace.org/en/api_v4/projects/1114/needs.json
 ```
 
 A list of betterplace.org projects needs (donate money).
@@ -142,22 +142,22 @@ offline donations and also(!) external donations)
     {
       "id": 59517,
       "created_at": "2013-02-05T15:27:06Z",
-      "updated_at": "2013-04-17T16:21:40Z",
+      "updated_at": "2013-05-06T10:50:46Z",
       "title": "Vehicle Fuel ",
       "description": "Fuel to transport students and staff to and from Skatepark in Kabul for 2013.",
       "completed": false,
-      "progress_percentage": 50,
-      "donated_amount_in_cents": 89970,
-      "open_amount_in_cents": 87530,
+      "progress_percentage": 51,
+      "donated_amount_in_cents": 90970,
+      "open_amount_in_cents": 86530,
       "requested_amount_in_cents": 177500,
       "links": [
         {
           "rel": "self",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114/needs/59517.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/needs/59517.json"
         },
         {
           "rel": "project",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114.json"
         }
       ]
     },
@@ -175,11 +175,11 @@ offline donations and also(!) external donations)
       "links": [
         {
           "rel": "self",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114/needs/5228.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/needs/5228.json"
         },
         {
           "rel": "project",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114.json"
         }
       ]
     },
@@ -197,11 +197,11 @@ offline donations and also(!) external donations)
       "links": [
         {
           "rel": "self",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114/needs/5229.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/needs/5229.json"
         },
         {
           "rel": "project",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114.json"
         }
       ]
     }

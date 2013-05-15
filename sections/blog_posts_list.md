@@ -2,7 +2,7 @@
 # Project Blog Posts List ⇄ [Details](blog_post_details.md)
 
 ```nginx
-GET https://www.betterplace.org/en/api_v4/projects/38/blog_posts.json
+GET https://api.betterplace.org/en/api_v4/projects/38/blog_posts.json
 ```
 
 A list of betterplace.org projects blog posts.
@@ -164,14 +164,14 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/bontekanye_b"
+            "href": "https://api.betterplace.org/en/users/bontekanye_b"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "https://www.betterplace.org/en/api_v4/blog_posts/22.json"
+          "href": "https://api.betterplace.dev/en/api_v4/blog_posts/22.json"
         },
         {
           "rel": "documentation",
@@ -212,14 +212,14 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/bontekanye_b"
+            "href": "https://api.betterplace.org/en/users/bontekanye_b"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "https://www.betterplace.org/en/api_v4/blog_posts/44.json"
+          "href": "https://api.betterplace.dev/en/api_v4/blog_posts/44.json"
         },
         {
           "rel": "documentation",

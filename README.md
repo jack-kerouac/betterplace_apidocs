@@ -191,10 +191,11 @@ The following HTTP result codes can be returned:
 
 ## Changelog
 
-* 2013-05-19: Change the naming of api-docu-files to follow rails-pluralization-convention
-* 2013-05-19: Added 'client project-tag list' (a list of all project-tags for a client) and 'client project-tag projects list' (a list of all projects for a client-project-tag).
+* 2013-05-15: Opinions have a link to the project now. All API-link are "api.betterplace.org" now (not www. anymore). Opinions have have a facets=has_message-Feature now.
+* 2013-04-19: Change the naming of api-docu-files to follow rails-pluralization-convention.
+* 2013-04-19: Added 'client project-tag list' (a list of all project-tags for a client) and 'client project-tag projects list' (a list of all projects for a client-project-tag).
 * 2013-04-18: Fixed project opinions. Add client opinions-feature. Note that many of the opinions-facets changed! Please re-read this part of the documentation.
-* 2013-04-17: Add project pictures API. Please note the DEPRICATION warning for the project- and volunteering-profilepicture (sizes large, profile and thumb are depricated and therefore renamed.)
+* 2013-04-17: Add project pictures API. Please note the DEPRICATION warning for the project- and volunteering-profilepicture (sizes large, profile and thumb are deprecated and therefore renamed.)
 * 2012-04-15: Add "Client Project-Tag Project List".
 * 2012-03-03: Add picture size 'large' and 'original' to image list for projects. Please note that the images-part of the API ist still beta and might change slightly in the future.
 * 2012-03-28: The project-list now returns the full result-set for each project. The minimal result set is gone for now but will be added later. The default-number of results changed to 20 for all lists.
@@ -208,14 +209,10 @@ The following HTTP result codes can be returned:
 
 Please contact developers@betterplace.org for more information
 
-1. All Resources: The `links` to other api-calls dont use the api-subdomain but www instead
-1. All Resources: The `links` to images dont use the asset path asset1 but www instead
 1. Documentation: The pictures-list-docu-page is missing
-1. ProjectPictures: `projects/14/pictures.json` is broken (500)
 1. Documentation: Not all resources have a documentation-url as part of the json
 1. Documentation: The response-table does not show the root-documentation for response-elements with sub-elements (for example carrier.name is documented but carrier is not)
 1. Blogposts: There is no way yet to filter BlogPosts from PayoutBlogPost
-1. General OpinionsList: There is no list of opinions without a project-scope. So there is no way to show the last 4 opinions with a comment for example.
 
 
 ## API V1, V2, V3

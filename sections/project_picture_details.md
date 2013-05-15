@@ -2,7 +2,7 @@
 # Project Picture Details ⇄ [List](project_pictures_list.md)
 
 ```nginx
-GET https://www.betterplace.org/en/api_v4/projects/1114/pictures/286505.json
+GET https://api.betterplace.org/en/api_v4/projects/1114/pictures/286505.json
 ```
 
 The details of a betterplace.org project picture.
@@ -122,11 +122,11 @@ projects, the API will return a `404` HTTP code.
     },
     {
       "rel": "self",
-      "href": "https://www.betterplace.org/en/api_v4/projects/1114/pictures/286505.json"
+      "href": "https://api.betterplace.dev/en/api_v4/projects/1114/pictures/286505.json"
     },
     {
       "rel": "parent",
-      "href": "https://www.betterplace.org/en/api_v4/projects/1114.json"
+      "href": "https://api.betterplace.dev/en/api_v4/projects/1114.json"
     }
   ]
 }

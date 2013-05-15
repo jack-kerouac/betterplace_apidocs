@@ -2,7 +2,7 @@
 # Volunteering Details ⇄ [List](volunteering_list.md)
 
 ```nginx
-GET https://www.betterplace.org/en/api_v4/volunteering/23.json
+GET https://api.betterplace.org/en/api_v4/volunteering/23.json
 ```
 
 The details of a betterplace.org volunteering offer (donate time).
@@ -45,13 +45,13 @@ This resource is not avaliable at the moment.
   </tr>
   <tr>
     <th>created_at</th>
-    <td>null &#124; string</td>
+    <td>string</td>
     <td>"1994-11-05T13:15:30Z"</td>
     <td>DateTime (ISO8601 with Timezone)</td>
   </tr>
   <tr>
     <th>updated_at</th>
-    <td>null &#124; string</td>
+    <td>string</td>
     <td>"1994-11-05T13:15:30Z"</td>
     <td>DateTime (ISO8601 with Timezone)</td>
   </tr>
@@ -206,9 +206,45 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
   </tr>
   <tr>
     <th>imported_from</th>
-    <td>string</td>
+    <td>null &#124; string</td>
     <td>aktion_mensch</td>
     <td>Betterplace imports volunteering offers from Aktions Mensch.</td>
+  </tr>
+  <tr>
+    <th>import_information.created_at</th>
+    <td>null &#124; string</td>
+    <td>"1994-11-05T13:15:30Z"</td>
+    <td>DateTime (ISO8601 with Timezone) when the imported record was actually created.
+</td>
+  </tr>
+  <tr>
+    <th>import_information.updated_at</th>
+    <td>null &#124; string</td>
+    <td>"1994-11-05T13:15:30Z"</td>
+    <td>DateTime (ISO8601 with Timezone) when the imported record was
+actually updated last.
+</td>
+  </tr>
+  <tr>
+    <th>import_information.import_type</th>
+    <td>string</td>
+    <td>"Import::ImportFormat"</td>
+    <td>Type of import this record originated from.</td>
+  </tr>
+  <tr>
+    <th>import_information.import_id</th>
+    <td>string</td>
+    <td>"foo:23"</td>
+    <td>Unique identifier for this imported record.
+</td>
+  </tr>
+  <tr>
+    <th>import_information.imported_at</th>
+    <td>string</td>
+    <td>"1994-11-15T13:15:30Z"</td>
+    <td>DateTime (ISO8601 with Timezone) when the record was imported at
+betterplace.
+</td>
   </tr>
 </table>
 
@@ -255,15 +291,15 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
   </tr>
   <tr>
     <th>contact.picture.large_attention_deprecated</th>
-    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+    <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
     <th>contact.picture.profile_attention_deprecated</th>
-    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
   <tr>
     <th>contact.picture.thumb_attention_deprecated</th>
-    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
 </table>
 
@@ -301,14 +337,19 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
 
   ],
   "imported_from": "aktion_mensch",
+  "import_information": {
+    "import_type": "Bettertime::AktionMensch::Import",
+    "import_id": "fn-471",
+    "imported_at": "2013-03-18T00:30:47Z"
+  },
   "links": [
     {
       "rel": "self",
-      "href": "https://www.betterplace.org/en/api_v4/volunteering/23.json"
+      "href": "https://api.betterplace.dev/en/api_v4/volunteering/23.json"
     },
     {
       "rel": "platform",
-      "href": "https://www.betterplace.org/en/volunteering/23-essensausgabe-fahrdienst"
+      "href": "https://api.betterplace.org/en/volunteering/23-essensausgabe-fahrdienst"
     }
   ]
 }

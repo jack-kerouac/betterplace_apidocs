@@ -2,7 +2,7 @@
 # Client project-tag projects list
 
 ```nginx
-GET https://www.betterplace.org/en/api_v4/clients/Volksfreund/project_tags/Trier/projects.json?facets=completed%3Afalse
+GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/project_tags/Trier/projects.json?facets=completed%3Afalse
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -259,15 +259,15 @@ with betterplace.org but donated via one of our partner.
   </tr>
   <tr>
     <th>profile_picture.large_attention_deprecated</th>
-    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+    <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
     <th>profile_picture.profile_attention_deprecated</th>
-    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
   <tr>
     <th>profile_picture.thumb_attention_deprecated</th>
-    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
   <tr>
     <th>carrier.self</th>
@@ -283,15 +283,15 @@ set for organisations.
   </tr>
   <tr>
     <th>profile_picture.large_attention_deprecated</th>
-    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+    <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
     <th>profile_picture.profile_attention_deprecated</th>
-    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
   <tr>
     <th>profile_picture.thumb_attention_deprecated</th>
-    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
   <tr>
     <th>profile_picture.original</th>
@@ -299,15 +299,15 @@ set for organisations.
   </tr>
   <tr>
     <th>profile_picture.large_attention_deprecated</th>
-    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+    <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
     <th>profile_picture.profile_attention_deprecated</th>
-    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
   <tr>
     <th>profile_picture.thumb_attention_deprecated</th>
-    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
 </table>
 
@@ -365,7 +365,7 @@ set for organisations.
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/manda_n"
+            "href": "https://api.betterplace.org/en/users/manda_n"
           }
         ]
       },
@@ -394,7 +394,7 @@ set for organisations.
         "links": [
           {
             "rel": "self",
-            "href": "https://www.betterplace.org/en/api_v4/organisations/5044.json"
+            "href": "https://api.betterplace.dev/en/api_v4/organisations/5044.json"
           }
         ]
       },
@@ -421,27 +421,27 @@ set for organisations.
       "links": [
         {
           "rel": "self",
-          "href": "https://www.betterplace.org/en/api_v4/projects/7551.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/7551.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/projects/7551-ausbildungswerkstatt-fur-kinder-im-kongo"
+          "href": "https://api.betterplace.org/en/projects/7551-ausbildungswerkstatt-fur-kinder-im-kongo"
         },
         {
           "rel": "opinions",
-          "href": "https://www.betterplace.org/en/api_v4/projects/7551/opinions.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/7551/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "https://www.betterplace.org/en/api_v4/projects/7551/pictures.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/7551/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "https://www.betterplace.org/en/api_v4/projects/7551/needs.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/7551/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "https://www.betterplace.org/en/api_v4/projects/7551/blog_posts.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/7551/blog_posts.json"
         }
       ]
     },
@@ -491,7 +491,7 @@ set for organisations.
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/bernd_g6"
+            "href": "https://api.betterplace.org/en/users/bernd_g6"
           }
         ]
       },
@@ -520,7 +520,7 @@ set for organisations.
         "links": [
           {
             "rel": "self",
-            "href": "https://www.betterplace.org/en/api_v4/organisations/8515.json"
+            "href": "https://api.betterplace.dev/en/api_v4/organisations/8515.json"
           }
         ]
       },
@@ -547,27 +547,27 @@ set for organisations.
       "links": [
         {
           "rel": "self",
-          "href": "https://www.betterplace.org/en/api_v4/projects/7701.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/7701.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/projects/7701-forderung-des-ehrenamts-in-der-aids-hilfe"
+          "href": "https://api.betterplace.org/en/projects/7701-forderung-des-ehrenamts-in-der-aids-hilfe"
         },
         {
           "rel": "opinions",
-          "href": "https://www.betterplace.org/en/api_v4/projects/7701/opinions.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/7701/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "https://www.betterplace.org/en/api_v4/projects/7701/pictures.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/7701/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "https://www.betterplace.org/en/api_v4/projects/7701/needs.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/7701/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "https://www.betterplace.org/en/api_v4/projects/7701/blog_posts.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/7701/blog_posts.json"
         }
       ]
     }

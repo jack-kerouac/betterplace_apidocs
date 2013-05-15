@@ -2,7 +2,7 @@
 # Project Pictures List ⇄ [Details](project_picture_details.md)
 
 ```nginx
-GET https://www.betterplace.org/en/api_v4/projects/1114/pictures.json
+GET https://api.betterplace.org/en/api_v4/projects/1114/pictures.json
 ```
 
 A list of pictures of a betterplace.org project (donate money).
@@ -18,7 +18,7 @@ The following links might help:
 * [Sencha Source](http://docs.sencha.io/current/index.html#!/guide/src) provides a easy URL-based solution
 * [adaptive-images.com](http://adaptive-images.com/) is a self-hosted solution
 * [Google mod_pagespeed "image resizing"](https://developers.google.com/speed/docs/mod_pagespeed/filter-image-optimize)
-should also help – and give you more performance-goodies as well
+  should also help – and give you more performance-goodies as well
 
 *For [betterplace.org clients](../README.md#client-api):*
 If you request data for a project that is not part of the client
@@ -114,9 +114,9 @@ projects, the API will return a `404` HTTP code.
 
 ```json
 {
-  "total_entries": 18,
+  "total_entries": 19,
   "offset": 3,
-  "total_pages": 6,
+  "total_pages": 7,
   "current_page": 2,
   "per_page": 3,
   "data": [
@@ -133,11 +133,11 @@ projects, the API will return a `404` HTTP code.
         },
         {
           "rel": "self",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114/pictures/286511.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/pictures/286511.json"
         },
         {
           "rel": "parent",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114.json"
         }
       ]
     },
@@ -154,11 +154,11 @@ projects, the API will return a `404` HTTP code.
         },
         {
           "rel": "self",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114/pictures/286512.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/pictures/286512.json"
         },
         {
           "rel": "parent",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114.json"
         }
       ]
     },
@@ -174,11 +174,11 @@ projects, the API will return a `404` HTTP code.
         },
         {
           "rel": "self",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114/pictures/286515.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/pictures/286515.json"
         },
         {
           "rel": "parent",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114.json"
         }
       ]
     }

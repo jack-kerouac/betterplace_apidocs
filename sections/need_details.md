@@ -2,7 +2,7 @@
 # Project Need Details ⇄ [List](needs_list.md)
 
 ```nginx
-GET https://www.betterplace.org/en/api_v4/projects/1114/needs/59220.json
+GET https://api.betterplace.org/en/api_v4/projects/1114/needs/59220.json
 ```
 
 The details of a betterplace.org project need (donate money).
@@ -151,11 +151,11 @@ offline donations and also(!) external donations)
   "links": [
     {
       "rel": "self",
-      "href": "https://www.betterplace.org/en/api_v4/projects/1114/needs/58985.json"
+      "href": "https://api.betterplace.dev/en/api_v4/projects/1114/needs/58985.json"
     },
     {
       "rel": "project",
-      "href": "https://www.betterplace.org/en/api_v4/projects/1114.json"
+      "href": "https://api.betterplace.dev/en/api_v4/projects/1114.json"
     }
   ]
 }

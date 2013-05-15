@@ -2,7 +2,7 @@
 # Projects List ⇄ [Details](project_details.md)
 
 ```nginx
-GET https://www.betterplace.org/en/api_v4/projects.json?facets=completed%3Afalse&nelat=51.123&nelng=12.123&order=rank%3AASC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001
+GET https://api.betterplace.org/en/api_v4/projects.json?facets=completed%3Afalse&nelat=51.123&nelng=12.123&order=rank%3AASC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001
 ```
 
 A list of betterplace.org projects (donate money).
@@ -29,9 +29,9 @@ Use this resource like `/clients/PERMALINK/projects.json`
 <ul>
 <li>"no scope" (default) performs a full text search
 <li><code>human_name</code> searches only on the manager-fullname and carrier-fullname.
-Use this to get all projects by "Unicef" or by "Till Behnke".
+    Use this to get all projects by "Unicef" or by "Till Behnke".
 <li><code>location</code> does a reverse geocoding lookup
-and shows results based on the lookup-bounding-box.
+    and shows results based on the lookup-bounding-box.
 </ul>
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 </td>
@@ -304,15 +304,15 @@ with betterplace.org but donated via one of our partner.
   </tr>
   <tr>
     <th>profile_picture.large_attention_deprecated</th>
-    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+    <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
     <th>profile_picture.profile_attention_deprecated</th>
-    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
   <tr>
     <th>profile_picture.thumb_attention_deprecated</th>
-    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
   <tr>
     <th>carrier.self</th>
@@ -328,15 +328,15 @@ set for organisations.
   </tr>
   <tr>
     <th>profile_picture.large_attention_deprecated</th>
-    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+    <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
     <th>profile_picture.profile_attention_deprecated</th>
-    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
   <tr>
     <th>profile_picture.thumb_attention_deprecated</th>
-    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
   <tr>
     <th>profile_picture.original</th>
@@ -344,15 +344,15 @@ set for organisations.
   </tr>
   <tr>
     <th>profile_picture.large_attention_deprecated</th>
-    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+    <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
     <th>profile_picture.profile_attention_deprecated</th>
-    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
   <tr>
     <th>profile_picture.thumb_attention_deprecated</th>
-    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
 </table>
 
@@ -369,7 +369,7 @@ set for organisations.
     {
       "id": 1114,
       "created_at": "2009-03-10T10:12:16Z",
-      "updated_at": "2013-04-17T16:21:41Z",
+      "updated_at": "2013-05-14T17:54:30Z",
       "latitude": 34.531617284782,
       "longitude": 69.13581752939456,
       "street": "Taimani, behind Qasemi Winhouse",
@@ -379,10 +379,10 @@ set for organisations.
       "title": "Skateistan Afghanistan",
       "description": "With 68% of Afghanistan’s population under the age of 25, Skateistan strongly believes that youth are the ones most capable of bringing about social change.<br /><br />Skateistan is an Afghan NGO which operates Afghanistan’s (and the world’s) first co-educational skateboarding school. The Skateistan school engages nearly 400 Kabul youth weekly through skateboarding, and provides them with new opportunities in cross-cultural interaction, education, and personal empowerment programs. <br /><br />The students (ages 5-17) come from all of Afghanistan’s diverse ethnic and socioeconomic backgrounds, and include 40% female students, hundreds of streetworking children, and youth with disabilities. They develop skills in skateboarding, leadership, problem-solving, multimedia, and creative arts. The students themselves decide what they want to learn; we connect them with a safe space and opportunities for them to develop the skills that they consider important.<br /><br />For Afghan girls Skateistan's programming is especially important as there are very few recreational opportunities for females. For example, it is not culturally acceptable for girls in Afghanistan to ride bicycles or play sports in public. <br /><br />Skateistan has been active in Kabul since 2007 - with our facility built in 2009 - and in that time we’ve seen that Afghan youth of all ethnicities, genders, and socioeconomic backgrounds love to skateboard. Skateistan brings them together, equipping young men and women to lead their communities toward social change and development.<br /><br />In 2012 Skateistan will be opening its second Afghan facility in Mazar-e-Sharif, Northern Afghanistan. It will have space to teach up to 1000 youth weekly.<br /><br />Our program gives hundreds of oppressed youth a voice. Education and the opportunity for self-expression can break the cycles of poverty, illiteracy and exclusion, with sport paving the way.",
       "tax_deductible": true,
-      "open_amount_in_cents": 87530,
-      "positive_opinions_count": 401,
+      "open_amount_in_cents": 86530,
+      "positive_opinions_count": 406,
       "negative_opinions_count": 0,
-      "donor_count": 301,
+      "donor_count": 302,
       "progress_percentage": 97,
       "incomplete_need_count": 1,
       "completed_need_count": 73,
@@ -412,7 +412,7 @@ set for organisations.
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/frauke_m3"
+            "href": "https://api.betterplace.org/en/users/frauke_m3"
           }
         ]
       },
@@ -441,7 +441,7 @@ set for organisations.
         "links": [
           {
             "rel": "self",
-            "href": "https://www.betterplace.org/en/api_v4/organisations/1054.json"
+            "href": "https://api.betterplace.dev/en/api_v4/organisations/1054.json"
           }
         ]
       },
@@ -449,46 +449,46 @@ set for organisations.
         "links": [
           {
             "rel": "original",
-            "href": "http://www.betterplace.org/paperclip/000/289/158/original_girls-merza-sm.jpg"
+            "href": "http://asset1.betterplace.org/paperclip/000/307/764/original_default_girls-merza-sm-LOCAL.jpg"
           },
           {
             "rel": "large_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/289/158/big_girls-merza-sm.png"
+            "href": "http://asset1.betterplace.org/paperclip/000/307/764/big_default_girls-merza-sm-LOCAL.png"
           },
           {
             "rel": "profile_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/289/158/profile_girls-merza-sm.jpg"
+            "href": "http://asset1.betterplace.org/paperclip/000/307/764/profile_default_girls-merza-sm-LOCAL.jpg"
           },
           {
             "rel": "thumb_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/289/158/thumb_girls-merza-sm.png"
+            "href": "http://asset1.betterplace.org/paperclip/000/307/764/thumb_default_girls-merza-sm-LOCAL.png"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan"
+          "href": "https://api.betterplace.org/en/projects/1114-skateistan-afghanistan"
         },
         {
           "rel": "opinions",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114/opinions.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114/pictures.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114/needs.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114/blog_posts.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/blog_posts.json"
         }
       ]
     },
@@ -536,7 +536,7 @@ set for organisations.
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/frauke_m3"
+            "href": "https://api.betterplace.org/en/users/frauke_m3"
           }
         ]
       },
@@ -565,7 +565,7 @@ set for organisations.
         "links": [
           {
             "rel": "self",
-            "href": "https://www.betterplace.org/en/api_v4/organisations/1054.json"
+            "href": "https://api.betterplace.dev/en/api_v4/organisations/1054.json"
           }
         ]
       },
@@ -592,27 +592,27 @@ set for organisations.
       "links": [
         {
           "rel": "self",
-          "href": "https://www.betterplace.org/en/api_v4/projects/6233.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/6233.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/projects/6233-skateistan-cambodia"
+          "href": "https://api.betterplace.org/en/projects/6233-skateistan-cambodia"
         },
         {
           "rel": "opinions",
-          "href": "https://www.betterplace.org/en/api_v4/projects/6233/opinions.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/6233/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "https://www.betterplace.org/en/api_v4/projects/6233/pictures.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/6233/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "https://www.betterplace.org/en/api_v4/projects/6233/needs.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/6233/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "https://www.betterplace.org/en/api_v4/projects/6233/blog_posts.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/6233/blog_posts.json"
         }
       ]
     }

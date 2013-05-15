@@ -2,7 +2,7 @@
 # Project Opinions List ⇄ [Details](opinion_details.md)
 
 ```nginx
-GET https://www.betterplace.org/en/api_v4/projects/1114/opinions.json?facets=has_message%3Atrue&order=created_at%3AASC
+GET https://api.betterplace.org/en/api_v4/projects/1114/opinions.json?facets=has_message%3Atrue&order=created_at%3AASC
 ```
 
 ## Attention: The opinions-list for projects is still WIP. Right now it shows all opinions instead of those of the project.
@@ -143,15 +143,15 @@ with betterplace.org but donated via one of our partner.
   </tr>
   <tr>
     <th>author.picture.large_attention_deprecated</th>
-    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+    <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
     <th>author.picture.profile_attention_deprecated</th>
-    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
   <tr>
     <th>author.picture.thumb_attention_deprecated</th>
-    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
 </table>
 
@@ -159,9 +159,9 @@ with betterplace.org but donated via one of our partner.
 
 ```json
 {
-  "total_entries": 401,
+  "total_entries": 406,
   "offset": 0,
-  "total_pages": 134,
+  "total_pages": 136,
   "current_page": 1,
   "per_page": 3,
   "data": [
@@ -174,7 +174,7 @@ with betterplace.org but donated via one of our partner.
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/alexandra_b"
+            "href": "https://api.betterplace.org/en/users/alexandra_b"
           }
         ]
       },
@@ -182,7 +182,7 @@ with betterplace.org but donated via one of our partner.
       "links": [
         {
           "rel": "self",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114/opinions/964.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/opinions/964.json"
         }
       ]
     },
@@ -215,7 +215,7 @@ with betterplace.org but donated via one of our partner.
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/omar_a"
+            "href": "https://api.betterplace.org/en/users/omar_a"
           }
         ]
       },
@@ -223,7 +223,7 @@ with betterplace.org but donated via one of our partner.
       "links": [
         {
           "rel": "self",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114/opinions/1024.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/opinions/1024.json"
         }
       ]
     },
@@ -256,7 +256,7 @@ with betterplace.org but donated via one of our partner.
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/mirwais_m"
+            "href": "https://api.betterplace.org/en/users/mirwais_m"
           }
         ]
       },
@@ -264,7 +264,7 @@ with betterplace.org but donated via one of our partner.
       "links": [
         {
           "rel": "self",
-          "href": "https://www.betterplace.org/en/api_v4/projects/1114/opinions/1323.json"
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/opinions/1323.json"
         }
       ]
     }

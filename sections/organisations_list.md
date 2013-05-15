@@ -2,7 +2,7 @@
 # Organisations List ⇄ [Details](organisation_details.md)
 
 ```nginx
-GET https://www.betterplace.org/en/api_v4/organisations.json
+GET https://api.betterplace.org/en/api_v4/organisations.json
 ```
 
 A list of betterplace.org organisations.
@@ -164,15 +164,15 @@ with betterplace.org but donated via one of our partner.
   </tr>
   <tr>
     <th>picture.large_attention_deprecated</th>
-    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+    <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
     <th>picture.profile_attention_deprecated</th>
-    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
   <tr>
     <th>picture.thumb_attention_deprecated</th>
-    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
   <tr>
     <th>picture.original</th>
@@ -180,15 +180,15 @@ with betterplace.org but donated via one of our partner.
   </tr>
   <tr>
     <th>picture.large_attention_deprecated</th>
-    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+    <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
     <th>picture.profile_attention_deprecated</th>
-    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
   <tr>
     <th>picture.thumb_attention_deprecated</th>
-    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
 </table>
 
@@ -241,7 +241,7 @@ with betterplace.org but donated via one of our partner.
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/jeppe_p"
+            "href": "https://api.betterplace.org/en/users/jeppe_p"
           }
         ]
       },
@@ -268,15 +268,15 @@ with betterplace.org but donated via one of our partner.
       "links": [
         {
           "rel": "self",
-          "href": "https://www.betterplace.org/en/api_v4/organisations/14.json"
+          "href": "https://api.betterplace.dev/en/api_v4/organisations/14.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/organisations/mellemfolkeligtsamvirke"
+          "href": "https://api.betterplace.org/en/organisations/mellemfolkeligtsamvirke"
         },
         {
           "rel": "projects",
-          "href": "https://www.betterplace.org/en/api_v4/organisations/14/projects.json"
+          "href": "https://api.betterplace.dev/en/api_v4/organisations/14/projects.json"
         }
       ]
     },
@@ -319,7 +319,7 @@ with betterplace.org but donated via one of our partner.
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/andreas_r"
+            "href": "https://api.betterplace.org/en/users/andreas_r"
           }
         ]
       },
@@ -346,15 +346,15 @@ with betterplace.org but donated via one of our partner.
       "links": [
         {
           "rel": "self",
-          "href": "https://www.betterplace.org/en/api_v4/organisations/15.json"
+          "href": "https://api.betterplace.dev/en/api_v4/organisations/15.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/organisations/gexsi"
+          "href": "https://api.betterplace.org/en/organisations/gexsi"
         },
         {
           "rel": "projects",
-          "href": "https://www.betterplace.org/en/api_v4/organisations/15/projects.json"
+          "href": "https://api.betterplace.dev/en/api_v4/organisations/15/projects.json"
         }
       ]
     }

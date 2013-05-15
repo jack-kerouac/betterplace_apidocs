@@ -2,7 +2,7 @@
 # Project Opinion Details ⇄ [List](opinions_list.md)
 
 ```nginx
-GET https://www.betterplace.org/en/api_v4/projects/38/opinions/22.json
+GET https://api.betterplace.org/en/api_v4/projects/38/opinions/22.json
 ```
 
 The details of a betterplace.org project opinion (donate money).
@@ -119,15 +119,15 @@ with betterplace.org but donated via one of our partner.
   </tr>
   <tr>
     <th>author.picture.large_attention_deprecated</th>
-    <td>Large size – ATTENTION, this feature is DEPRICATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+    <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
   </tr>
   <tr>
     <th>author.picture.profile_attention_deprecated</th>
-    <td>Medium size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
   <tr>
     <th>author.picture.thumb_attention_deprecated</th>
-    <td>Thumbnail size – ATTENTION, this feature is DEPRICATED. See above.</td>
+    <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
   </tr>
 </table>
 
@@ -163,7 +163,7 @@ with betterplace.org but donated via one of our partner.
     "links": [
       {
         "rel": "platform",
-        "href": "https://www.betterplace.org/en/users/giesela_k"
+        "href": "https://api.betterplace.org/en/users/giesela_k"
       }
     ]
   },
@@ -171,7 +171,7 @@ with betterplace.org but donated via one of our partner.
   "links": [
     {
       "rel": "self",
-      "href": "https://www.betterplace.org/en/api_v4/projects/35/opinions/22.json"
+      "href": "https://api.betterplace.dev/en/api_v4/projects/35/opinions/22.json"
     }
   ]
 }
