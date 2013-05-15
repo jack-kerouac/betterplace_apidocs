@@ -130,6 +130,12 @@ why they like or dislike this project
 </td>
   </tr>
   <tr>
+    <th>project</th>
+    <td>Link to the project this opinion belongs to
+(<a href="project_details.md">project details</a>)
+</td>
+  </tr>
+  <tr>
     <th>author.platform</th>
     <td>The user's profile on betterplace.org.
 To view a user profile you have to be logged in.
@@ -183,6 +189,10 @@ with betterplace.org but donated via one of our partner.
         {
           "rel": "self",
           "href": "https://api.betterplace.dev/en/api_v4/projects/1114/opinions/964.json"
+        },
+        {
+          "rel": "project",
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114.json"
         }
       ]
     },
@@ -224,6 +234,10 @@ with betterplace.org but donated via one of our partner.
         {
           "rel": "self",
           "href": "https://api.betterplace.dev/en/api_v4/projects/1114/opinions/1024.json"
+        },
+        {
+          "rel": "project",
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114.json"
         }
       ]
     },
@@ -265,6 +279,10 @@ with betterplace.org but donated via one of our partner.
         {
           "rel": "self",
           "href": "https://api.betterplace.dev/en/api_v4/projects/1114/opinions/1323.json"
+        },
+        {
+          "rel": "project",
+          "href": "https://api.betterplace.dev/en/api_v4/projects/1114.json"
         }
       ]
     }
