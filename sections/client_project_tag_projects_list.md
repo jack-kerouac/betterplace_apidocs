@@ -315,7 +315,7 @@ set for organisations.
 
 ```json
 {
-  "total_entries": 29,
+  "total_entries": 30,
   "offset": 0,
   "total_pages": 15,
   "current_page": 1,
@@ -324,7 +324,7 @@ set for organisations.
     {
       "id": 7551,
       "created_at": "2011-08-28T22:19:43Z",
-      "updated_at": "2013-04-04T22:18:14Z",
+      "updated_at": "2013-05-17T13:32:21Z",
       "latitude": -4.0347900390625,
       "longitude": 21.75629997253418,
       "city": "Kinshasa",
@@ -448,7 +448,7 @@ set for organisations.
     {
       "id": 7701,
       "created_at": "2011-09-16T15:06:28Z",
-      "updated_at": "2013-03-22T08:03:19Z",
+      "updated_at": "2013-05-17T13:32:39Z",
       "latitude": 49.74660110473633,
       "longitude": 6.63549995422363,
       "street": "Saarstraße 55",

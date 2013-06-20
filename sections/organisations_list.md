@@ -196,9 +196,9 @@ with betterplace.org but donated via one of our partner.
 
 ```json
 {
-  "total_entries": 7147,
+  "total_entries": 7418,
   "offset": 0,
-  "total_pages": 3574,
+  "total_pages": 3709,
   "current_page": 1,
   "per_page": 2,
   "data": [
@@ -206,7 +206,7 @@ with betterplace.org but donated via one of our partner.
       "id": 14,
       "slug": "mellemfolkeligtsamvirke",
       "created_at": "2007-07-03T11:54:42Z",
-      "updated_at": "2010-12-06T17:15:22Z",
+      "updated_at": "2013-05-17T12:22:11Z",
       "latitude": 55.68310165405273,
       "longitude": 12.5846996307373,
       "street": "Borgergade 14",
@@ -284,7 +284,7 @@ with betterplace.org but donated via one of our partner.
       "id": 15,
       "slug": "gexsi",
       "created_at": "2007-07-03T15:06:31Z",
-      "updated_at": "2010-12-06T17:15:22Z",
+      "updated_at": "2013-05-17T12:22:11Z",
       "latitude": 51.53049850463867,
       "longitude": -0.12232699990273,
       "street": "1A Birkenhead ",

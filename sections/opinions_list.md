@@ -165,9 +165,9 @@ with betterplace.org but donated via one of our partner.
 
 ```json
 {
-  "total_entries": 406,
+  "total_entries": 413,
   "offset": 0,
-  "total_pages": 136,
+  "total_pages": 138,
   "current_page": 1,
   "per_page": 3,
   "data": [

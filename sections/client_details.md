@@ -7,7 +7,7 @@ GET https://api.betterplace.org/en/api_v4/clients/Volksfreund.json
 
 **For [betterplace.org clients](../README.md#client-api) only:**
 
-Some client-statistics for a betterplace.org client.
+Some client-statistics for a betterplace.org client. All results are cached for 15 minutes.
 
 
 ## Input Parameter
@@ -44,6 +44,20 @@ Some client-statistics for a betterplace.org client.
 Calculated based on open_amount_in_cents and requested_amount_in_cents.
 Therefore it includes the money of the client-pool-fundraising-event
 that still has to be forwarded to one of the client-projects-needs.
+</td>
+  </tr>
+  <tr>
+    <th>pool_balance_in_cents</th>
+    <td>number</td>
+    <td>100</td>
+    <td>Clients may have a client-pool-fundraising-event that receives money
+from offline-donations that could not be associated with a project or
+similar use cases.
+
+The balance repesents the donated amount in cents on the pool
+that has not yet been forwarded to one of the client-project-needs.
+
+This is the number that is include in open_amount_in_cents and donated_amount_in_cents.
 </td>
   </tr>
   <tr>
@@ -110,11 +124,12 @@ This is also calculated based on the sum of all
 
 ```json
 {
-  "donated_amount_in_cents": 75686632,
-  "open_amount_in_cents": 37370368,
-  "requested_amount_in_cents": 113057000,
-  "projects_count": 212,
-  "client_donations_count": 6093,
+  "donated_amount_in_cents": 77680131,
+  "pool_balance_in_cents": 2847925,
+  "open_amount_in_cents": 37385369,
+  "requested_amount_in_cents": 115065500,
+  "projects_count": 217,
+  "client_donations_count": 6235,
   "links": [
     {
       "rel": "projects",

@@ -138,20 +138,20 @@ offline donations and also(!) external donations)
 
 ```json
 {
-  "id": 58985,
-  "created_at": "2013-01-22T18:35:15Z",
-  "updated_at": "2013-02-16T14:31:18Z",
-  "title": "Heater for the Kitchen",
-  "description": "Heater for kitchen facility in Kabul where we cook meals for our \"Back-to-School\" program 5 days/week.",
+  "id": 59517,
+  "created_at": "2013-02-05T15:27:06Z",
+  "updated_at": "2013-05-23T20:24:09Z",
+  "title": "Vehicle Fuel ",
+  "description": "Fuel to transport students and staff to and from Skatepark in Kabul for 2013.",
   "completed": true,
   "progress_percentage": 100,
-  "donated_amount_in_cents": 6100,
+  "donated_amount_in_cents": 177500,
   "open_amount_in_cents": 0,
-  "requested_amount_in_cents": 6100,
+  "requested_amount_in_cents": 177500,
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.dev/en/api_v4/projects/1114/needs/58985.json"
+      "href": "https://api.betterplace.dev/en/api_v4/projects/1114/needs/59517.json"
     },
     {
       "rel": "project",

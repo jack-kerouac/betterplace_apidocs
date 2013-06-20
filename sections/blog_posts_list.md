@@ -115,6 +115,10 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
 </td>
   </tr>
   <tr>
+    <th>platform</th>
+    <td>Permalink to betterplace.org</td>
+  </tr>
+  <tr>
     <th>documentation</th>
     <td>Link to this resource in the documentation
 </td>
@@ -174,6 +178,10 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
           "href": "https://api.betterplace.dev/en/api_v4/blog_posts/22.json"
         },
         {
+          "rel": "platform",
+          "href": "https://api.betterplace.org/en/projects/38-patterns-in-the-sky/news/22"
+        },
+        {
           "rel": "documentation",
           "href": "https://github.com/betterplace/betterplace_apidocs/blob/master/sections/blog_post_details.md"
         }
@@ -220,6 +228,10 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
         {
           "rel": "self",
           "href": "https://api.betterplace.dev/en/api_v4/blog_posts/44.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://api.betterplace.org/en/projects/38-patterns-in-the-sky/news/44"
         },
         {
           "rel": "documentation",

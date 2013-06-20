@@ -191,6 +191,8 @@ The following HTTP result codes can be returned:
 
 ## Changelog
 
+* 2013-06-20: Add client.pool_balance_in_cents property, see doc for details
+* 2013-06-14: Add platform-link to blog_posts-details
 * 2013-05-15: Opinions have a link to the project now. All API-link are "api.betterplace.org" now (not www. anymore). Opinions have have a facets=has_message-Feature now.
 * 2013-04-19: Change the naming of api-docu-files to follow rails-pluralization-convention.
 * 2013-04-19: Added 'client project-tag list' (a list of all project-tags for a client) and 'client project-tag projects list' (a list of all projects for a client-project-tag).

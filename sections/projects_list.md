@@ -369,7 +369,7 @@ set for organisations.
     {
       "id": 1114,
       "created_at": "2009-03-10T10:12:16Z",
-      "updated_at": "2013-05-14T17:54:30Z",
+      "updated_at": "2013-06-11T08:56:04Z",
       "latitude": 34.531617284782,
       "longitude": 69.13581752939456,
       "street": "Taimani, behind Qasemi Winhouse",
@@ -379,40 +379,20 @@ set for organisations.
       "title": "Skateistan Afghanistan",
       "description": "With 68% of Afghanistan’s population under the age of 25, Skateistan strongly believes that youth are the ones most capable of bringing about social change.<br /><br />Skateistan is an Afghan NGO which operates Afghanistan’s (and the world’s) first co-educational skateboarding school. The Skateistan school engages nearly 400 Kabul youth weekly through skateboarding, and provides them with new opportunities in cross-cultural interaction, education, and personal empowerment programs. <br /><br />The students (ages 5-17) come from all of Afghanistan’s diverse ethnic and socioeconomic backgrounds, and include 40% female students, hundreds of streetworking children, and youth with disabilities. They develop skills in skateboarding, leadership, problem-solving, multimedia, and creative arts. The students themselves decide what they want to learn; we connect them with a safe space and opportunities for them to develop the skills that they consider important.<br /><br />For Afghan girls Skateistan's programming is especially important as there are very few recreational opportunities for females. For example, it is not culturally acceptable for girls in Afghanistan to ride bicycles or play sports in public. <br /><br />Skateistan has been active in Kabul since 2007 - with our facility built in 2009 - and in that time we’ve seen that Afghan youth of all ethnicities, genders, and socioeconomic backgrounds love to skateboard. Skateistan brings them together, equipping young men and women to lead their communities toward social change and development.<br /><br />In 2012 Skateistan will be opening its second Afghan facility in Mazar-e-Sharif, Northern Afghanistan. It will have space to teach up to 1000 youth weekly.<br /><br />Our program gives hundreds of oppressed youth a voice. Education and the opportunity for self-expression can break the cycles of poverty, illiteracy and exclusion, with sport paving the way.",
       "tax_deductible": true,
-      "open_amount_in_cents": 86530,
-      "positive_opinions_count": 406,
+      "open_amount_in_cents": 105030,
+      "positive_opinions_count": 439,
       "negative_opinions_count": 0,
-      "donor_count": 302,
-      "progress_percentage": 97,
+      "donor_count": 329,
+      "progress_percentage": 96,
       "incomplete_need_count": 1,
-      "completed_need_count": 73,
-      "blog_post_count": 62,
+      "completed_need_count": 74,
+      "blog_post_count": 67,
       "contact": {
-        "name": "F. Meyn",
-        "picture": {
-          "links": [
-            {
-              "rel": "original",
-              "href": "http://www.betterplace.org/paperclip/000/269/654/original_IMG_0381.JPG"
-            },
-            {
-              "rel": "large_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/269/654/big_IMG_0381.png"
-            },
-            {
-              "rel": "profile_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/269/654/profile_IMG_0381.jpg"
-            },
-            {
-              "rel": "thumb_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/269/654/thumb_IMG_0381.png"
-            }
-          ]
-        },
+        "name": "E. Kinast",
         "links": [
           {
             "rel": "platform",
-            "href": "https://api.betterplace.org/en/users/frauke_m3"
+            "href": "https://api.betterplace.org/en/users/erika_k2"
           }
         ]
       },
@@ -449,19 +429,19 @@ set for organisations.
         "links": [
           {
             "rel": "original",
-            "href": "http://asset1.betterplace.org/paperclip/000/307/764/original_default_girls-merza-sm-LOCAL.jpg"
+            "href": "http://www.betterplace.org/paperclip/000/289/158/original_girls-merza-sm.jpg"
           },
           {
             "rel": "large_attention_deprecated",
-            "href": "http://asset1.betterplace.org/paperclip/000/307/764/big_default_girls-merza-sm-LOCAL.png"
+            "href": "http://www.betterplace.org/paperclip/000/289/158/big_girls-merza-sm.png"
           },
           {
             "rel": "profile_attention_deprecated",
-            "href": "http://asset1.betterplace.org/paperclip/000/307/764/profile_default_girls-merza-sm-LOCAL.jpg"
+            "href": "http://www.betterplace.org/paperclip/000/289/158/profile_girls-merza-sm.jpg"
           },
           {
             "rel": "thumb_attention_deprecated",
-            "href": "http://asset1.betterplace.org/paperclip/000/307/764/thumb_default_girls-merza-sm-LOCAL.png"
+            "href": "http://www.betterplace.org/paperclip/000/289/158/thumb_girls-merza-sm.png"
           }
         ]
       },
@@ -495,7 +475,7 @@ set for organisations.
     {
       "id": 6233,
       "created_at": "2011-02-25T07:48:43Z",
-      "updated_at": "2013-04-08T14:27:10Z",
+      "updated_at": "2013-05-17T13:29:41Z",
       "latitude": 11.55883121490479,
       "longitude": 104.9174423217773,
       "city": "Phnom Penh",
@@ -504,39 +484,39 @@ set for organisations.
       "description": "Skateistan Cambodia began operations in March 2011, building the country's first skatepark in Phnom Penh. Since then the NGO has been teaching skateboarding and creative arts classes with marginalized and streetworking Khmer youth six days a week. <br /><br />Skateboarding is a low-barrier, accessible activity that attracts girls and boys of all backgrounds and abilities. The interest from Cambodia's youth has grown so much since March 2011 that Skateistan Cambodia is now building its own facility to accommodate more than the 150 youth we currently work with weekly.<br /><br />By building a safe and covered Skateistan facility in Phnom Pehn, Skateistan will provide year-round opportunities for youth to engage in recreational activities that encourages girls and boys of all backgrounds to build relationships with one another, while increasing their self-confidence and leadership skills. The facility will also have classroom spaces providing creative arts and multimedia activities for the students.<br /><br />Partnering with local, best-practice NGOs in Cambodia, such as Pour un Sourire d'Enfant (PSE), Friends Intl., and Tiny Toones, Skateistan Cambodia also aims to use skateboarding as a tool to create a bridge between at-risk youth and the quality support services already existing in Phnom Penh.<br /><br />Help us grow this grassroots project and create a safe space for all Cambodian youth to be a part of!",
       "tax_deductible": true,
       "open_amount_in_cents": 30000,
-      "positive_opinions_count": 34,
+      "positive_opinions_count": 35,
       "negative_opinions_count": 0,
       "donor_count": 32,
       "progress_percentage": 91,
       "incomplete_need_count": 1,
       "completed_need_count": 12,
-      "blog_post_count": 27,
+      "blog_post_count": 28,
       "contact": {
-        "name": "F. Meyn",
+        "name": "A. Buck",
         "picture": {
           "links": [
             {
               "rel": "original",
-              "href": "http://www.betterplace.org/paperclip/000/269/654/original_IMG_0381.JPG"
+              "href": "http://www.betterplace.org/paperclip/000/288/843/original_11545_216544438618_2260714_n.jpg"
             },
             {
               "rel": "large_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/269/654/big_IMG_0381.png"
+              "href": "http://www.betterplace.org/paperclip/000/288/843/big_11545_216544438618_2260714_n.png"
             },
             {
               "rel": "profile_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/269/654/profile_IMG_0381.jpg"
+              "href": "http://www.betterplace.org/paperclip/000/288/843/profile_11545_216544438618_2260714_n.jpg"
             },
             {
               "rel": "thumb_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/269/654/thumb_IMG_0381.png"
+              "href": "http://www.betterplace.org/paperclip/000/288/843/thumb_11545_216544438618_2260714_n.png"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://api.betterplace.org/en/users/frauke_m3"
+            "href": "https://api.betterplace.org/en/users/alixandra_b"
           }
         ]
       },

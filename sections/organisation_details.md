@@ -206,7 +206,7 @@ with betterplace.org but donated via one of our partner.
   "id": 125,
   "slug": "vivaconagua",
   "created_at": "2008-02-06T16:10:42Z",
-  "updated_at": "2013-04-18T11:00:24Z",
+  "updated_at": "2013-05-27T17:05:41Z",
   "latitude": 53.55759811401367,
   "longitude": 9.96815967559815,
   "street": "Neuer Kamp 32",

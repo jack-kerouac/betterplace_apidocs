@@ -114,9 +114,9 @@ projects, the API will return a `404` HTTP code.
 
 ```json
 {
-  "total_entries": 19,
+  "total_entries": 18,
   "offset": 3,
-  "total_pages": 7,
+  "total_pages": 6,
   "current_page": 2,
   "per_page": 3,
   "data": [

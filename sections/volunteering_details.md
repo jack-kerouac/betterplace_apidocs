@@ -309,9 +309,9 @@ betterplace.
 {
   "id": 23,
   "created_at": "2013-01-28T09:23:17Z",
-  "updated_at": "2013-03-18T00:30:47Z",
+  "updated_at": "2013-05-16T15:21:06Z",
   "title": "Essensausgabe/Fahrdienst",
-  "description": "<p>Die Kasseler Tafel e.V. sammelt qualitativ einwandfreie Lebensmittel, die kurz vor dem Mindesthaltbarkeitsdatum stehen, bei Firmen in der Region ein und verteilt diese gegen einen symbolischen Betrag an bedürftige Mitbürgerinnen und Mitbürger.</p>\n<p>Freiwillige können sich in folgenden Bereichen bei der Kasseler Tafel betätigen:</p>\n<p>1. Lebensmittel sortieren und ausgeben</p>\n<p>2. als Fahrer: Abholung der Lebensmittel bei den Supermärkten</p>\n\n<p>Mehr Informationen finden Sie unter: http://kasseler-tafel.de/</p>\n<p>Wir freuen uns über Ihr Interesse! </p>\n\n<ul><li>Unfallversicherung</li><li>Haftpflichtversicherung</li><li>Anleitung durch Fachkräfte</li><li>Tätigkeitsnachweise</li><li>Ausstattung mit Medien / Arbeitsmaterialien</li></ul>",
+  "description": "<p>Die Kasseler Tafel e.V. sammelt qualitativ einwandfreie Lebensmittel, die kurz vor dem Mindesthaltbarkeitsdatum stehen, bei Firmen in der Region ein und verteilt diese gegen einen symbolischen Betrag an bedürftige Mitbürgerinnen und Mitbürger.</p>\n<p>Freiwillige können sich in folgenden Bereichen bei der Kasseler Tafel betätigen:</p>\n<p>1. Lebensmittel sortieren und ausgeben</p>\n<p>2. als Fahrer: Abholung der Lebensmittel bei den Supermärkten</p>\n\n<p>Mehr Informationen finden Sie unter: http://kasseler-tafel.de/</p>\n<p>Wir freuen uns über Ihr Interesse! </p><ul><li>Unfallversicherung</li><li>Haftpflichtversicherung</li><li>Anleitung durch Fachkräfte</li><li>Tätigkeitsnachweise</li><li>Ausstattung mit Medien / Arbeitsmaterialien</li></ul>",
   "carrier": {
     "name": "FreiwilligenZentrum Kassel",
     "street": "Spohrstraße 5",
@@ -338,9 +338,11 @@ betterplace.
   ],
   "imported_from": "aktion_mensch",
   "import_information": {
+    "created_at": "2013-03-15T00:00:00Z",
+    "updated_at": "2013-03-15T00:00:00Z",
     "import_type": "Bettertime::AktionMensch::Import",
     "import_id": "fn-471",
-    "imported_at": "2013-03-18T00:30:47Z"
+    "imported_at": "2013-05-16T15:21:06Z"
   },
   "links": [
     {
