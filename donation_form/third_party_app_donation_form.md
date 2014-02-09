@@ -99,7 +99,7 @@ After everything is set up by betterplace.org (see above), you just need to cons
 *Example:*
 ```
 https://www.betterplace.org/de/projects/480/client_donations/new?client_id=ablass&donation_presenter%5Bdonation_amount%5D=15&donation_presenter%5Bdonation_client_reference%5D=wZo2aZCjJHA2CONAXxIQHt
-``
+```
 
 <table>
   <tr>
