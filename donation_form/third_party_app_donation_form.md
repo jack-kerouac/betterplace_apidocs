@@ -26,6 +26,7 @@ betterplace.org provides a number of different donation forms for organisations 
 You can read more about those form in the help section on betterplace.org ([DE](http://www.betterplace.org/c/hilfe/themen/spendensammler/geldspenden/), [EN](http://www.betterplace.org/c/help/topics/collectdonations/)).
 
 
+
 ## How the ThirdPartyApp custom donation form is different:
 
 <table>
@@ -262,7 +263,7 @@ https://www.you-app.cool/callback.php?status=DONATION_COMPLETE&donation_client_r
 
 Once you receive the DONATION_SUCCESS message via the redirect URL you can be sure that the donation arrived in our betterplace.org database. BUT: There are a few ways that this donation might be canceled again later (by the bank or the user most likely).
 
-That is why we have an API endpoint [client_donation_details](../sections/client_donation_details.md) that allows you to check the status foreach donation. For that you need the donation id that is part of the return params (redirect URL).
+That is why we have an API endpoint [client_donation_details](../sections/client_donation_details.md) that allows you to check the status foreach donation. For that you need the **donation token** that is part of the response params to the redirect URL.
 
 Only donations that are marked as 'confirmed' are really confirmed for good.
 
