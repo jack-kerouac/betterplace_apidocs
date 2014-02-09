@@ -99,7 +99,7 @@ After everything is set up by betterplace.org (see above), you just need to cons
 *Example:*
 ```
 https://www.betterplace.org/de/projects/480/client_donations/new?client_id=ablass&donation_presenter%5Bdonation_amount%5D=15&donation_presenter%5Bdonation_client_reference%5D=wZo2aZCjJHA2CONAXxIQHt
-```
+``
 
 <table>
   <tr>
@@ -223,6 +223,39 @@ https://www.you-app.cool/callback.php?status=DONATION_COMPLETE&donation_client_r
     </td>
     <td>
       The same value that you provided when opening the donation form via <code>donation_presenter[donation_client_reference]</code>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <code>
+        receiver_type=project&receiver_id=1114
+      </code>,
+      <code>
+        receiver_type=group&receiver_id=seeds-of-kindness-3
+      </code>
+    </td>
+    <td>
+      The receiver type and id that you specified when opening the form. "Group" stands for "Fundraising Event".
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <code>
+        amount=6
+      </code>
+    </td>
+    <td>
+      The amount that was actually donated. This corresponts to <code>donation_presenter[donation_amount]</code> unless the user changed it.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <code>
+        donation_token=STRING
+      </code>
+    </td>
+    <td>
+      A unique token that identifies this donation. You have to store this token in your application to reconcile the donation later – see chapter below.
     </td>
   </tr>
 </table>
