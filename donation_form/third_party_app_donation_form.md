@@ -17,7 +17,7 @@ Please note that his part this page has nothing to do with the json-API v4 that 
 
 * [Ablass App](http://www.ablass-app.de/), where you can clean your conscious
 * [Donatify me](http://donatify.me/), where you can get Edward to do stuff for you
-* _Please send you app URL to product@betterplace.org_
+* _Please send your app URL to product@betterplace.org_
 
 
 **About the two regular donation forms on betterplace.org:**
