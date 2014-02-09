@@ -227,12 +227,8 @@ https://www.you-app.cool/callback.php?status=DONATION_COMPLETE&donation_client_r
   </tr>
   <tr>
     <td>
-      <code>
-        receiver_type=project&receiver_id=1114
-      </code>,
-      <code>
-        receiver_type=group&receiver_id=seeds-of-kindness-3
-      </code>
+      <code>receiver_type=project&receiver_id=1114</code>,
+      <code>receiver_type=group&receiver_id=seeds-of-kindness-3</code>
     </td>
     <td>
       The receiver type and id that you specified when opening the form. "Group" stands for "Fundraising Event".
