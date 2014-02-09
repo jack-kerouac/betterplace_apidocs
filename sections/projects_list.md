@@ -22,7 +22,7 @@ Use this resource like `/clients/PERMALINK/projects.json`
     <th>Description</th>
   </tr>
   <tr>
-    <th>scope</th>
+    <th align="left">scope</th>
     <td><code>location</code></td>
     <td>optional</td>
     <td>Use the scope to specify how the search-query <code>q</code> should behave:
@@ -37,13 +37,13 @@ Use this resource like `/clients/PERMALINK/projects.json`
 </td>
   </tr>
   <tr>
-    <th>q</th>
+    <th align="left">q</th>
     <td><code>Skateistan</code></td>
     <td>optional</td>
     <td>Search query. The searches behaviour is based on the scope.</td>
   </tr>
   <tr>
-    <th>order</th>
+    <th align="left">order</th>
     <td><code>rank:ASC</code></td>
     <td>optional</td>
     <td>Order the result by solr-<code>score</code> (only when a query (q) is given),
@@ -59,7 +59,7 @@ The default order is the same as for the
 </td>
   </tr>
   <tr>
-    <th>facets</th>
+    <th align="left">facets</th>
     <td><code>completed:false</code></td>
     <td>optional</td>
     <td>Filter the result set by <code>tax_deductible</code> or <code>completed</code>. Possible values are
@@ -69,25 +69,25 @@ It is possible to set multiple facet filters.
 </td>
   </tr>
   <tr>
-    <th>nelat</th>
+    <th align="left">nelat</th>
     <td><code>51.123</code></td>
     <td>optional</td>
     <td>For geographic bound filterning: The northeast corner's latitude.</td>
   </tr>
   <tr>
-    <th>nelng</th>
+    <th align="left">nelng</th>
     <td><code>12.123</code></td>
     <td>optional</td>
     <td>For geographic bound filterning: The northeast corner's longitude.</td>
   </tr>
   <tr>
-    <th>swlat</th>
+    <th align="left">swlat</th>
     <td><code>51.001</code></td>
     <td>optional</td>
     <td>For geographic bound filterning: The southwest corner's latitude.</td>
   </tr>
   <tr>
-    <th>swlng</th>
+    <th align="left">swlng</th>
     <td><code>12.001</code></td>
     <td>optional</td>
     <td>For geographic bound filterning: The southwest corner's longitude.</td>
@@ -96,506 +96,458 @@ It is possible to set multiple facet filters.
 
 ## Response Attributes
 
-<table>
-  <tr>
-    <th>Attribute</th>
-    <th>Types</th>
-    <th>Example</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <th>id</th>
-    <td>number</td>
-    <td>4</td>
-    <td>An integer number ≥ 1</td>
-  </tr>
-  <tr>
-    <th>created_at</th>
-    <td>string</td>
-    <td>"1994-11-05T13:15:30Z"</td>
-    <td>DateTime (ISO8601 with Timezone)</td>
-  </tr>
-  <tr>
-    <th>updated_at</th>
-    <td>string</td>
-    <td>"1994-11-05T13:15:30Z"</td>
-    <td>DateTime (ISO8601 with Timezone)</td>
-  </tr>
-  <tr>
-    <th>latitude</th>
-    <td>number</td>
-    <td>52.499007</td>
-    <td>Decimal degrees based on user input</td>
-  </tr>
-  <tr>
-    <th>longitude</th>
-    <td>number</td>
-    <td>13.44947</td>
-    <td>Decimal degrees based on user input</td>
-  </tr>
-  <tr>
-    <th>street</th>
-    <td>null &#124; string</td>
-    <td>"Schlesische Straße 26"</td>
-    <td>Where the project takes place</td>
-  </tr>
-  <tr>
-    <th>zip</th>
-    <td>null &#124; string</td>
-    <td>"10997"</td>
-    <td>Where the project takes place</td>
-  </tr>
-  <tr>
-    <th>city</th>
-    <td>null &#124; string</td>
-    <td>"Berlin"</td>
-    <td>Where the project takes place</td>
-  </tr>
-  <tr>
-    <th>country</th>
-    <td>null &#124; string</td>
-    <td>"Deutschland"</td>
-    <td>Where the project takes place, translated to the requested language</td>
-  </tr>
-  <tr>
-    <th>title</th>
-    <td>string</td>
-    <td></td>
-    <td>Max 50 character</td>
-  </tr>
-  <tr>
-    <th>description</th>
-    <td>string</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <th>tax_deductible</th>
-    <td>boolean</td>
-    <td>true</td>
-    <td>True if the project marked as tax deductible.
+### Root Attributes
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">id</th>
+      <td>number</td>
+      <td>4</td>
+      <td>An integer number ≥ 1</td>
+    </tr>
+    <tr>
+      <th align="left">created_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone)</td>
+    </tr>
+    <tr>
+      <th align="left">updated_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone)</td>
+    </tr>
+    <tr>
+      <th align="left">completed_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone) when the project was completed</td>
+    </tr>
+    <tr>
+      <th align="left">latitude</th>
+      <td>number</td>
+      <td>52.499007</td>
+      <td>Decimal degrees based on user input</td>
+    </tr>
+    <tr>
+      <th align="left">longitude</th>
+      <td>number</td>
+      <td>13.44947</td>
+      <td>Decimal degrees based on user input</td>
+    </tr>
+    <tr>
+      <th align="left">street</th>
+      <td>null &#124; string</td>
+      <td>"Schlesische Straße 26"</td>
+      <td>Where the project takes place</td>
+    </tr>
+    <tr>
+      <th align="left">zip</th>
+      <td>null &#124; string</td>
+      <td>"10997"</td>
+      <td>Where the project takes place</td>
+    </tr>
+    <tr>
+      <th align="left">city</th>
+      <td>null &#124; string</td>
+      <td>"Berlin"</td>
+      <td>Where the project takes place</td>
+    </tr>
+    <tr>
+      <th align="left">country</th>
+      <td>null &#124; string</td>
+      <td>"Deutschland"</td>
+      <td>Where the project takes place, translated to the requested language</td>
+    </tr>
+    <tr>
+      <th align="left">title</th>
+      <td>string</td>
+      <td></td>
+      <td>Max 50 character</td>
+    </tr>
+    <tr>
+      <th align="left">description</th>
+      <td>string</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th align="left">tax_deductible</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>True if the project marked as tax deductible.
 If so, Users can request a tax-receipt that can be used
 with the german tax authorities.
 [More about this](http://www.betterplace.org/c/hilfe/projekt-steuerlich-absetzbar/).
 </td>
-  </tr>
-  <tr>
-    <th>open_amount_in_cents</th>
-    <td>number</td>
-    <td>12382</td>
-    <td>How many cents are needed to complete the project</td>
-  </tr>
-  <tr>
-    <th>positive_opinions_count</th>
-    <td>number</td>
-    <td>13</td>
-    <td>Number of positive opinions that are given to a project without a donation.
+    </tr>
+    <tr>
+      <th align="left">donations_prohibited</th>
+      <td>boolean</td>
+      <td>false</td>
+      <td>True if the project must not receive donations. This might happen if a tax-receipt
+of german tax authorities rans out.
+</td>
+    </tr>
+    <tr>
+      <th align="left">open_amount_in_cents</th>
+      <td>number</td>
+      <td>12382</td>
+      <td>How many cents are needed to complete the project</td>
+    </tr>
+    <tr>
+      <th align="left">positive_opinions_count</th>
+      <td>number</td>
+      <td>13</td>
+      <td>Number of positive opinions that are given to a project without a donation.
 Those are plain opinions as well as visitor opinions.
 </td>
-  </tr>
-  <tr>
-    <th>negative_opinions_count</th>
-    <td>number</td>
-    <td>0</td>
-    <td>Number of *negative* opinions (usually 0) that are given to a project without a donation.
+    </tr>
+    <tr>
+      <th align="left">negative_opinions_count</th>
+      <td>number</td>
+      <td>0</td>
+      <td>Number of *negative* opinions (usually 0) that are given to a project without a donation.
 Those are plain opinions as well as visitor opinions.
 Critical opinions are part of the betterplace.org
 ["Web of trust"](http://www.betterplace.org/c/hilfe/woran-erkenne-ich-dass-ein-projekt-vertrauenswurdig-ist/).
 </td>
-  </tr>
-  <tr>
-    <th>donor_count</th>
-    <td>number</td>
-    <td>46</td>
-    <td>Number of unique donors, based on the payment-email-address</td>
-  </tr>
-  <tr>
-    <th>progress_percentage</th>
-    <td>number</td>
-    <td>82</td>
-    <td>% financed. Note: We have legacy projects with substantial
+    </tr>
+    <tr>
+      <th align="left">donor_count</th>
+      <td>number</td>
+      <td>46</td>
+      <td>Number of unique donors, based on the payment-email-address</td>
+    </tr>
+    <tr>
+      <th align="left">progress_percentage</th>
+      <td>number</td>
+      <td>82</td>
+      <td>% financed. Note: We have legacy projects with substantial
 donation needs. This percentage includes those needs.
 </td>
-  </tr>
-  <tr>
-    <th>incomplete_need_count</th>
-    <td>number</td>
-    <td>6</td>
-    <td>Number of needs that still need donations</td>
-  </tr>
-  <tr>
-    <th>completed_need_count</th>
-    <td>number</td>
-    <td>12</td>
-    <td>Number of completed needs</td>
-  </tr>
-  <tr>
-    <th>blog_post_count</th>
-    <td>number</td>
-    <td>8</td>
-    <td>Number of blogposts (all types)</td>
-  </tr>
-  <tr>
-    <th>contact.name</th>
-    <td>null &#124; string</td>
-    <td>"Till B."</td>
-    <td>Display name of a betterplace.org user.
+    </tr>
+    <tr>
+      <th align="left">incomplete_need_count</th>
+      <td>number</td>
+      <td>6</td>
+      <td>Number of needs that still need donations</td>
+    </tr>
+    <tr>
+      <th align="left">completed_need_count</th>
+      <td>number</td>
+      <td>12</td>
+      <td>Number of completed needs</td>
+    </tr>
+    <tr>
+      <th align="left">blog_post_count</th>
+      <td>number</td>
+      <td>8</td>
+      <td>Number of blogposts (all types)</td>
+    </tr>
+    <tr>
+        <th align="left" style="white-space: nowrap">
+          <a name="contact-ref" href="#contact">
+            ↓contact
+          </a>
+        </th>
+      <td>object</td>
+      <td>TODO</td>
+      <td>The public face of the project / project manager</td>
+    </tr>
+    <tr>
+        <th align="left" style="white-space: nowrap">
+          <a name="carrier-ref" href="#carrier">
+            ↓carrier
+          </a>
+        </th>
+      <td>object</td>
+      <td>TODO</td>
+      <td>An organisation, Users will be added later</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture</th>
+      <td>null &#124; object</td>
+      <td></td>
+      <td>TODO</td>
+    </tr>
+    <tr>
+        <th align="left" style="white-space: nowrap">
+          <a name="active_matching_fund-ref" href="#active_matching_fund">
+            ↓active_matching_fund
+          </a>
+        </th>
+      <td>null &#124; object</td>
+      <td>TODO</td>
+      <td>TODO</td>
+    </tr>
+  </table>
+### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">contact.name</th>
+      <td>null &#124; string</td>
+      <td>"Till B."</td>
+      <td>Display name of a betterplace.org user.
 Possible formats: "Till B.", "T. Behnke", "Till Behnke".
 In the case of donation-opinions the name might also be anonymized
 like "Payback User" or empty/null for anonymous donations.
 </td>
-  </tr>
-  <tr>
-    <th>carrier.name</th>
-    <td>string</td>
-    <td>"Till B."</td>
-    <td>The carrier can be an organisation or user.</td>
-  </tr>
+    </tr>
+    <tr>
+      <th align="left">contact.picture</th>
+      <td>string</td>
+      <td>//assets.betterplace.org/…</td>
+      <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
+### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">carrier.name</th>
+      <td>string</td>
+      <td>"Till B."</td>
+      <td>The carrier can be an organisation or user.</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.picture</th>
+      <td>string</td>
+      <td>//assets.betterplace.org/…</td>
+      <td>The organisation logo, user profile picture or a fallback image</td>
+    </tr>
+  </table>
+### <a name="active_matching_fund" href="#active_matching_fund-ref">↑Nested Attributes: active_matching_fund</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.id</th>
+      <td>string</td>
+      <td>53</td>
+      <td>An integer number ≥ 1</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.created_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone)</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.updated_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone)</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.activated_at</th>
+      <td>null &#124; string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone)</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.title</th>
+      <td>string</td>
+      <td>ACME Matching Everything</td>
+      <td>Our matching fund's name</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.description</th>
+      <td>string</td>
+      <td>It's all about matching donations…</td>
+      <td>The description of the matching fund</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.company_name</th>
+      <td>string</td>
+      <td>ACME</td>
+      <td>The company that supports it</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.state</th>
+      <td>string</td>
+      <td>activated</td>
+      <td>Current state of this matching fund: either activated or closed</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.logo_url</th>
+      <td>string</td>
+      <td>http://example.com/images/logo.png</td>
+      <td>The URL of the logo image.</td>
+    </tr>
+  </table>
 </table>
 
 ## Response Links
-#
+
 <table>
   <tr>
     <th>Linkname</th>
     <th>Description</th>
   </tr>
-  <tr>
-    <th>self</th>
-    <td>Link to this resource itself
+
+    <tr>
+      <th align="left">self</th>
+      <td>Link to this resource itself
 (<a href="project_details.md">project details</a>)
 </td>
-  </tr>
-  <tr>
-    <th>platform</th>
-    <td>Permalink to betterplace.org</td>
-  </tr>
-  <tr>
-    <th>opinions</th>
-    <td>Link to <a href="../opinions_list.md">opinion list</a>
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td>Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">opinions</th>
+      <td>Link to <a href="opinions_list.md">opinion list</a>
 </td>
-  </tr>
-  <tr>
-    <th>pictures</th>
-    <td>Link to <a href="../picture_list.md">project picture list</a>
+    </tr>
+    <tr>
+      <th align="left">pictures</th>
+      <td>Link to <a href="picture_list.md">project picture list</a>
 </td>
-  </tr>
-  <tr>
-    <th>needs</th>
-    <td>Link to <a href="../needs_list.md">project need list</a>
+    </tr>
+    <tr>
+      <th align="left">needs</th>
+      <td>Link to <a href="needs_list.md">project need list</a>
 </td>
-  </tr>
-  <tr>
-    <th>blog_posts</th>
-    <td>Link to <a href="../blog_posts_list.md">blog post list</a>
+    </tr>
+    <tr>
+      <th align="left">blog_posts</th>
+      <td>Link to <a href="blog_posts_list.md">blog post list</a>
 </td>
-  </tr>
-  <tr>
-    <th>contact.platform</th>
-    <td>The user's profile on betterplace.org.
+    </tr>
+    <tr>
+      <th align="left">matching_funds</th>
+      <td>Link to <a href="manager_details.md">matching funds list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.platform</th>
+      <td>The user's profile on betterplace.org.
 To view a user profile you have to be logged in.
 This array is empty if the user has no useraccount
 with betterplace.org but donated via one of our partner.
 </td>
-  </tr>
-  <tr>
-    <th>profile_picture.original</th>
-    <td>Original size as uploaded by the user</td>
-  </tr>
-  <tr>
-    <th>profile_picture.large_attention_deprecated</th>
-    <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
-  </tr>
-  <tr>
-    <th>profile_picture.profile_attention_deprecated</th>
-    <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-  </tr>
-  <tr>
-    <th>profile_picture.thumb_attention_deprecated</th>
-    <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
-  </tr>
-  <tr>
-    <th>carrier.self</th>
-    <td>Link to this resource itself
+    </tr>
+    <tr>
+      <th align="left">contact.contact_data</th>
+      <td>The user's contact data. Please note that you need to be
+<a href="../README.md#client-authentication">authenticated as a client</a> with matching
+access rights in order to see this information.
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.large_attention_deprecated</th>
+      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.profile_attention_deprecated</th>
+      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.thumb_attention_deprecated</th>
+      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.self</th>
+      <td>Link to this resource itself
 (<a href="organisation_details.md">organisation details</a>)
 Note: Since the there is no api for users yet, this is only
 set for organisations.
 </td>
-  </tr>
-  <tr>
-    <th>profile_picture.original</th>
-    <td>Original size as uploaded by the user</td>
-  </tr>
-  <tr>
-    <th>profile_picture.large_attention_deprecated</th>
-    <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
-  </tr>
-  <tr>
-    <th>profile_picture.profile_attention_deprecated</th>
-    <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-  </tr>
-  <tr>
-    <th>profile_picture.thumb_attention_deprecated</th>
-    <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
-  </tr>
-  <tr>
-    <th>profile_picture.original</th>
-    <td>Original size as uploaded by the user</td>
-  </tr>
-  <tr>
-    <th>profile_picture.large_attention_deprecated</th>
-    <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
-  </tr>
-  <tr>
-    <th>profile_picture.profile_attention_deprecated</th>
-    <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-  </tr>
-  <tr>
-    <th>profile_picture.thumb_attention_deprecated</th>
-    <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
-  </tr>
+    </tr>
+    <tr>
+      <th align="left">carrier.picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.picture.large_attention_deprecated</th>
+      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.picture.profile_attention_deprecated</th>
+      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.picture.thumb_attention_deprecated</th>
+      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.large_attention_deprecated</th>
+      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.profile_attention_deprecated</th>
+      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.thumb_attention_deprecated</th>
+      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.self</th>
+      <td>Link to this resource itself
+(<a href="matching_fund_details.md">matching fund details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.platform</th>
+      <td>Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.projects</th>
+      <td>Link to the list of projects belonging to this matching fund</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.documentation</th>
+      <td>Link to this resource in the documentation
+</td>
+    </tr>
 </table>
 
 ## Response Example
 
 ```json
 {
-  "total_entries": 2,
+  "total_entries": 0,
   "offset": 0,
-  "total_pages": 1,
+  "total_pages": 0,
   "current_page": 1,
   "per_page": 3,
   "data": [
-    {
-      "id": 1114,
-      "created_at": "2009-03-10T10:12:16Z",
-      "updated_at": "2013-06-11T08:56:04Z",
-      "latitude": 34.531617284782,
-      "longitude": 69.13581752939456,
-      "street": "Taimani, behind Qasemi Winhouse",
-      "zip": "",
-      "city": "Kabul",
-      "country": "Afghanistan",
-      "title": "Skateistan Afghanistan",
-      "description": "With 68% of Afghanistan’s population under the age of 25, Skateistan strongly believes that youth are the ones most capable of bringing about social change.<br /><br />Skateistan is an Afghan NGO which operates Afghanistan’s (and the world’s) first co-educational skateboarding school. The Skateistan school engages nearly 400 Kabul youth weekly through skateboarding, and provides them with new opportunities in cross-cultural interaction, education, and personal empowerment programs. <br /><br />The students (ages 5-17) come from all of Afghanistan’s diverse ethnic and socioeconomic backgrounds, and include 40% female students, hundreds of streetworking children, and youth with disabilities. They develop skills in skateboarding, leadership, problem-solving, multimedia, and creative arts. The students themselves decide what they want to learn; we connect them with a safe space and opportunities for them to develop the skills that they consider important.<br /><br />For Afghan girls Skateistan's programming is especially important as there are very few recreational opportunities for females. For example, it is not culturally acceptable for girls in Afghanistan to ride bicycles or play sports in public. <br /><br />Skateistan has been active in Kabul since 2007 - with our facility built in 2009 - and in that time we’ve seen that Afghan youth of all ethnicities, genders, and socioeconomic backgrounds love to skateboard. Skateistan brings them together, equipping young men and women to lead their communities toward social change and development.<br /><br />In 2012 Skateistan will be opening its second Afghan facility in Mazar-e-Sharif, Northern Afghanistan. It will have space to teach up to 1000 youth weekly.<br /><br />Our program gives hundreds of oppressed youth a voice. Education and the opportunity for self-expression can break the cycles of poverty, illiteracy and exclusion, with sport paving the way.",
-      "tax_deductible": true,
-      "open_amount_in_cents": 105030,
-      "positive_opinions_count": 439,
-      "negative_opinions_count": 0,
-      "donor_count": 329,
-      "progress_percentage": 96,
-      "incomplete_need_count": 1,
-      "completed_need_count": 74,
-      "blog_post_count": 67,
-      "contact": {
-        "name": "E. Kinast",
-        "links": [
-          {
-            "rel": "platform",
-            "href": "https://api.betterplace.org/en/users/erika_k2"
-          }
-        ]
-      },
-      "carrier": {
-        "name": "Skateistan",
-        "picture": {
-          "links": [
-            {
-              "rel": "original",
-              "href": "http://www.betterplace.org/paperclip/000/279/873/original_betterplace-logo.png"
-            },
-            {
-              "rel": "large_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/279/873/big_betterplace-logo.png"
-            },
-            {
-              "rel": "profile_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/279/873/profile_betterplace-logo.png"
-            },
-            {
-              "rel": "thumb_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/279/873/thumb_betterplace-logo.png"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "self",
-            "href": "https://api.betterplace.dev/en/api_v4/organisations/1054.json"
-          }
-        ]
-      },
-      "profile_picture": {
-        "links": [
-          {
-            "rel": "original",
-            "href": "http://www.betterplace.org/paperclip/000/289/158/original_girls-merza-sm.jpg"
-          },
-          {
-            "rel": "large_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/289/158/big_girls-merza-sm.png"
-          },
-          {
-            "rel": "profile_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/289/158/profile_girls-merza-sm.jpg"
-          },
-          {
-            "rel": "thumb_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/289/158/thumb_girls-merza-sm.png"
-          }
-        ]
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.dev/en/api_v4/projects/1114.json"
-        },
-        {
-          "rel": "platform",
-          "href": "https://api.betterplace.org/en/projects/1114-skateistan-afghanistan"
-        },
-        {
-          "rel": "opinions",
-          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/opinions.json"
-        },
-        {
-          "rel": "pictures",
-          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/pictures.json"
-        },
-        {
-          "rel": "needs",
-          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/needs.json"
-        },
-        {
-          "rel": "blog_posts",
-          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/blog_posts.json"
-        }
-      ]
-    },
-    {
-      "id": 6233,
-      "created_at": "2011-02-25T07:48:43Z",
-      "updated_at": "2013-05-17T13:29:41Z",
-      "latitude": 11.55883121490479,
-      "longitude": 104.9174423217773,
-      "city": "Phnom Penh",
-      "country": "Cambodia",
-      "title": "Skateistan Cambodia",
-      "description": "Skateistan Cambodia began operations in March 2011, building the country's first skatepark in Phnom Penh. Since then the NGO has been teaching skateboarding and creative arts classes with marginalized and streetworking Khmer youth six days a week. <br /><br />Skateboarding is a low-barrier, accessible activity that attracts girls and boys of all backgrounds and abilities. The interest from Cambodia's youth has grown so much since March 2011 that Skateistan Cambodia is now building its own facility to accommodate more than the 150 youth we currently work with weekly.<br /><br />By building a safe and covered Skateistan facility in Phnom Pehn, Skateistan will provide year-round opportunities for youth to engage in recreational activities that encourages girls and boys of all backgrounds to build relationships with one another, while increasing their self-confidence and leadership skills. The facility will also have classroom spaces providing creative arts and multimedia activities for the students.<br /><br />Partnering with local, best-practice NGOs in Cambodia, such as Pour un Sourire d'Enfant (PSE), Friends Intl., and Tiny Toones, Skateistan Cambodia also aims to use skateboarding as a tool to create a bridge between at-risk youth and the quality support services already existing in Phnom Penh.<br /><br />Help us grow this grassroots project and create a safe space for all Cambodian youth to be a part of!",
-      "tax_deductible": true,
-      "open_amount_in_cents": 30000,
-      "positive_opinions_count": 35,
-      "negative_opinions_count": 0,
-      "donor_count": 32,
-      "progress_percentage": 91,
-      "incomplete_need_count": 1,
-      "completed_need_count": 12,
-      "blog_post_count": 28,
-      "contact": {
-        "name": "A. Buck",
-        "picture": {
-          "links": [
-            {
-              "rel": "original",
-              "href": "http://www.betterplace.org/paperclip/000/288/843/original_11545_216544438618_2260714_n.jpg"
-            },
-            {
-              "rel": "large_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/288/843/big_11545_216544438618_2260714_n.png"
-            },
-            {
-              "rel": "profile_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/288/843/profile_11545_216544438618_2260714_n.jpg"
-            },
-            {
-              "rel": "thumb_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/288/843/thumb_11545_216544438618_2260714_n.png"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "platform",
-            "href": "https://api.betterplace.org/en/users/alixandra_b"
-          }
-        ]
-      },
-      "carrier": {
-        "name": "Skateistan",
-        "picture": {
-          "links": [
-            {
-              "rel": "original",
-              "href": "http://www.betterplace.org/paperclip/000/279/873/original_betterplace-logo.png"
-            },
-            {
-              "rel": "large_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/279/873/big_betterplace-logo.png"
-            },
-            {
-              "rel": "profile_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/279/873/profile_betterplace-logo.png"
-            },
-            {
-              "rel": "thumb_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/279/873/thumb_betterplace-logo.png"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "self",
-            "href": "https://api.betterplace.dev/en/api_v4/organisations/1054.json"
-          }
-        ]
-      },
-      "profile_picture": {
-        "links": [
-          {
-            "rel": "original",
-            "href": "http://www.betterplace.org/paperclip/000/288/830/original_327569_368768896527128_1081473646_o.jpg"
-          },
-          {
-            "rel": "large_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/288/830/big_327569_368768896527128_1081473646_o.png"
-          },
-          {
-            "rel": "profile_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/288/830/profile_327569_368768896527128_1081473646_o.jpg"
-          },
-          {
-            "rel": "thumb_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/288/830/thumb_327569_368768896527128_1081473646_o.png"
-          }
-        ]
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.dev/en/api_v4/projects/6233.json"
-        },
-        {
-          "rel": "platform",
-          "href": "https://api.betterplace.org/en/projects/6233-skateistan-cambodia"
-        },
-        {
-          "rel": "opinions",
-          "href": "https://api.betterplace.dev/en/api_v4/projects/6233/opinions.json"
-        },
-        {
-          "rel": "pictures",
-          "href": "https://api.betterplace.dev/en/api_v4/projects/6233/pictures.json"
-        },
-        {
-          "rel": "needs",
-          "href": "https://api.betterplace.dev/en/api_v4/projects/6233/needs.json"
-        },
-        {
-          "rel": "blog_posts",
-          "href": "https://api.betterplace.dev/en/api_v4/projects/6233/blog_posts.json"
-        }
-      ]
-    }
+
   ]
 }
 ```

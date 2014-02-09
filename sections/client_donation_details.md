@@ -1,16 +1,12 @@
 
-# Client donations list
+# Client donation details
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations.json
+GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations/5733f8cf3feaaf711172fbfd.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
-
-This API returns all donations to all client projects that where made using
-the client donation form (but none of the other donation-sources).
-
-Results are contained in a *data* attribute.
+The details of a donation.
 
 
 ## Input Parameter
@@ -27,6 +23,12 @@ Results are contained in a *data* attribute.
     <td><code>Volksfreund</code></td>
     <td>required</td>
     <td>The betterplace.org-internal client permalink</td>
+  </tr>
+  <tr>
+    <th align="left">id</th>
+    <td><code>5733f8cf3feaaf711172fbfd</code></td>
+    <td>required</td>
+    <td>The donation token that the client donation form passed to the callback url</td>
   </tr>
 </table>
 

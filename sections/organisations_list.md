@@ -26,179 +26,222 @@ This resource is not avaliable at the moment.
 
 ## Response Attributes
 
-<table>
-  <tr>
-    <th>Attribute</th>
-    <th>Types</th>
-    <th>Example</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <th>id</th>
-    <td>number</td>
-    <td>4</td>
-    <td>An integer number ≥ 1</td>
-  </tr>
-  <tr>
-    <th>slug</th>
-    <td>string</td>
-    <td>vivaconagua</td>
-    <td><a href="http://en.wikipedia.org/wiki/Clean_URL#Slug">URL slug</a>
+### Root Attributes
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">id</th>
+      <td>number</td>
+      <td>4</td>
+      <td>An integer number ≥ 1</td>
+    </tr>
+    <tr>
+      <th align="left">slug</th>
+      <td>string</td>
+      <td>vivaconagua</td>
+      <td><a href="http://en.wikipedia.org/wiki/Clean_URL#Slug">URL slug</a>
 for the permalink
 </td>
-  </tr>
-  <tr>
-    <th>created_at</th>
-    <td>string</td>
-    <td>"1994-11-05T13:15:30Z"</td>
-    <td>DateTime (ISO8601 with Timezone)</td>
-  </tr>
-  <tr>
-    <th>updated_at</th>
-    <td>string</td>
-    <td>"1994-11-05T13:15:30Z"</td>
-    <td>DateTime (ISO8601 with Timezone)</td>
-  </tr>
-  <tr>
-    <th>latitude</th>
-    <td>number</td>
-    <td>52.499007</td>
-    <td>Decimal degrees based on user input</td>
-  </tr>
-  <tr>
-    <th>longitude</th>
-    <td>number</td>
-    <td>13.44947</td>
-    <td>Decimal degrees based on user input</td>
-  </tr>
-  <tr>
-    <th>street</th>
-    <td>null &#124; string</td>
-    <td>"Schlesische Straße 26"</td>
-    <td>Address of the organisation</td>
-  </tr>
-  <tr>
-    <th>zip</th>
-    <td>null &#124; string</td>
-    <td>"10997"</td>
-    <td>Address of the organisation</td>
-  </tr>
-  <tr>
-    <th>city</th>
-    <td>null &#124; string</td>
-    <td>"Berlin"</td>
-    <td>Address of the organisation</td>
-  </tr>
-  <tr>
-    <th>country</th>
-    <td>null &#124; string</td>
-    <td>"Deutschland"</td>
-    <td>Address of the organisation, translated to the requested language</td>
-  </tr>
-  <tr>
-    <th>name</th>
-    <td>string</td>
-    <td>"Viva con Agua de Sankt Pauli e.V."</td>
-    <td>Name of the organisation</td>
-  </tr>
-  <tr>
-    <th>description</th>
-    <td>string</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <th>tax_deductible</th>
-    <td>boolean</td>
-    <td>true</td>
-    <td>True if the organisation is a tax-exempt charity.
+    </tr>
+    <tr>
+      <th align="left">created_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone)</td>
+    </tr>
+    <tr>
+      <th align="left">updated_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone)</td>
+    </tr>
+    <tr>
+      <th align="left">latitude</th>
+      <td>number</td>
+      <td>52.499007</td>
+      <td>Decimal degrees based on user input</td>
+    </tr>
+    <tr>
+      <th align="left">longitude</th>
+      <td>number</td>
+      <td>13.44947</td>
+      <td>Decimal degrees based on user input</td>
+    </tr>
+    <tr>
+      <th align="left">street</th>
+      <td>null &#124; string</td>
+      <td>"Schlesische Straße 26"</td>
+      <td>Address of the organisation</td>
+    </tr>
+    <tr>
+      <th align="left">zip</th>
+      <td>null &#124; string</td>
+      <td>"10997"</td>
+      <td>Address of the organisation</td>
+    </tr>
+    <tr>
+      <th align="left">city</th>
+      <td>null &#124; string</td>
+      <td>"Berlin"</td>
+      <td>Address of the organisation</td>
+    </tr>
+    <tr>
+      <th align="left">country</th>
+      <td>null &#124; string</td>
+      <td>"Deutschland"</td>
+      <td>Address of the organisation, translated to the requested language</td>
+    </tr>
+    <tr>
+      <th align="left">name</th>
+      <td>string</td>
+      <td>"Viva con Agua de Sankt Pauli e.V."</td>
+      <td>Name of the organisation</td>
+    </tr>
+    <tr>
+      <th align="left">description</th>
+      <td>string</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th align="left">tax_deductible</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>True if the organisation is a tax-exempt charity.
 If so, Users can request a tax-receipt for donations to that organisation.
 [More about this](http://www.betterplace.org/c/hilfe/projekt-steuerlich-absetzbar/).
 </td>
-  </tr>
-  <tr>
-    <th>contact.name</th>
-    <td>null &#124; string</td>
-    <td>"Till B."</td>
-    <td>Display name of a betterplace.org user.
+    </tr>
+    <tr>
+        <th align="left" style="white-space: nowrap">
+          <a name="contact-ref" href="#contact">
+            ↓contact
+          </a>
+        </th>
+      <td>object</td>
+      <td></td>
+      <td>The public contact person for this organisation.</td>
+    </tr>
+    <tr>
+      <th align="left">picture</th>
+      <td>null &#124; object</td>
+      <td></td>
+      <td>TODO</td>
+    </tr>
+  </table>
+### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">contact.name</th>
+      <td>null &#124; string</td>
+      <td>"Till B."</td>
+      <td>Display name of a betterplace.org user.
 Possible formats: "Till B.", "T. Behnke", "Till Behnke".
 In the case of donation-opinions the name might also be anonymized
 like "Payback User" or empty/null for anonymous donations.
 </td>
-  </tr>
+    </tr>
+    <tr>
+      <th align="left">contact.picture</th>
+      <td>string</td>
+      <td>//assets.betterplace.org/…</td>
+      <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
 </table>
 
 ## Response Links
-#
+
 <table>
   <tr>
     <th>Linkname</th>
     <th>Description</th>
   </tr>
-  <tr>
-    <th>self</th>
-    <td>Link to this resource itself
+
+    <tr>
+      <th align="left">self</th>
+      <td>Link to this resource itself
 (<a href="organisation_details.md">organisation details</a>)
 </td>
-  </tr>
-  <tr>
-    <th>platform</th>
-    <td>Permalink to betterplace.org</td>
-  </tr>
-  <tr>
-    <th>projects</th>
-    <td>Link to the <a href="projects_list.md">project list</a> of this organisation
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td>Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">projects</th>
+      <td>Link to the <a href="projects_list.md">project list</a> of this organisation
 </td>
-  </tr>
-  <tr>
-    <th>contact.platform</th>
-    <td>The user's profile on betterplace.org.
+    </tr>
+    <tr>
+      <th align="left">contact.platform</th>
+      <td>The user's profile on betterplace.org.
 To view a user profile you have to be logged in.
 This array is empty if the user has no useraccount
 with betterplace.org but donated via one of our partner.
 </td>
-  </tr>
-  <tr>
-    <th>picture.original</th>
-    <td>Original size as uploaded by the user</td>
-  </tr>
-  <tr>
-    <th>picture.large_attention_deprecated</th>
-    <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
-  </tr>
-  <tr>
-    <th>picture.profile_attention_deprecated</th>
-    <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-  </tr>
-  <tr>
-    <th>picture.thumb_attention_deprecated</th>
-    <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
-  </tr>
-  <tr>
-    <th>picture.original</th>
-    <td>Original size as uploaded by the user</td>
-  </tr>
-  <tr>
-    <th>picture.large_attention_deprecated</th>
-    <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
-  </tr>
-  <tr>
-    <th>picture.profile_attention_deprecated</th>
-    <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-  </tr>
-  <tr>
-    <th>picture.thumb_attention_deprecated</th>
-    <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
-  </tr>
+    </tr>
+    <tr>
+      <th align="left">contact.contact_data</th>
+      <td>The user's contact data. Please note that you need to be
+<a href="../README.md#client-authentication">authenticated as a client</a> with matching
+access rights in order to see this information.
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.large_attention_deprecated</th>
+      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.profile_attention_deprecated</th>
+      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.thumb_attention_deprecated</th>
+      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
+    </tr>
+    <tr>
+      <th align="left">picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+    <tr>
+      <th align="left">picture.large_attention_deprecated</th>
+      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+    </tr>
+    <tr>
+      <th align="left">picture.profile_attention_deprecated</th>
+      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
+    </tr>
+    <tr>
+      <th align="left">picture.thumb_attention_deprecated</th>
+      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
+    </tr>
 </table>
 
 ## Response Example
 
 ```json
 {
-  "total_entries": 7418,
+  "total_entries": 8116,
   "offset": 0,
-  "total_pages": 3709,
+  "total_pages": 4058,
   "current_page": 1,
   "per_page": 2,
   "data": [
@@ -206,7 +249,7 @@ with betterplace.org but donated via one of our partner.
       "id": 14,
       "slug": "mellemfolkeligtsamvirke",
       "created_at": "2007-07-03T11:54:42Z",
-      "updated_at": "2013-05-17T12:22:11Z",
+      "updated_at": "2013-09-23T17:09:15Z",
       "latitude": 55.68310165405273,
       "longitude": 12.5846996307373,
       "street": "Borgergade 14",
@@ -222,26 +265,30 @@ with betterplace.org but donated via one of our partner.
           "links": [
             {
               "rel": "original",
-              "href": "http://www.betterplace.org/paperclip/000/001/032/original_tegning-2.jpg"
+              "href": "/paperclip/000/001/032/original_tegning-2.jpg"
             },
             {
               "rel": "large_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/001/032/big_tegning-2.png"
+              "href": "/paperclip/000/001/032/default_tegning-2.jpg"
             },
             {
               "rel": "profile_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/001/032/profile_tegning-2.jpg"
+              "href": "/paperclip/000/001/032/profile_tegning-2.jpg"
             },
             {
               "rel": "thumb_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/001/032/thumb_tegning-2.png"
+              "href": "/paperclip/000/001/032/thumb_tegning-2.png"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://api.betterplace.org/en/users/jeppe_p"
+            "href": "http://www.betterplace.org/en/users/jeppe_p"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/en/api_v4/users/17/contact_data.json"
           }
         ]
       },
@@ -249,34 +296,34 @@ with betterplace.org but donated via one of our partner.
         "links": [
           {
             "rel": "original",
-            "href": "http://www.betterplace.org/paperclip/000/000/339/original_logo_black.gif"
+            "href": "/uploads/organisation/profile_picture/14/original_original_logo_black.gif"
           },
           {
             "rel": "large_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/000/339/big_logo_black.png"
+            "href": "/uploads/organisation/profile_picture/14/default_original_logo_black.gif"
           },
           {
             "rel": "profile_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/000/339/profile_logo_black.png"
+            "href": "/uploads/organisation/profile_picture/14/profile_original_logo_black.gif"
           },
           {
             "rel": "thumb_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/000/339/thumb_logo_black.png"
+            "href": "/uploads/organisation/profile_picture/14/thumb_original_logo_black.gif"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.dev/en/api_v4/organisations/14.json"
+          "href": "https://api.betterplace.org/en/api_v4/organisations/14.json"
         },
         {
           "rel": "platform",
-          "href": "https://api.betterplace.org/en/organisations/mellemfolkeligtsamvirke"
+          "href": "http://www.betterplace.org/en/organisations/mellemfolkeligtsamvirke"
         },
         {
           "rel": "projects",
-          "href": "https://api.betterplace.dev/en/api_v4/organisations/14/projects.json"
+          "href": "https://api.betterplace.org/en/api_v4/organisations/14/projects.json"
         }
       ]
     },
@@ -284,7 +331,7 @@ with betterplace.org but donated via one of our partner.
       "id": 15,
       "slug": "gexsi",
       "created_at": "2007-07-03T15:06:31Z",
-      "updated_at": "2013-05-17T12:22:11Z",
+      "updated_at": "2013-09-23T17:09:17Z",
       "latitude": 51.53049850463867,
       "longitude": -0.12232699990273,
       "street": "1A Birkenhead ",
@@ -300,26 +347,30 @@ with betterplace.org but donated via one of our partner.
           "links": [
             {
               "rel": "original",
-              "href": "http://www.betterplace.org/paperclip/000/000/392/original_Andreas_Renner_GEXSI.jpg"
+              "href": "/paperclip/000/000/392/original_Andreas_Renner_GEXSI.jpg"
             },
             {
               "rel": "large_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/000/392/big_Andreas_Renner_GEXSI.png"
+              "href": "/paperclip/000/000/392/default_Andreas_Renner_GEXSI.jpg"
             },
             {
               "rel": "profile_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/000/392/profile_Andreas_Renner_GEXSI.jpg"
+              "href": "/paperclip/000/000/392/profile_Andreas_Renner_GEXSI.jpg"
             },
             {
               "rel": "thumb_attention_deprecated",
-              "href": "http://www.betterplace.org/paperclip/000/000/392/thumb_Andreas_Renner_GEXSI.png"
+              "href": "/paperclip/000/000/392/thumb_Andreas_Renner_GEXSI.png"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://api.betterplace.org/en/users/andreas_r"
+            "href": "http://www.betterplace.org/en/users/andreas_r"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/en/api_v4/users/33/contact_data.json"
           }
         ]
       },
@@ -327,34 +378,34 @@ with betterplace.org but donated via one of our partner.
         "links": [
           {
             "rel": "original",
-            "href": "http://www.betterplace.org/paperclip/000/000/373/original_GEXSI.gif"
+            "href": "/uploads/organisation/profile_picture/15/original_original_GEXSI.gif"
           },
           {
             "rel": "large_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/000/373/big_GEXSI.png"
+            "href": "/uploads/organisation/profile_picture/15/default_original_GEXSI.gif"
           },
           {
             "rel": "profile_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/000/373/profile_GEXSI.png"
+            "href": "/uploads/organisation/profile_picture/15/profile_original_GEXSI.gif"
           },
           {
             "rel": "thumb_attention_deprecated",
-            "href": "http://www.betterplace.org/paperclip/000/000/373/thumb_GEXSI.png"
+            "href": "/uploads/organisation/profile_picture/15/thumb_original_GEXSI.gif"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.dev/en/api_v4/organisations/15.json"
+          "href": "https://api.betterplace.org/en/api_v4/organisations/15.json"
         },
         {
           "rel": "platform",
-          "href": "https://api.betterplace.org/en/organisations/gexsi"
+          "href": "http://www.betterplace.org/en/organisations/gexsi"
         },
         {
           "rel": "projects",
-          "href": "https://api.betterplace.dev/en/api_v4/organisations/15/projects.json"
+          "href": "https://api.betterplace.org/en/api_v4/organisations/15/projects.json"
         }
       ]
     }

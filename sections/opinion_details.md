@@ -8,6 +8,9 @@ GET https://api.betterplace.org/en/api_v4/projects/38/opinions/22.json
 The details of a betterplace.org project opinion (donate money).
 The details and list view show the same data.
 
+This will always show the data if a valid opinion id is given, even if that opinion
+does not belong to the project in the URL.
+
 *For [betterplace.org clients](../README.md#client-api):*
 There is no client-scoped-url.
 Please use the api calls that are provided inside the client project _url_ response
@@ -24,13 +27,13 @@ to make sure you only request data that is associated with one of your projects.
     <th>Description</th>
   </tr>
   <tr>
-    <th>project_id</th>
+    <th align="left">project_id</th>
     <td><code>38</code></td>
     <td>required</td>
     <td>Project-id as an integer number ≥ 14.</td>
   </tr>
   <tr>
-    <th>id</th>
+    <th align="left">id</th>
     <td><code>22</code></td>
     <td>required</td>
     <td>Blog-post-id as an integer number ≥ 9.</td>
@@ -39,102 +42,141 @@ to make sure you only request data that is associated with one of your projects.
 
 ## Response Attributes
 
-<table>
-  <tr>
-    <th>Attribute</th>
-    <th>Types</th>
-    <th>Example</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <th>id</th>
-    <td>number</td>
-    <td>1</td>
-    <td>An integer number ≥ 1</td>
-  </tr>
-  <tr>
-    <th>created_at</th>
-    <td>string</td>
-    <td>"1994-11-05T13:15:30Z"</td>
-    <td>DateTime (ISO8601 with Timezone)</td>
-  </tr>
-  <tr>
-    <th>donated_amount_in_cents</th>
-    <td>number</td>
-    <td>5000</td>
-    <td>If the opinion was created as part of a donation, this shows the opinions text</td>
-  </tr>
-  <tr>
-    <th>score</th>
-    <td>string</td>
-    <td>positive</td>
-    <td>Opinions can be positive or negative. Negative opinions usually get
+### Root Attributes
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">id</th>
+      <td>number</td>
+      <td>1</td>
+      <td>An integer number ≥ 1</td>
+    </tr>
+    <tr>
+      <th align="left">created_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone)</td>
+    </tr>
+    <tr>
+      <th align="left">donated_amount_in_cents</th>
+      <td>number</td>
+      <td>5000</td>
+      <td>If the opinion was created as part of a donation, this shows the opinions text</td>
+    </tr>
+    <tr>
+      <th align="left">score</th>
+      <td>string</td>
+      <td>positive</td>
+      <td>Opinions can be positive or negative. Negative opinions usually get
 a comment as answer very fast but there is no API for opinion-comments yet.
 </td>
-  </tr>
-  <tr>
-    <th>author.name</th>
-    <td>null &#124; string</td>
-    <td>"Till B."</td>
-    <td>Display name of a betterplace.org user.
+    </tr>
+    <tr>
+        <th align="left" style="white-space: nowrap">
+          <a name="author-ref" href="#author">
+            ↓author
+          </a>
+        </th>
+      <td>null &#124; object</td>
+      <td>TODO</td>
+      <td>The author. DonorOpinion may be anonymous,
+PlainOpinions and VisitorOpinion require a logged in user.
+</td>
+    </tr>
+    <tr>
+      <th align="left">message</th>
+      <td>null &#124; string</td>
+      <td>"This is a great project. In spring 2007 I travelled around the area together with my children and …"</td>
+      <td>An optional message users can provide to tell others
+why they like or dislike this project
+</td>
+    </tr>
+  </table>
+### <a name="author" href="#author-ref">↑Nested Attributes: author</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">author.name</th>
+      <td>null &#124; string</td>
+      <td>"Till B."</td>
+      <td>Display name of a betterplace.org user.
 Possible formats: "Till B.", "T. Behnke", "Till Behnke".
 In the case of donation-opinions the name might also be anonymized
 like "Payback User" or empty/null for anonymous donations.
 </td>
-  </tr>
-  <tr>
-    <th>message</th>
-    <td>null &#124; string</td>
-    <td>"This is a great project. In spring 2007 I travelled around the area together with my children and …"</td>
-    <td>An optional message users can provide to tell others
-why they like or dislike this project
-</td>
-  </tr>
+    </tr>
+    <tr>
+      <th align="left">author.picture</th>
+      <td>string</td>
+      <td>//assets.betterplace.org/…</td>
+      <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
 </table>
 
 ## Response Links
-#
+
 <table>
   <tr>
     <th>Linkname</th>
     <th>Description</th>
   </tr>
-  <tr>
-    <th>self</th>
-    <td>Link to this resource itself
+
+    <tr>
+      <th align="left">self</th>
+      <td>Link to this resource itself
 (<a href="opinion_details.md">opinion details</a>)
 </td>
-  </tr>
-  <tr>
-    <th>project</th>
-    <td>Link to the project this opinion belongs to
+    </tr>
+    <tr>
+      <th align="left">project</th>
+      <td>Link to the project this opinion belongs to
 (<a href="project_details.md">project details</a>)
 </td>
-  </tr>
-  <tr>
-    <th>author.platform</th>
-    <td>The user's profile on betterplace.org.
+    </tr>
+    <tr>
+      <th align="left">author.platform</th>
+      <td>The user's profile on betterplace.org.
 To view a user profile you have to be logged in.
 This array is empty if the user has no useraccount
 with betterplace.org but donated via one of our partner.
 </td>
-  </tr>
-  <tr>
-    <th>author.picture.original</th>
-    <td>Original size as uploaded by the user</td>
-  </tr>
-  <tr>
-    <th>author.picture.large_attention_deprecated</th>
-    <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
-  </tr>
-  <tr>
-    <th>author.picture.profile_attention_deprecated</th>
-    <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-  </tr>
-  <tr>
-    <th>author.picture.thumb_attention_deprecated</th>
-    <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
-  </tr>
+    </tr>
+    <tr>
+      <th align="left">author.contact_data</th>
+      <td>The user's contact data. Please note that you need to be
+<a href="../README.md#client-authentication">authenticated as a client</a> with matching
+access rights in order to see this information.
+</td>
+    </tr>
+    <tr>
+      <th align="left">author.picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+    <tr>
+      <th align="left">author.picture.large_attention_deprecated</th>
+      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+    </tr>
+    <tr>
+      <th align="left">author.picture.profile_attention_deprecated</th>
+      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
+    </tr>
+    <tr>
+      <th align="left">author.picture.thumb_attention_deprecated</th>
+      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
+    </tr>
 </table>
 
 ## Response Example
@@ -150,26 +192,30 @@ with betterplace.org but donated via one of our partner.
       "links": [
         {
           "rel": "original",
-          "href": "http://www.betterplace.org/paperclip/000/004/520/original_Schule_Leutersdorf_2.JPG"
+          "href": "/paperclip/000/004/520/original_Schule_Leutersdorf_2.JPG"
         },
         {
           "rel": "large_attention_deprecated",
-          "href": "http://www.betterplace.org/paperclip/000/004/520/big_Schule_Leutersdorf_2.png"
+          "href": "/paperclip/000/004/520/default_Schule_Leutersdorf_2.jpg"
         },
         {
           "rel": "profile_attention_deprecated",
-          "href": "http://www.betterplace.org/paperclip/000/004/520/profile_Schule_Leutersdorf_2.jpg"
+          "href": "/paperclip/000/004/520/profile_Schule_Leutersdorf_2.jpg"
         },
         {
           "rel": "thumb_attention_deprecated",
-          "href": "http://www.betterplace.org/paperclip/000/004/520/thumb_Schule_Leutersdorf_2.png"
+          "href": "/paperclip/000/004/520/thumb_Schule_Leutersdorf_2.png"
         }
       ]
     },
     "links": [
       {
         "rel": "platform",
-        "href": "https://api.betterplace.org/en/users/giesela_k"
+        "href": "http://www.betterplace.org/en/users/giesela_k"
+      },
+      {
+        "rel": "contact_data",
+        "href": "https://api.betterplace.org/en/api_v4/users/759/contact_data.json"
       }
     ]
   },
@@ -177,11 +223,11 @@ with betterplace.org but donated via one of our partner.
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.dev/en/api_v4/projects/35/opinions/22.json"
+      "href": "https://api.betterplace.org/en/api_v4/projects/35/opinions/22.json"
     },
     {
       "rel": "project",
-      "href": "https://api.betterplace.dev/en/api_v4/projects/35.json"
+      "href": "https://api.betterplace.org/en/api_v4/projects/35.json"
     }
   ]
 }

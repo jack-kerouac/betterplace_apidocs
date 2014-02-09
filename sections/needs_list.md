@@ -25,7 +25,7 @@ to make sure you only request data that is associated with one of your projects.
     <th>Description</th>
   </tr>
   <tr>
-    <th>project_id</th>
+    <th align="left">project_id</th>
     <td><code>1114</code></td>
     <td>required</td>
     <td>Project-id as an integer number ≥ 14.</td>
@@ -34,174 +34,178 @@ to make sure you only request data that is associated with one of your projects.
 
 ## Response Attributes
 
-<table>
-  <tr>
-    <th>Attribute</th>
-    <th>Types</th>
-    <th>Example</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <th>id</th>
-    <td>number</td>
-    <td>29</td>
-    <td>A integer number ≥ 1</td>
-  </tr>
-  <tr>
-    <th>created_at</th>
-    <td>string</td>
-    <td>"1994-11-05T13:15:30Z"</td>
-    <td>DateTime (ISO8601 with Timezone)</td>
-  </tr>
-  <tr>
-    <th>updated_at</th>
-    <td>string</td>
-    <td>"1994-11-05T13:15:30Z"</td>
-    <td>DateTime (ISO8601 with Timezone)</td>
-  </tr>
-  <tr>
-    <th>title</th>
-    <td>string</td>
-    <td></td>
-    <td>Max 50 character</td>
-  </tr>
-  <tr>
-    <th>description</th>
-    <td>string</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <th>completed</th>
-    <td>boolean</td>
-    <td>false</td>
-    <td>True if the need is 100 % financed</td>
-  </tr>
-  <tr>
-    <th>progress_percentage</th>
-    <td>number</td>
-    <td>82</td>
-    <td>% financed</td>
-  </tr>
-  <tr>
-    <th>donated_amount_in_cents</th>
-    <td>number</td>
-    <td>12382</td>
-    <td>How many cents are donated already.
+### Root Attributes
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">id</th>
+      <td>number</td>
+      <td>29</td>
+      <td>A integer number ≥ 1</td>
+    </tr>
+    <tr>
+      <th align="left">created_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone)</td>
+    </tr>
+    <tr>
+      <th align="left">updated_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone)</td>
+    </tr>
+    <tr>
+      <th align="left">title</th>
+      <td>string</td>
+      <td></td>
+      <td>Max 50 character</td>
+    </tr>
+    <tr>
+      <th align="left">description</th>
+      <td>string</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th align="left">completed</th>
+      <td>boolean</td>
+      <td>false</td>
+      <td>True if the need is 100 % financed</td>
+    </tr>
+    <tr>
+      <th align="left">progress_percentage</th>
+      <td>number</td>
+      <td>82</td>
+      <td>% financed</td>
+    </tr>
+    <tr>
+      <th align="left">donated_amount_in_cents</th>
+      <td>number</td>
+      <td>12382</td>
+      <td>How many cents are donated already.
 This includes all donations that can be given to a need
 (direct donation, forwarding of project donation,
 forwarding of organisation donation,
 forwarding of fundraising event donations,
 offline donations and also(!) external donations)
 </td>
-  </tr>
-  <tr>
-    <th>open_amount_in_cents</th>
-    <td>number</td>
-    <td>12382</td>
-    <td>How many cents are still needed to complete the need</td>
-  </tr>
-  <tr>
-    <th>requested_amount_in_cents</th>
-    <td>number</td>
-    <td>12382</td>
-    <td>How much money is needed in total</td>
-  </tr>
+    </tr>
+    <tr>
+      <th align="left">open_amount_in_cents</th>
+      <td>number</td>
+      <td>12382</td>
+      <td>How many cents are still needed to complete the need</td>
+    </tr>
+    <tr>
+      <th align="left">requested_amount_in_cents</th>
+      <td>number</td>
+      <td>12382</td>
+      <td>How much money is needed in total</td>
+    </tr>
+  </table>
 </table>
 
 ## Response Links
-#
+
 <table>
   <tr>
     <th>Linkname</th>
     <th>Description</th>
   </tr>
-  <tr>
-    <th>self</th>
-    <td>Link to this resource itself
+
+    <tr>
+      <th align="left">self</th>
+      <td>Link to this resource itself
 (<a href="need_details.md">need details</a>)
 </td>
-  </tr>
-  <tr>
-    <th>project</th>
-    <td>Link to the related <a href="../project_details.md">project's details</a>
+    </tr>
+    <tr>
+      <th align="left">project</th>
+      <td>Link to the related <a href="project_details.md">project's details</a>
 </td>
-  </tr>
+    </tr>
 </table>
 
 ## Response Example
 
 ```json
 {
-  "total_entries": 75,
+  "total_entries": 81,
   "offset": 0,
-  "total_pages": 25,
+  "total_pages": 27,
   "current_page": 1,
   "per_page": 3,
   "data": [
     {
-      "id": 64265,
-      "created_at": "2013-05-24T12:49:41Z",
-      "updated_at": "2013-06-03T13:09:35Z",
-      "title": "Repairs and Maintenance ",
-      "description": "Help up keep our Kabul Skatepark in good condition throughout 2013 by helping us buy the materials we need to repair and maintain our facility. ",
+      "id": 70906,
+      "created_at": "2013-10-28T18:26:33Z",
+      "updated_at": "2013-11-11T15:29:30Z",
+      "title": "lorem !",
+      "description": "lorem lorem lorem lorem lorem lorem ",
       "completed": false,
-      "progress_percentage": 24,
-      "donated_amount_in_cents": 33970,
-      "open_amount_in_cents": 105030,
-      "requested_amount_in_cents": 139000,
+      "progress_percentage": 70.32,
+      "donated_amount_in_cents": 70322,
+      "open_amount_in_cents": 29678,
+      "requested_amount_in_cents": 100000,
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/needs/64265.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs/70906.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.dev/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+        }
+      ]
+    },
+    {
+      "id": 70907,
+      "created_at": "2013-10-29T09:32:10Z",
+      "updated_at": "2013-10-31T16:27:20Z",
+      "title": "Neuer Bedarf",
+      "description": "1000 €1000 €1000 €1000 €1000 €1000 €1000 €1000 €1000 €1000 €1000 €1000 €1000 €1000 €1000 €1000 €",
+      "completed": false,
+      "progress_percentage": 52.4,
+      "donated_amount_in_cents": 52400,
+      "open_amount_in_cents": 47600,
+      "requested_amount_in_cents": 100000,
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs/70907.json"
+        },
+        {
+          "rel": "project",
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
         }
       ]
     },
     {
       "id": 5228,
       "created_at": "2009-03-10T10:38:39Z",
-      "updated_at": "2009-07-29T06:31:00Z",
+      "updated_at": "2013-10-24T16:06:29Z",
       "title": "Warme Mahlzeiten",
       "description": "Wer sich viel bewegt, der muss auch richtig essen: Mit nur 50 Euro im Monat lassen sich 8-10 warme Mahlzeiten für rund 30 Waisenkinder bereitstellen, die zweimal in der Woche von dem Skateistan-Team besucht werden und lernen Skateboard zu fahren.",
       "completed": true,
-      "progress_percentage": 100,
+      "progress_percentage": 100.0,
       "donated_amount_in_cents": 5000,
       "open_amount_in_cents": 0,
       "requested_amount_in_cents": 5000,
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/needs/5228.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs/5228.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.dev/en/api_v4/projects/1114.json"
-        }
-      ]
-    },
-    {
-      "id": 5229,
-      "created_at": "2009-03-10T10:54:30Z",
-      "updated_at": "2009-07-29T06:31:03Z",
-      "title": "Skateboardlehrer",
-      "description": "Mirwais, 13, ist Afghanistans erster talentierter Skateboardlehrer. Früher wusch er für 2 Dollar am Tag Autos auf der Straße. Heute ist er Skateistans Angestellter und kann mit seinem Gehalt (167 Euro/Monat) seine Familie ernähren.",
-      "completed": true,
-      "progress_percentage": 100,
-      "donated_amount_in_cents": 16700,
-      "open_amount_in_cents": 0,
-      "requested_amount_in_cents": 16700,
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.dev/en/api_v4/projects/1114/needs/5229.json"
-        },
-        {
-          "rel": "project",
-          "href": "https://api.betterplace.dev/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
         }
       ]
     }

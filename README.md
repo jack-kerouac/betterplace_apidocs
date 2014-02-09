@@ -1,16 +1,14 @@
-# The betterplace.org API Version 4 (beta)
+![betterplace.org](images/betterplace.jpg "betterplace.org")
+
+# The betterplace.org API Version 4
 
 This is the latest API for betterplace.org. It's a REST-style API that returns
 JSON for serialization.
 It incorporates some ideas from [hypermedia apis](https://www.google.de/search?q=hypermedia+api)
 like the link-strukture.
 
-**Still under development:** This API is still unter development for
-the new mobile feature of betterplace.org
-
-**Please provide feedback:** Since you are one of the first to read this
-document and use the API V4, please don't hesitate to provide any feedback at
-developers@betterplace.org.
+**Please provide feedback:** Please don't hesitate to provide any feedback about the API and this documentation
+at developers@betterplace.org.
 
 **Mailing list for service announcements:** Please send an email to tjo@betterplace.org
 to subscribe to the api-v4-mailing list to receive service announcements about updates
@@ -25,6 +23,8 @@ and scheduled downtimes.
 * HTTP Result Codes and Error Messages [↓ below](#http-result-codes-and-error-messages)
 * Changelog [↓ below](#changelog)
 * Known issues [↓ below](#known-issues)
+* Code examples [↓ below](#code-examples)
+* Example apps [↓ below](#example-apps)
 * [**Projects** List and Search](sections/projects_list.md)
 * [**Project** Details](sections/project_details.md)
 * [Project **Needs** List](sections/needs_list.md)
@@ -39,9 +39,17 @@ and scheduled downtimes.
 * [**Volunteering** Details](sections/volunteering_details.md)
 * [**Organisations** List](sections/organisations_list.md)
 * [**Organisation** Details](sections/organisation_details.md)
+* [**MatchingFunds** List](sections/matching_funds_list.md)
+* [**MatchingFund** Details](sections/matching_fund_details.md)
+* [**MatchingFund** Projects List](sections/matching_fund_projects_list.md)
 * TODO [**User** Details](sections/user_details.md)
 * TODO [**Fundraising Events** List and Search](sections/fundraising_events_list.md)
 * TODO [**Fundraising Event** Details](sections/fundraising_event_details.md)
+
+
+### Organisations
+
+* [ThirdPartyApp custom donation form for organisations](donation_form/thir_party_app_donation_form.md)
 
 
 ### Client API
@@ -58,12 +66,13 @@ for more information.
 * [**Client** Project Opinions List](sections/opinions_list.md) – See client section
 * [**Client** Project-Tags List](sections/client_project_tags_list.md) – See client section
 * [**Client** Project-Tag Projects List](sections/client_project_tag_projects_list.md) – See client section
+* [**Client** Contact Data Details](sections/contact_data_details.md) – See client section
 
 *(⁂1) Client projects:* Clients projects are projects on betterplace.org that are
-associated with the client-user. This way clients can control what projects
+associated with a client-user. This way clients can control what projects
 are visible on their plattform.
 
-*Request-URLs:* Clients have to prepend some with the their client-id.
+*Request-URLs:* Clients have to prepend some requests with their client-id.
 For projects that would be `/clients/PERMALINK/projects.json` and `/clients/PERMALINK/projects/ID.json`.
 More information can be found in the description of each request.
 
@@ -71,26 +80,38 @@ More information can be found in the description of each request.
 projects, the API will return a `404` HTTP code.
 
 *Usage example:* The local german newspaper "Trierischer Volksfreund"
-has it's own donation portal at ["Meine Hilfe zählt"](http://www.volksfreund-servicecenter.de/projekte/) – actually it uses an older api-version but still it's the same idea ;-).
+has it's own donation portal at ["Meine Hilfe zählt"](http://www.meine-hilfe-zaehlt.de/).
+All data are pulled from this api. In addition they use the betterplac.rog whitelabel donation form, which
+is another service betterplace.org provides for clients.
+
+
+### Client Authentication
+
+In order to use some special features of the betterplace API, you need to authenticate yourself with an API-Token. These tokens are provided by betterplace, please
+[contact betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung) if you are interested.
+
+To authenticate with a token you'll need to pass it as an additional http header `Api-Token` or with an additional http parameter `api_token`.
+
+* [Contact Data Details](sections/contact_data_details.md)
 
 
 ## General information
 
-* All request have to be via https protocol
+* The API is https only, all non-https requests will be redirected accordingly
 * The response format is json, the request format extention .json
-* The response language is defined by the URL-language-prefix (/en/, /de/ (default), …)
+* The response language is defined by the URL-language-prefix (/en/, /de/ (default))
 * We support [Cross-origin resource sharing (CORS)](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing), so no proxy or JSONP is required
 * No Authentication: All api calls are public at the moment but there will be
   feature that require authentication in the future.
 
 ### Request parameter format
 
-The `order` and `facet` request parameters accept multiple key-value-parameter.
+The `order` and `facets` request parameters accept multiple key-value-parameter.
 We use the same convention as the [Google Static Maps API V2](https://developers.google.com/maps/documentation/staticmaps/#URL_Parameters).
 
 Example: `foo:bar|lorem:ipsum`
 
-This way you ma specify a primary and secondaray sort order: `order=rank:ASC|created_at:DESC`
+This way you may specify a primary and secondaray sort order: `order=rank:ASC|created_at:DESC`
 
 * Split key and value by a colon `:`
 * Split multiple key-value-parameter by a pipe `|` (`%7C`)
@@ -181,6 +202,8 @@ Example:
 
 The following HTTP result codes can be returned:
 
+* HTTP Code `200` if all is good and `304` if this good thing has not been modified (based on ETag).
+
 * HTTP Code `404` is returned if a requested resource could not be found.
 
 * HTTP Code `400` is returned if a requested resource could not be created or updated,
@@ -188,9 +211,12 @@ The following HTTP result codes can be returned:
 
 * HTTP Code `500` is returned if a software error on the server was encountered.
 
+* HTTP Code `403` is returned if a resource requires [client authentication](#client-authentication) but no client was authenticated.
+
 
 ## Changelog
 
+* 2014-01-26: Remove the beta-flag; add matching-fund api; add code and usage examples; minor improvements
 * 2013-06-20: Add client.pool_balance_in_cents property, see doc for details
 * 2013-06-14: Add platform-link to blog_posts-details
 * 2013-05-15: Opinions have a link to the project now. All API-link are "api.betterplace.org" now (not www. anymore). Opinions have have a facets=has_message-Feature now.
@@ -211,10 +237,21 @@ The following HTTP result codes can be returned:
 
 Please contact developers@betterplace.org for more information
 
-1. Documentation: The pictures-list-docu-page is missing
 1. Documentation: Not all resources have a documentation-url as part of the json
 1. Documentation: The response-table does not show the root-documentation for response-elements with sub-elements (for example carrier.name is documented but carrier is not)
 1. Blogposts: There is no way yet to filter BlogPosts from PayoutBlogPost
+
+
+## Code examples
+
+* Using the API with PHP: https://gist.github.com/svjv1160/7749784
+* _Please send us your code examples to developers@betterplace.org_
+
+
+## Example apps
+
+* The "Deutsch Tansanianische Partnerschaft" uses this API to present their betterplace.org projects right on their website: [http://www.dtpev.de/unterstuetzen/projekte](Project list), [http://www.dtpev.de/unterstuetzen/projekte/one-child-one-light](Project details)
+* _Please send us your sites to developers@betterplace.org_
 
 
 ## API V1, V2, V3
@@ -222,12 +259,10 @@ Please contact developers@betterplace.org for more information
 betterplace.org has three deprecated APIs. For more information contact product@betterplace.org.
 
 
-## Example apps
-
-There are no example Apps at this point.
-Please send the link to your app to developers@betterplace.
-
-
 ## About betterplace.org
 
 Learn more about betterplace at http://www.betterplace.org/de/how_it_works
+
+## License of this documentation
+
+See the [license file](LICENSE).
