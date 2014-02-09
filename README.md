@@ -49,7 +49,7 @@ and scheduled downtimes.
 
 ### Organisations
 
-* [ThirdPartyApp custom donation form for organisations](donation_form/thir_party_app_donation_form.md)
+* [ThirdPartyApp custom donation form for organisations](donation_form/third_party_app_donation_form.md)
 
 
 ### Client API

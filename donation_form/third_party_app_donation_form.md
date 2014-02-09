@@ -1,4 +1,4 @@
-# ThirdPartyApp Custom Donation Form For Organisations (BETA)
+# ThirdPartyApp custom donation form for organisations (BETA)
 
 
 *BETA: This is the first draft of this documentation. Please send us feedback at product@betterplace.org. Or via pull request. Thanks!*
@@ -97,7 +97,10 @@ After everything is set up by betterplace.org (see above), you just need to cons
 
 ### Donation form URL and input parameter
 
-*Example:* <code>https://www.betterplace.org/de/projects/480/client_donations/new?client_id=ablass&donation_presenter%5Bdonation_amount%5D=15&donation_presenter%5Bdonation_client_reference%5D=wZo2aZCjJHA2CONAXxIQHt</code>
+*Example:*
+```
+https://www.betterplace.org/de/projects/480/client_donations/new?client_id=ablass&donation_presenter%5Bdonation_amount%5D=15&donation_presenter%5Bdonation_client_reference%5D=wZo2aZCjJHA2CONAXxIQHt
+``
 
 <table>
   <tr>
@@ -187,7 +190,10 @@ This URL is part of the configuration that needs to be done by betterplace.org (
 
 *Cool urls dont change:* We cannot change this URL after we created you ThirPartyApp ID. Please consider redirecting inside your application.
 
-*Example:* <code>https://www.you-app.cool/callback.php?status=DONATION_COMPLETE&donation_client_reference=wZo2aZCjJHA2CONAXxIQHt</code>
+*Example:*
+```
+https://www.you-app.cool/callback.php?status=DONATION_COMPLETE&donation_client_reference=wZo2aZCjJHA2CONAXxIQHt
+```
 
 <table>
   <tr>
@@ -199,6 +205,8 @@ This URL is part of the configuration that needs to be done by betterplace.org (
     <td>
       The callback URL you provide
     </td>
+  </tr>
+  <tr>
     <td>
       <code>
         status=DONATION_COMPLETE
@@ -207,6 +215,8 @@ This URL is part of the configuration that needs to be done by betterplace.org (
     <td>
       The status which tells you all is good. Its a bit redundant since there is only this one status ;-)
     </td>
+  </tr>
+  <tr>
     <td>
       <code>
         donation_client_reference=123123
@@ -224,7 +234,7 @@ This URL is part of the configuration that needs to be done by betterplace.org (
 
 Once you receive the DONATION_SUCCESS message via the redirect URL you can be sure that the donation arrived in our betterplace.org database. BUT: There are a few ways that this donation might be canceled again later (by the bank or the user most likely).
 
-That is why we have an API endpoint https://github.com/betterplace/betterplace_apidocs/blob/master/sections/client_donation_details.md that allows you to check the status foreach donation. For that you need the donation id that is part of the return params (redirect URL).
+That is why we have an API endpoint [client_donation_details](../sections/client_donation_details.md) that allows you to check the status foreach donation. For that you need the donation id that is part of the return params (redirect URL).
 
 Only donations that are marked as 'confirmed' are really confirmed for good.
 
