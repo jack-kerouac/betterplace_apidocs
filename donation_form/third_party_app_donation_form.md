@@ -15,8 +15,8 @@ Please note that his part this page has nothing to do with the json-API v4 that 
 
 **Exampels:**
 
-* [Ablass App](http://www.ablass-app.de/) where you can clean your conscious
-* [Donatify me](http://donatify.me/) where you can get Edward to do stuff for you
+* [Ablass App](http://www.ablass-app.de/), where you can clean your conscious
+* [Donatify me](http://donatify.me/), where you can get Edward to do stuff for you
 * _Please send you app URL to product@betterplace.org_
 
 
@@ -97,9 +97,9 @@ After everything is set up by betterplace.org (see above), you just need to cons
 ### Donation form URL and input parameter
 
 *Example:*
-```
+<pre>
 https://www.betterplace.org/de/projects/480/client_donations/new?client_id=ablass&donation_presenter%5Bdonation_amount%5D=15&donation_presenter%5Bdonation_client_reference%5D=wZo2aZCjJHA2CONAXxIQHt
-``
+</pre>
 
 <table>
   <tr>
@@ -190,9 +190,9 @@ This URL is part of the configuration that needs to be done by betterplace.org (
 *Cool urls dont change:* We cannot change this URL after we created you ThirPartyApp ID. Please consider redirecting inside your application.
 
 *Example:*
-```
+<pre>
 https://www.you-app.cool/callback.php?status=DONATION_COMPLETE&donation_client_reference=wZo2aZCjJHA2CONAXxIQHt
-```
+</pre>
 
 <table>
   <tr>
