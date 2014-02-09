@@ -13,15 +13,14 @@ It is meant for those organisation that want to develop and maintain a custom do
 Please note that his part this page has nothing to do with the json-API v4 that is described in this repository. It is documented here since both feature are often used at the same time.
 
 
-*Exampels:*
+**Exampels:**
 
 * [Ablass App](http://www.ablass-app.de/) where you can clean your conscious
 * [Donatify me](http://donatify.me/) where you can get Edward to do stuff for you
-
 * _Please send you app URL to product@betterplace.org_
 
 
-*About the two regular donation forms on betterplace.org:*
+**About the two regular donation forms on betterplace.org:**
 
 betterplace.org provides a number of different donation forms for organisations and projects. The two most important once being the project donation form that donors use when browsing on betterplace.org and the external donation form (iframe) that projects can embed in their organisations' website.
 You can read more about those form in the help section on betterplace.org ([DE](http://www.betterplace.org/c/hilfe/themen/spendensammler/geldspenden/), [EN](http://www.betterplace.org/c/help/topics/collectdonations/)).
@@ -66,7 +65,7 @@ We will check your proposal and get back to you.
 
 This is a special service in testing and in beta – so no promises!
 
-*E-Mail:* (all data is required)
+**E-Mail:** (all data is required)
 
 ```
 * My project URL on betterplace:
